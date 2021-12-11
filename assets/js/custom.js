@@ -1,14 +1,14 @@
 //remove metadata details indicator page
 $(document).ready(function () {
-   // $("#national tr:nth-child(1)").remove();
-   // $("#national tr:nth-child(2)").remove();
-   // $("#national tr:nth-child(2)").remove();
-   // $("#national tr:nth-child(3)").remove();
-   // $("#national tr:nth-child(3)").remove();
-   // $("#national tr:nth-child(3)").remove();
-   // $("#national tr:nth-child(3)").remove();
-   // $("#national tr:nth-child(4)").remove();
-   $("#national tr:nth-child(11)").remove();
+  // $("#national tr:nth-child(1)").remove();
+  // $("#national tr:nth-child(2)").remove();
+  // $("#national tr:nth-child(2)").remove();
+  // $("#national tr:nth-child(3)").remove();
+  // $("#national tr:nth-child(3)").remove();
+  // $("#national tr:nth-child(3)").remove();
+  // $("#national tr:nth-child(3)").remove();
+  // $("#national tr:nth-child(4)").remove();
+  $("#national tr:nth-child(11)").remove();
 });
 
 $(document).ready(function () {
