@@ -1,5 +1,5 @@
 opensdg.chartColors = function (indicatorId) {
-  var colorSet = {{ site.graph_color_set | jsonify
+   var colorSet = {{ site.graph_color_set | jsonify
 }};
 var numberOfColors = {{ site.graph_color_number | jsonify }};
 var customColorList = {{ site.graph_color_list | jsonify }};
@@ -23,15 +23,15 @@ this.goalColors = [['e5243b', '891523', 'ef7b89', '2d070b', 'f4a7b0', 'b71c2f', 
 ['00689d', '00293e', '99c2d7', '00486d', '4c95ba', '126b80', 'cce0eb', '5a9fb0', 'a1c8d2'],
 ['19486a', '0a1c2a', '8ca3b4', '16377c', 'd1dae1', '11324a', '466c87', '5b73a3', '0f2656']];
 this.colorSets = {
-  'default': ['7e984f', '8d73ca', 'aaa533', 'c65b8a', '4aac8d', 'c95f44'],
-  'sdg': ['e5243b', 'dda63a', '4c9f38', 'c5192d', 'ff3a21', '26bde2', 'fcc30b', 'a21942', 'fd6925', 'dd1367', 'fd9d24', 'bf8b2e', '3f7e44', '0a97d9', '56c02b', '00689d', '19486a'],
-  'goal': this.goalColors[this.goalNumber - 1],
-  'custom': customColorList,
-  'accessible': ['cd7a00', '339966', '9966cc', '3ff002', 'e4e300', '054ce6'],
-  'popdata': ['00c0ff', 'cc4aff', '00c161', 'ff0028', '0050ff', 'ffa500', '000000', '8931EF', 'FF00BD', 'afcedb', '9acd32', '86beda', '964B00', 'fd3a4a', 'db7093', 'ffff9f', '7F8778', 'a67b5b']
+   'default': ['7e984f', '8d73ca', 'aaa533', 'c65b8a', '4aac8d', 'c95f44'],
+   'sdg': ['e5243b', 'dda63a', '4c9f38', 'c5192d', 'ff3a21', '26bde2', 'fcc30b', 'a21942', 'fd6925', 'dd1367', 'fd9d24', 'bf8b2e', '3f7e44', '0a97d9', '56c02b', '00689d', '19486a'],
+   'goal': this.goalColors[this.goalNumber - 1],
+   'custom': customColorList,
+   'accessible': ['cd7a00', '339966', '9966cc', '3ff002', 'e4e300', '054ce6'],
+   'popdata': ['00c0ff', 'cc4aff', '00c161', 'ff0028', '0050ff', 'ffa500', '000000', '8931EF', 'FF00BD', 'afcedb', '9acd32', '86beda', '964B00', 'fd3a4a', 'db7093', 'E8C08F', '7F8778', 'a67b5b', '007017', '77FFD6', 'A9A9A9', '00FFFF']
 };
 if (Object.keys(this.colorSets).indexOf(colorSet) == -1 || (colorSet == 'custom' && customColorList == null)) {
-  return this.colorSets['default'];
+   return this.colorSets['default'];
 }
 this.numberOfColors = (numberOfColors > this.colorSets[colorSet].length || numberOfColors == null || numberOfColors == 0) ? this.colorSets[colorSet].length : numberOfColors;
 this.colors = this.colorSets[colorSet].slice(0, this.numberOfColors);
