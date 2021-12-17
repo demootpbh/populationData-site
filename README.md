@@ -1,2 +1,2 @@
-Live demo: https://popdata.work/
+Demo: https://popdata.work/
 
