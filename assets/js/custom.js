@@ -100,6 +100,14 @@ $(document).ready(function () {
             $(this).attr('href', url)
          });
 
+      }else if (url.search("/7/") != -1) { //LABOUR
+         $('.goal-indicator a').each(function () {
+            url = $(this).attr('href');
+            url = replaceLinks(url, '7-1-5', '5-7-2');
+
+            $(this).attr('href', url)
+         });
+
       }
 
    }, 400);
