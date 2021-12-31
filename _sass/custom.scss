@@ -532,3 +532,54 @@ html:lang(hr),html:lang(bs)  {
     }
 
 }
+
+//pyramid
+
+
+span.male, span.female {
+    position: relative;
+}
+span.male:after {
+    background: blue;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    content: '';
+    left: -15px;
+    top: 6px;
+}
+
+span.female:after {
+    background: #ff0100;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    content: '';
+    left: -15px;
+    top: 6px;
+}
+
+@media(max-width: 991px) {
+    .pyramid-age-range {
+        display: none;
+    }
+}
+
+//to fix
+.pyramid-age-range {
+    position: absolute;
+    top: 193px;
+    right: 29px;
+    font-size: 13px;
+    line-height: 1.075;
+    text-align: center;
+
+    li {
+        list-style: none;
+    }
+}
+
+body > .pyramid-age-range {
+    display: none;
+}
+//end pyramid

@@ -38,6 +38,9 @@ $(document).ready(function () {
       var url = window.location.href;
       if (url.search("1-7-8") != -1) {
 
+         //add age-range-pyramid
+         $('.tab-content #chart-canvas').append('<ul class="pyramid-age-range"><li>100-104</li><li>95-99</li><li>90-94</li><li>85-89</li><li>80-84</li><li>75-79</li><li>70-74</li><li>65-69</li><li>60-64</li><li>55-59</li><li>50-54</li><li>45-49</li><li>40-44</li><li>35-39</li><li>30-34</li><li>25-29</li><li>20-24</li><li>15-19</li><li>10-14</li><li>5-9</li><li>0-4</li></ul>');
+
          //hide toolbar
          $('#toolbar').css('display', 'none');
          //rename Unit Measure 
