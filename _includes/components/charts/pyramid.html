@@ -10,15 +10,16 @@ We also check for "graph_stacked_disaggregation" here to support stacked bars.
 <script>
 
    opensdg.chartConfigAlter(function (config, info) {
+      // console.log(info);
 
       //set red color for female, and blue for male
       for (var i = 0; i < info.datasets.length; i++) {
-         if (info.datasets[i].disaggregation.PYRAMID_SEX == "F") {
-            info.datasets[i].backgroundColor = "red";
-            info.datasets[i].borderColor = "red";
-         } else {
+         if (info.datasets[i].disaggregation.PYRAMID_SEX == "M") {
             info.datasets[i].backgroundColor = "blue";
             info.datasets[i].borderColor = "blue";
+         } else {
+            info.datasets[i].backgroundColor = "red";
+            info.datasets[i].borderColor = "red";
          }
       }
       //reverse the order of data, so lower age ranges are printed last. We do this to get pyramid shape
