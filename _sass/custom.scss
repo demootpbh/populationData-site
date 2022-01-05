@@ -557,6 +557,7 @@ span.female:after {
    }
    @media screen and (max-width: 360px) {
       top: 181px;
+      right: 20px;
    }
    font-size: 13px;
    line-height: 1.075;
@@ -564,6 +565,12 @@ span.female:after {
 
    li {
       list-style: none;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .chart-title.pyramid {
+      min-height: 38px;
    }
 }
 
