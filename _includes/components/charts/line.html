@@ -9,12 +9,17 @@ the Chart.js configuration being used, see `createPlot()` in `indicatorView.js`.
 <script>
    // For line charts, add the vertical line hover functionality.
    opensdg.chartConfigAlter(function (config, info) {
-          //set chart to start from minimum value, and default pointStyle and size
+      //set chart to start from minimum value, and default pointStyle and size
       if (config.data.datasets[0] != null) {
          let minStart = config.data.datasets[0].data[0];
          config.options.scales.yAxes[0].ticks.suggestedMin = minStart;
          config.data.datasets[0].pointStyle = "circle";
          config.data.datasets[0].borderWidth = 2;
+
+         //remove legend from single label indicator
+         if (config.data.datasets[0].label === 'BiH') {
+            delete config.data.datasets[0].label;
+         };
       }
 
       var overrides = {
