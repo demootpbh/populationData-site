@@ -95,7 +95,7 @@ $(document).ready(function () {
             url = replaceLinks(url, '3-1-3', '1-3-4');
             url = replaceLinks(url, '3-1-4', '1-3-5');
             url = replaceLinks(url, '3-1-5', '1-3-6');
-            url = replaceLinks(url, '3-7-1', '2-5-1');
+            url = replaceLinks(url, '3-7-1', '2-4-1');
 
             $(this).attr('href', url)
          });
