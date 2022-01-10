@@ -283,8 +283,6 @@ this.getData = function (options) {
 
   var combinations = helpers.getCombinationData(this.selectedFields);
   var datasets = helpers.getDatasets(headline, filteredData, combinations, this.years, this.country, this.colors, this.selectableFields, this.colorAssignments);
-  datasets[0].pointStyle = "circle";
-  datasets[0].borderWidth = 2;
   var selectionsTable = helpers.tableDataFromDatasets(datasets, this.years);
 
   var datasetCountExceedsMax = false;
