@@ -103,8 +103,8 @@ $(document).ready(function () {
       } else if (url.search("/5/") != -1) { //EDUCATION
          $('.goal-indicator a').each(function () {
             url = $(this).attr('href');
-            url = replaceLinks(url, '5-7-3', '2-4-1');
-            url = replaceLinks(url, '5-7-4', '2-4-2');
+            url = replaceLinks(url, '5-7-3', '2-3-1');
+            url = replaceLinks(url, '5-7-4', '2-3-2');
 
             $(this).attr('href', url)
          });
