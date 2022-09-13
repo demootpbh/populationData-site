@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="hr" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://unfpacobih.github.io/populationData-data/hr',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
+  },
+
+  language: 'hr',
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        
+    <title>Indikatori za ciljeve održivog razvoja</title>
+
+
+
+        <meta name="description" content="">
+        <meta property="og:description" content="">
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+        <link rel="canonical" href="/">
+
+        <!--[if IE 9]>
+        <script src="/populationData-site/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <!-- Favicons ================================================== -->
+        <!-- 128x128 -->
+        <link rel="shortcut icon" type="image/ico" href="/populationData-site/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/populationData-site/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+        -->
+
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/populationData-site/assets/css/style.css?v=20220913025204">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+        
+
+    </head>
+<body class="language-hr
+layout-search
+">
+<!-- <div class="container"> -->
+
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Zadani kontrast","disable_high_contrast":"Onemogući visoki kontrast","disclaimer":"Ova internet stranica se razvija. Pozdravljamo vaše povratne informacije.","enable_high_contrast":"Omogući visoki kontrast","high_contrast":"Visok kontrast","skip_link":"Prijeđi na glavni sadržaj","tag_line":"17 ciljeva za transformiranje našeg svijeta"};</script>
+
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Prijeđi na glavni sadržaj</a>
+<div id="disclaimer">
+</div>
+
+<header role="banner">
+  <div class="container">
+
+    <div class="logo-and-mobile-widgets">
+      <a class="navbar-brand" href="/populationData-site/hr/" id="home">
+        <img src="/populationData-site/assets/img/logo/hr/SDG_logo.png" alt=" - 17 ciljeva za transformiranje našeg svijeta" />
+      </a>
+
+      <div class="mobile-widgets">
+        <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+          <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Hrvatski</span>
+      <span class="language-abbreviation">hr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/populationData-site/search/">
+              English
+            </a>
+          </li><li>
+            <a href="/populationData-site/bs/search/">
+              Bosanski
+            </a>
+          </li><li>
+            <a href="/populationData-site/sr/search/">
+              Српски
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+        </div></div>
+    </div>
+    <div class="supp-by">Podržano od<a href="https://ba.unfpa.org/" target="_blank"><img src="/populationData-site/assets/img/other/unfpa-logo.png"></a></div>
+
+    <nav class="navbar navbar-default" id="main-nav">
+
+      <ul class="top-level">
+        <li id="menuToggle"
+            aria-label=""
+            aria-haspopup="true">
+          <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
+    <a href="/populationData-site/hr/">Početna</a>
+</li><li class="language-toggle-menu-header">
+    
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Hrvatski</span>
+      <span class="language-abbreviation">hr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/populationData-site/search/">
+              English
+            </a>
+          </li><li>
+            <a href="/populationData-site/bs/search/">
+              Bosanski
+            </a>
+          </li><li>
+            <a href="/populationData-site/sr/search/">
+              Српски
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Onemogući visoki kontrast"
+           aria-label="Onemogući visoki kontrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Omogući visoki kontrast"
+           aria-label="Omogući visoki kontrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
+
+        </li>
+        <li id="searchToggle"
+            aria-label=""
+            aria-haspopup="true">
+          <div id="search-mobile" class="menu-target">
+  <form action="/populationData-site/hr/search/">
+    <label class="sr-only" for="indicator_search-mobile">Pretraživanje</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Pretraživanje" /><!--
+    --><button aria-label="Pretraživanje" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+        </li>
+      </ul>
+
+      <div id="search" class="menu-target">
+  <form action="/populationData-site/hr/search/">
+    <label class="sr-only" for="indicator_search">Pretraživanje</label>
+    <input type="text" name="q" id="indicator_search" title="Pretraživanje" /><!--
+    --><button aria-label="Pretraživanje" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+    <a href="/populationData-site/hr/">Početna</a>
+</li><li class="language-toggle-menu-header">
+    
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Hrvatski</span>
+      <span class="language-abbreviation">hr</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/populationData-site/search/">
+              English
+            </a>
+          </li><li>
+            <a href="/populationData-site/bs/search/">
+              Bosanski
+            </a>
+          </li><li>
+            <a href="/populationData-site/sr/search/">
+              Српски
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Onemogući visoki kontrast"
+           aria-label="Onemogući visoki kontrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Omogući visoki kontrast"
+           aria-label="Omogući visoki kontrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
+</ul>
+
+
+    </nav>
+  </div>
+
+</header>
+<div id="top" tabindex=-1></div>
+
+<a id="back-to-top" href="#"></a>
+
+<script type="text/template" class="results-template">
+  <% if(resultsCount) { %>
+    <p>: <%= resultsCount %></p>
+    <% _.each(searchResults, function(result){ %>
+      <div class="row search-result">
+        <div class="col col-xs-12">
+          <a href="<%= result.url %>">
+            <h3 class="title"><%= result.title %></h3>
+          </a>
+          <div class="url"><%= result.type %> &raquo; <%= result.url %></div>
+          <div class="content"><%= result.content %></div>
+        </div>
+      </div>
+    <% }); %>
+
+  <% } else { %>
+    <p>
+      Nema rezultata
+      <% if(didYouMean) { %>
+      - Da li ste mislili:
+        <% _.each(didYouMean, function(searchTerm){ %>
+        <a href="/populationData-site/hr/search?q=<%= searchTerm %>"><%= searchTerm %></a>
+        <% }); %>
+      <% } %>
+      <br><br>
+      
+    </p>
+  <% } %>
+</script>
+<script>
+opensdg.searchItems = {"/populationData-site/hr/hr/about/":{"type":"general.pages","url":"/populationData-site/hr/hr/about/","title":"About\n","content":"This website is for disseminating SDG indicator data. We are at an Alpha stage in development, so the site is still ‘work in progress’.\n\nOther countries wishing to reuse this site’s underlying platform are welcome to do so for free. Our Guidance page highlights key information on how to do this, linking to detailed technical instructions available in the platform’s documentation. The Center for Open Data Enterprise (CODE) can also provide guidance and support through their SDG National Reporting Initiative.\n\nIf you have any feedback on this website or SDG data then please contact us at {{site.email_contacts.questions}}. The answers to some frequently asked questions are also available in our FAQ.\n","id":""},"/populationData-site/hr/hr/categories/":{"type":"general.pages","url":"/populationData-site/hr/hr/categories/","title":"Categories\n","content":"Posts by Category\nHere is a list of posts, grouped by category:\n","id":""},"/populationData-site/hr/hr/contact/":{"type":"general.pages","url":"/populationData-site/hr/hr/contact/","title":"Contact\n","content":"We are interested in your feedback regarding this website and its contents.\n\n\n  \n    If you have questions about the statistics, data sources, or metadata provided for UK national statistics, please contact {{site.email_contacts.questions}}\n  \n  \n    If you have suggestions regarding additional site content or data sources, please contact {{site.email_contacts.suggestions}}\n  \n  \n    If you have suggestions on how to improve the functionality of this website, including data accessibility, please contact {{site.email_contacts.functional}}\n  \n\n","id":""},"/populationData-site/hr/hr/about/cookies-and-privacy/":{"type":"general.pages","url":"/populationData-site/hr/hr/about/cookies-and-privacy/","title":"Kolačići i privatnost\n","content":"Slijedi opis podataka koji se prikupljaju kada koristite ovu web stranicu i za šta se\nkoriste.\n\nInformacije o korisniku\nOva web stranica koristi kolačiće i JavaScript kôd za praćenje prikupljanja anonimnih\ninformacija o obrascima korištenja posjetitelja, kako bi se poboljšala navigacija web\nstranicom, prezentacija njenog sadržaja i kvaliteta usluga.\n\nPrikupljeni podaci ne uključuju lične podatke poput vašeg imena, starosti, broja\ntelefona, poštanske adrese ili adrese e-pošte, niti omogućavaju ličnu identifikaciju\nkorisnika.\n\nKolačići\nKada pružamo usluge, želimo ih učiniti jednostavnim, korisnim i pouzdanim.\n\nTamo gdje se usluge pružaju putem Interneta, to ponekad uključuje stavljanje male\nkoličine podataka na vaš uređaj, na primjer, računar ili mobilni telefon.\n\nUključuju male datoteke poznate kao kolačići. Ne mogu se koristiti za vašu ličnu\nidentifikaciju.\n\nOvi se podaci koriste za poboljšanje usluga za vas, na primjer:\n\n\n  omogućavanje usluge da prepozna vaš uređaj tako da tokom jednog zadatka ne\nmorate davati iste informacije nekoliko puta\n  prepoznajući da ste možda već dali korisničko ime i lozinku, pa to ne morate\nčiniti za svaku traženu web stranicu\n  mjerenje koliko ljudi koristi usluge, tako da im se može olakšati korištenje i da\nima dovoljno kapaciteta za brzinu\n\n\nOvim malim datotekama možete sami upravljati i saznati više o njima putem kolačića\ninternetskog preglednika - što su oni i kako njima upravljati.\n\nNaše korištenje kolačića\nVažne informacije o ovoj listi kolačića:\n\nOvaj popis možda nije uvijek potpun. Redovno će se ažurirati kako se prikupljaju\ndodatne informacije od drugih kompanija i organizacija s kojima radimo.\n\nKolačići za zadržavanje aktivnog stanja usluga pristupačnosti:\n\n\n  kontrast\n\n\nKolačići za merenje upotrebe usluga:\n\n\n  _ga\n  _gid\n  _gat\n\n\nRazumijevanjem kako ljudi koriste našu web stranicu, možemo poboljšati pružene\ninformacije. Ove podatke prikupljamo pomoću usluge Google Analytics.\n\nVanjske veze\nOva web lokacija može sadržavati veze do drugih web lokacija.\n\nONS nije odgovoran za prakse privatnosti ili sadržaj takvih web stranica.\n\nSigurnost\nOva web lokacija ima uspostavljene sigurnosne mjere za zaštitu gubitka, zloupotrebe i\nizmjene podataka pod našom kontrolom.\n\nKontaktiranje web stranice\nAko imate bilo kakvih pitanja u vezi s ovom izjavom o privatnosti, praksama na ovoj\nweb lokaciji ili u vezi sa ovom web lokacijom, možete nas kontaktirati.\n","id":""},"/populationData-site/hr/hr/covid-19-impact/":{"type":"general.pages","url":"/populationData-site/hr/hr/covid-19-impact/","title":"COVID-19 epidemiološki podaci\n","content":"U suradnji Ministarstva sigurnosti BiH, Ministarstva civilnih poslova, Ministarstva\nspoljnih poslova BiH i uz tehničku i financijsku potporu Razvojnog programa\nUjedinjenih nacija (UNDP) uspostavljena je web stranica koja pruža objedinjene\ninformacije vezane za COVID-19 pandemiju u BiH.\n\nNa web stranici https://covid19.msb.gov.ba/hr dostupan je interaktivni pregled\npodataka o COVID-u 19.\n\nCOVID-19 Socijalno-ekonomski utjecaj\n","id":""},"/populationData-site/hr/hr/faq/":{"type":"general.pages","url":"/populationData-site/hr/hr/faq/","title":"Frequently Asked Questions (FAQ)\n","content":"How do I suggest new or different data sources?\nIf you have feedback on the data sources we have used or have suggestions for new data sources then please email us at {{site.email_contacts.questions}}.\n\nWhat does the reporting status mean?\nWe have used three different types of reporting status for an indicator, which are also colour coded:\n\n\n  Reported online (black) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.\n  Statistics in progress (grey) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.\n  Exploring data sources (white) – we are still looking for a suitable data source for this indicator.\n\n\nWhere there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.\n\nHow often will new data be added to this site?\nWe will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.\n\nWhat are you doing to fill data gaps?\nFor some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.\n\nThis means we need to look for new data sources, link existing ones, or model data.\n\nHow accessible is this website?\nOur aim is to make this website as accessible and usable as possible for every user. We are working towards meeting AA level of the Web Content Accessibility Guidelines (WCAG 2.0).\n\nWhat browsers can I use to view this website?\nOur website works with most of the latest versions of the commonly used browsers. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.\n\nCan other countries copy this website?\nYes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available here. Countries and localities exploring how to report their own SDGs data can also get support from the Center for Open Data Enterprise (CODE) through their SDG National Reporting Initiative.\n","id":""},"/populationData-site/hr/hr/guidance/":{"type":"general.pages","url":"/populationData-site/hr/hr/guidance/","title":"Guidance\n","content":"This page shares information for people using this website and for countries or localities wishing to take a copy of it.\n\nThe platform\n\nThis site is built and hosted using an open-source platform with 100% free software and services. For detailed documentation on the underlying platform, including information for developers, data providers, and policy makers, see here.\n\nUsing this website\n\nAnswers to some specific questions about the website are included in our Frequently Asked Questions page.\n\nThe platform documentation includes information for people adding data and metadata.\n\nCreating a copy of this website\n\nOther countries or localities wishing to implement a version of this platform are welcome to do so for free.\n\nThe platform documentation includes technical information and instructions for developers.\n","id":""},"/populationData-site/hr/hr/news/":{"type":"general.pages","url":"/populationData-site/hr/hr/news/","title":"News &amp; Events\n","content":"News and Events\nCheck this page for news regarding the reporting of our statistics for global indicators and opportunities to contribute to measuring achievement of the sustainable development goals\n","id":""},"/populationData-site/hr/hr/publications/":{"type":"general.pages","url":"/populationData-site/hr/hr/publications/","title":"Publikacije\n","content":"\n    \n        Kemikalije i otpad u Programu 2030 \n        Pokazatelji održivog razvoja BiH, 2018 \n        Mapa puta \n        VNR \n    \n\n","id":""},"/populationData-site/hr/hr/":{"type":"general.pages","url":"/populationData-site/hr/hr/","title":"\n","content":"\n","id":""},"/populationData-site/hr/hr/goalss/":{"type":"general.pages","url":"/populationData-site/hr/hr/goalss/","title":"\n","content":"\n","id":""},"/populationData-site/hr/hr/reporting-status/":{"type":"general.pages","url":"/populationData-site/hr/hr/reporting-status/","title":"\n","content":"\n","id":""},"/populationData-site/hr/hr/indicators.json":{"type":"general.pages","url":"/populationData-site/hr/hr/indicators.json","title":"\n","content":"\n","id":""},"/populationData-site/hr/hr/search/":{"type":"general.pages","url":"/populationData-site/hr/hr/search/","title":"\n","content":"\n","id":""},"/populationData-site/hr/5-3-2":{"type":"Stats","url":"/populationData-site/hr/5-3-2","title":"Stat 5.3.2 - Broj učenika na početku školske godine prema vrsti srednje škole","content":"\n","id":"5.3.2"},"/populationData-site/hr/7-2-2":{"type":"Stats","url":"/populationData-site/hr/7-2-2","title":"Stat 7.2.2 - Stanovništvo koje živi u relativnom siromaštvu prema spolu","content":"\n","id":"7.2.2"},"/populationData-site/hr/5-6-4":{"type":"Stats","url":"/populationData-site/hr/5-6-4","title":"Stat 5.6.4 - Doktori nauka prema oblasti obrazovanja","content":"\n","id":"5.6.4"},"/populationData-site/hr/1-2-3":{"type":"Stats","url":"/populationData-site/hr/1-2-3","title":"Stat 1.2.3 - Stopa fertiliteta prema dobnim skupinama","content":"\n","id":"1.2.3"},"/populationData-site/hr/1-5-1":{"type":"Stats","url":"/populationData-site/hr/1-5-1","title":"Stat 1.5.1 - Očekivano trajanje života pri rođenju prema spolu","content":"\n","id":"1.5.1"},"/populationData-site/hr/3-6-2":{"type":"Stats","url":"/populationData-site/hr/3-6-2","title":"Stat 3.6.2 - Neostvarena potreba za planiranjem obitelji","content":"\n","id":"3.6.2"},"/populationData-site/hr/5-5-1":{"type":"Stats","url":"/populationData-site/hr/5-5-1","title":"Stat 5.5.1 - Upisani na integrirane studije prema spolu","content":"\n","id":"5.5.1"},"/populationData-site/hr/3-1-4":{"type":"Stats","url":"/populationData-site/hr/3-1-4","title":"Stat 3.1.4 - Mrtvorođeni prema spolu","content":"\n","id":"3.1.4"},"/populationData-site/hr/3-1-1":{"type":"Stats","url":"/populationData-site/hr/3-1-1","title":"Stat 3.1.1 - Umrla novorođenčad prema spolu","content":"\n","id":"3.1.1"},"/populationData-site/hr/3-5-5":{"type":"Stats","url":"/populationData-site/hr/3-5-5","title":"Stat 3.5.5 - Broj primalja zaposlenih u ustanovama za pružanje zdravstvene skrbi","content":"\n","id":"3.5.5"},"/populationData-site/hr/3-5-2":{"type":"Stats","url":"/populationData-site/hr/3-5-2","title":"Stat 3.5.2 - Broj kreveta u bolnicama na 100.000 stanovnika","content":"\n","id":"3.5.2"},"/populationData-site/hr/5-4-2":{"type":"Stats","url":"/populationData-site/hr/5-4-2","title":"Stat 5.4.2 - Diplomirani studenti prema spolu","content":"\n","id":"5.4.2"},"/populationData-site/hr/7-1-5":{"type":"Stats","url":"/populationData-site/hr/7-1-5","title":"Stat 7.1.5 - Stanovništvo u dobi od 15-24 godine koje nije zaposleno, ne obrazuje se niti se usavršava (NEET), prema spolu","content":"\n","id":"7.1.5"},"/populationData-site/hr/3-3-3":{"type":"Stats","url":"/populationData-site/hr/3-3-3","title":"Stat 3.3.3 - Incidenca AIDS-a","content":"\n","id":"3.3.3"},"/populationData-site/hr/2-1-2":{"type":"Stats","url":"/populationData-site/hr/2-1-2","title":"Stat 2.1.2 - Stanovništvo prema dobnim skupinama i spolu","content":"\n","id":"2.1.2"},"/populationData-site/hr/1-7-7":{"type":"Stats","url":"/populationData-site/hr/1-7-7","title":"Stat 1.7.7 - Projicirana prosječna dob stanovništva","content":"\n","id":"1.7.7"},"/populationData-site/hr/5-7-2":{"type":"Stats","url":"/populationData-site/hr/5-7-2","title":"Stat 5.7.2 - Stanovništvo u dobi od 15-24 godine koje nije zaposleno, ne obrazuje se niti se usavršava (NEET), prema spolu","content":"\n","id":"5.7.2"},"/populationData-site/hr/3-1-2":{"type":"Stats","url":"/populationData-site/hr/3-1-2","title":"Stat 3.1.2 - Stopa smrtnosti dojenčadi","content":"\n","id":"3.1.2"},"/populationData-site/hr/2-4-1":{"type":"Stats","url":"/populationData-site/hr/2-4-1","title":"Stat 2.4.1 - Stanovništvo sa poteškoćama prema vrsti poteškoće, dobnim skupinama i spolu","content":"\n","id":"2.4.1"},"/populationData-site/hr/3-2-2":{"type":"Stats","url":"/populationData-site/hr/3-2-2","title":"Stat 3.2.2 - Incidenca karcinoma dojke","content":"\n","id":"3.2.2"},"/populationData-site/hr/5-3-5":{"type":"Stats","url":"/populationData-site/hr/5-3-5","title":"Stat 5.3.5 - Broj nastavnika u srednjim školama prema spolu","content":"\n","id":"5.3.5"},"/populationData-site/hr/2-3-1":{"type":"Stats","url":"/populationData-site/hr/2-3-1","title":"Stat 2.3.1 - Stanovništvo staro 10 i više godina prema pismenosti i spolu","content":"\n","id":"2.3.1"},"/populationData-site/hr/5-7-4":{"type":"Stats","url":"/populationData-site/hr/5-7-4","title":"Stat 5.7.4 - Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu","content":"\n","id":"5.7.4"},"/populationData-site/hr/5-4-1":{"type":"Stats","url":"/populationData-site/hr/5-4-1","title":"Stat 5.4.1 - Upisani u osnovne studijske programe prema spolu","content":"\n","id":"5.4.1"},"/populationData-site/hr/7-1-2":{"type":"Stats","url":"/populationData-site/hr/7-1-2","title":"Stat 7.1.2 - Omjer zaposlenosti i broja stanovnika - postotak zaposlenog stanovništva u radno sposobnom stanovništvu prema dobnoj skupini i spolu","content":"\n","id":"7.1.2"},"/populationData-site/hr/5-1-2":{"type":"Stats","url":"/populationData-site/hr/5-1-2","title":"Stat 5.1.2 - Broj djece u predškolskim ustanovama prema spolu","content":"\n","id":"5.1.2"},"/populationData-site/hr/1-2-2":{"type":"Stats","url":"/populationData-site/hr/1-2-2","title":"Stat 1.2.2 - Stopa ukupnog fertiliteta","content":"\n","id":"1.2.2"},"/populationData-site/hr/5-5-2":{"type":"Stats","url":"/populationData-site/hr/5-5-2","title":"Stat 5.5.2 - Diplomirani studenti integriranih studija prema spolu","content":"\n","id":"5.5.2"},"/populationData-site/hr/2-1-6":{"type":"Stats","url":"/populationData-site/hr/2-1-6","title":"Stat 2.1.6 - Koeficijenti ovisnosti prema spolu","content":"\n","id":"2.1.6"},"/populationData-site/hr/3-7-1":{"type":"Stats","url":"/populationData-site/hr/3-7-1","title":"Stat 3.7.1 - Stanovništvo sa poteškoćama prema vrsti poteškoće i spolu","content":"\n","id":"3.7.1"},"/populationData-site/hr/2-3-2":{"type":"Stats","url":"/populationData-site/hr/2-3-2","title":"Stat 2.3.2 - Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu","content":"\n","id":"2.3.2"},"/populationData-site/hr/1-7-8":{"type":"Stats","url":"/populationData-site/hr/1-7-8","title":"Stat 1.7.8 - Projicirana populacijska piramida","content":"\n","id":"1.7.8"},"/populationData-site/hr/6-1-1":{"type":"Stats","url":"/populationData-site/hr/6-1-1","title":"Stat 6.1.1 - Bruto društveni proizvod (BDP) – ukupni (u milionima)","content":"\n","id":"6.1.1"},"/populationData-site/hr/3-1-3":{"type":"Stats","url":"/populationData-site/hr/3-1-3","title":"Stat 3.1.3 - Umrli prema uzroku smrti i spolu","content":"\n","id":"3.1.3"},"/populationData-site/hr/1-4-4":{"type":"Stats","url":"/populationData-site/hr/1-4-4","title":"Stat 1.4.4 - Prosječna dob prilikom sklapanja prvog braka prema spolu","content":"\n","id":"1.4.4"},"/populationData-site/hr/3-6-3":{"type":"Stats","url":"/populationData-site/hr/3-6-3","title":"Stat 3.6.3 - Zadovoljena potreba za planiranjem obitelji","content":"\n","id":"3.6.3"},"/populationData-site/hr/5-1-4":{"type":"Stats","url":"/populationData-site/hr/5-1-4","title":"Stat 5.1.4 - Broj vaspitača u predškolskim ustanovama prema spolu","content":"\n","id":"5.1.4"},"/populationData-site/hr/1-4-2":{"type":"Stats","url":"/populationData-site/hr/1-4-2","title":"Stat 1.4.2 - Prosječna dob stanovništva prema spolu","content":"\n","id":"1.4.2"},"/populationData-site/hr/1-3-6":{"type":"Stats","url":"/populationData-site/hr/1-3-6","title":"Stat 1.3.6 - Stopa mrtvorođenih","content":"\n","id":"1.3.6"},"/populationData-site/hr/3-4-1":{"type":"Stats","url":"/populationData-site/hr/3-4-1","title":"Stat 3.4.1 - Broj carskih rezova","content":"\n","id":"3.4.1"},"/populationData-site/hr/1-7-2":{"type":"Stats","url":"/populationData-site/hr/1-7-2","title":"Stat 1.7.2 - Projicirano stanovništvo prema dobnim skupinama i spolu","content":"\n","id":"1.7.2"},"/populationData-site/hr/5-6-1":{"type":"Stats","url":"/populationData-site/hr/5-6-1","title":"Stat 5.6.1 - Upisani na doktorske studije prema spolu","content":"\n","id":"5.6.1"},"/populationData-site/hr/1-7-4":{"type":"Stats","url":"/populationData-site/hr/1-7-4","title":"Stat 1.7.4 - Projicirana vitalna statistika prema spolu","content":"\n","id":"1.7.4"},"/populationData-site/hr/2-2-2":{"type":"Stats","url":"/populationData-site/hr/2-2-2","title":"Stat 2.2.2 - Kućanstva prema poljoprivrednoj aktivnosti","content":"\n","id":"2.2.2"},"/populationData-site/hr/7-1-1":{"type":"Stats","url":"/populationData-site/hr/7-1-1","title":"Stat 7.1.1 - Stopa učešća radne snage - postotak aktivnog stanovništva (radne snage) u radno sposobnom stanovništvu prema dobnoj skupini i spolu","content":"\n","id":"7.1.1"},"/populationData-site/hr/1-6-2":{"type":"Stats","url":"/populationData-site/hr/1-6-2","title":"Stat 1.6.2 - Stopa nupcijaliteta","content":"\n","id":"1.6.2"},"/populationData-site/hr/3-3-5":{"type":"Stats","url":"/populationData-site/hr/3-3-5","title":"Stat 3.3.5 - Incidenca HIV-a na 100.000 stanovnika","content":"\n","id":"3.3.5"},"/populationData-site/hr/3-2-4":{"type":"Stats","url":"/populationData-site/hr/3-2-4","title":"Stat 3.2.4 - Incidenca karcinoma dojke na 100.000 ženske populacije","content":"\n","id":"3.2.4"},"/populationData-site/hr/4-1-2":{"type":"Stats","url":"/populationData-site/hr/4-1-2","title":"Stat 4.1.2 - Korisnici socijalne skrbi prema vrsti ustanove i spolu","content":"\n","id":"4.1.2"},"/populationData-site/hr/1-3-4":{"type":"Stats","url":"/populationData-site/hr/1-3-4","title":"Stat 1.3.4 - Umrli prema uzroku smrti i spolu","content":"\n","id":"1.3.4"},"/populationData-site/hr/1-6-1":{"type":"Stats","url":"/populationData-site/hr/1-6-1","title":"Stat 1.6.1 - Zaključeni brakovi","content":"\n","id":"1.6.1"},"/populationData-site/hr/1-3-2":{"type":"Stats","url":"/populationData-site/hr/1-3-2","title":"Stat 1.3.2 - Umrla novorođenčad prema spolu","content":"\n","id":"1.3.2"},"/populationData-site/hr/7-1-4":{"type":"Stats","url":"/populationData-site/hr/7-1-4","title":"Stat 7.1.4 - Stopa nezaposlenosti - postotak nezaposlenog stanovništva u aktivnom stanovništvu (radnoj snazi) prema dobnoj skupini i spolu","content":"\n","id":"7.1.4"},"/populationData-site/hr/1-1-1":{"type":"Stats","url":"/populationData-site/hr/1-1-1","title":"Stat 1.1.1 - Vitalna statistika prema spolu (živorođeni, umrli i prirodni priraštaj)","content":"\n","id":"1.1.1"},"/populationData-site/hr/3-6-1":{"type":"Stats","url":"/populationData-site/hr/3-6-1","title":"Stat 3.6.1 - Stopa prevalencije kontracepcije","content":"\n","id":"3.6.1"},"/populationData-site/hr/1-2-4":{"type":"Stats","url":"/populationData-site/hr/1-2-4","title":"Stat 1.2.4 - Omjer muške i ženske novorođenčadi","content":"\n","id":"1.2.4"},"/populationData-site/hr/1-7-1":{"type":"Stats","url":"/populationData-site/hr/1-7-1","title":"Stat 1.7.1 - Projicirano stanovništvo prema dobi i spolu","content":"\n","id":"1.7.1"},"/populationData-site/hr/7-1-3":{"type":"Stats","url":"/populationData-site/hr/7-1-3","title":"Stat 7.1.3 - Stopa nezaposlenosti - postotak nezaposlenog stanovništva u aktivnom stanovništvu (radnoj snazi) prema dobnoj skupini i spolu","content":"\n","id":"7.1.3"},"/populationData-site/hr/2-2-1":{"type":"Stats","url":"/populationData-site/hr/2-2-1","title":"Stat 2.2.1 - Kućanstva prema broju članova","content":"\n","id":"2.2.1"},"/populationData-site/hr/1-6-3":{"type":"Stats","url":"/populationData-site/hr/1-6-3","title":"Stat 1.6.3 - Razvedeni brakovi","content":"\n","id":"1.6.3"},"/populationData-site/hr/5-7-3":{"type":"Stats","url":"/populationData-site/hr/5-7-3","title":"Stat 5.7.3 - Stanovništvo staro 10 i više godina prema pismenosti i spolu","content":"\n","id":"5.7.3"},"/populationData-site/hr/1-4-3":{"type":"Stats","url":"/populationData-site/hr/1-4-3","title":"Stat 1.4.3 - Prosječna dob prilikom umiranja prema spolu","content":"\n","id":"1.4.3"},"/populationData-site/hr/3-5-4":{"type":"Stats","url":"/populationData-site/hr/3-5-4","title":"Stat 3.5.4 - Broj opstetričara i ginekologa zaposlenih u ustanovama za pružanje zdravstvene skrbi","content":"\n","id":"3.5.4"},"/populationData-site/hr/7-2-1":{"type":"Stats","url":"/populationData-site/hr/7-2-1","title":"Stat 7.2.1 - Kućanstva koja žive u relativnom siromaštvu","content":"\n","id":"7.2.1"},"/populationData-site/hr/2-1-3":{"type":"Stats","url":"/populationData-site/hr/2-1-3","title":"Stat 2.1.3 - Stanovništvo prema gradu/općini, dobnim skupinama i spolu","content":"\n","id":"2.1.3"},"/populationData-site/hr/5-2-2":{"type":"Stats","url":"/populationData-site/hr/5-2-2","title":"Stat 5.2.2 - Broj učenika koji su završili osnovnu školu prema spolu","content":"\n","id":"5.2.2"},"/populationData-site/hr/5-5-7":{"type":"Stats","url":"/populationData-site/hr/5-5-7","title":"Stat 5.5.7 - Magistri nauka, masteri i specijalisti prema oblasti obrazovanja","content":"\n","id":"5.5.7"},"/populationData-site/hr/5-2-1":{"type":"Stats","url":"/populationData-site/hr/5-2-1","title":"Stat 5.2.1 - Broj učenika na početku školske godine prema spolu (osnovna škola)","content":"\n","id":"5.2.1"},"/populationData-site/hr/1-7-5":{"type":"Stats","url":"/populationData-site/hr/1-7-5","title":"Stat 1.7.5 - Projicirana stopa nataliteta","content":"\n","id":"1.7.5"},"/populationData-site/hr/1-6-4":{"type":"Stats","url":"/populationData-site/hr/1-6-4","title":"Stat 1.6.4 - Stopa divorcijaliteta","content":"\n","id":"1.6.4"},"/populationData-site/hr/2-1-4":{"type":"Stats","url":"/populationData-site/hr/2-1-4","title":"Stat 2.1.4 - Populacijska piramida","content":"\n","id":"2.1.4"},"/populationData-site/hr/5-5-3":{"type":"Stats","url":"/populationData-site/hr/5-5-3","title":"Stat 5.5.3 - Diplomirani studenti integriranih studija oblasti obrazovanja","content":"\n","id":"5.5.3"},"/populationData-site/hr/3-5-3":{"type":"Stats","url":"/populationData-site/hr/3-5-3","title":"Stat 3.5.3 - Broj doktora medicine zaposlenih u ustanovama za pružanje zdravstvene skrbi prema spolu","content":"\n","id":"3.5.3"},"/populationData-site/hr/3-2-1":{"type":"Stats","url":"/populationData-site/hr/3-2-1","title":"Stat 3.2.1 - Incidenca karcinoma vrata maternice","content":"\n","id":"3.2.1"},"/populationData-site/hr/1-2-1":{"type":"Stats","url":"/populationData-site/hr/1-2-1","title":"Stat 1.2.1 - Stopa nataliteta","content":"\n","id":"1.2.1"},"/populationData-site/hr/8-1-1":{"type":"Stats","url":"/populationData-site/hr/8-1-1","title":"Stat 8.1.1 - Nasilje nad ženama nakon napunjenih 15 godina života (sve vrste)","content":"\n","id":"8.1.1"},"/populationData-site/hr/2-1-1":{"type":"Stats","url":"/populationData-site/hr/2-1-1","title":"Stat 2.1.1 - Stanovništvo prema dobi i spolu","content":"\n","id":"2.1.1"},"/populationData-site/hr/6-1-2":{"type":"Stats","url":"/populationData-site/hr/6-1-2","title":"Stat 6.1.2 - Bruto društveni proizvod (BDP) prema glavi stanovnika","content":"\n","id":"6.1.2"},"/populationData-site/hr/5-7-1":{"type":"Stats","url":"/populationData-site/hr/5-7-1","title":"Stat 5.7.1 - Stanovništvo u dobi od 25-64 godine upisano u neformalno obrazovanje odraslih, prema starosnoj dobi i spolu","content":"\n","id":"5.7.1"},"/populationData-site/hr/3-3-2":{"type":"Stats","url":"/populationData-site/hr/3-3-2","title":"Stat 3.3.2 - Incidenca gonoreje","content":"\n","id":"3.3.2"},"/populationData-site/hr/1-3-3":{"type":"Stats","url":"/populationData-site/hr/1-3-3","title":"Stat 1.3.3 - Stopa smrtnosti dojenčadi","content":"\n","id":"1.3.3"},"/populationData-site/hr/5-2-3":{"type":"Stats","url":"/populationData-site/hr/5-2-3","title":"Stat 5.2.3 - Broj nastavnika u osnovnim školama prema spolu","content":"\n","id":"5.2.3"},"/populationData-site/hr/1-7-3":{"type":"Stats","url":"/populationData-site/hr/1-7-3","title":"Stat 1.7.3 - Projicirani koeficijenti ovisnosti prema spolu","content":"\n","id":"1.7.3"},"/populationData-site/hr/1-3-5":{"type":"Stats","url":"/populationData-site/hr/1-3-5","title":"Stat 1.3.5 - Mrtvorođeni prema spolu","content":"\n","id":"1.3.5"},"/populationData-site/hr/5-5-5":{"type":"Stats","url":"/populationData-site/hr/5-5-5","title":"Stat 5.5.5 - Upisani na magistarske, master i specijalističke studije prema oblasti obrazovanja","content":"\n","id":"5.5.5"},"/populationData-site/hr/3-3-4":{"type":"Stats","url":"/populationData-site/hr/3-3-4","title":"Stat 3.3.4 - Incidenca HIV-a","content":"\n","id":"3.3.4"},"/populationData-site/hr/1-4-1":{"type":"Stats","url":"/populationData-site/hr/1-4-1","title":"Stat 1.4.1 - Prosječna dob majke prilikom rođenja prvog djeteta","content":"\n","id":"1.4.1"},"/populationData-site/hr/3-3-1":{"type":"Stats","url":"/populationData-site/hr/3-3-1","title":"Stat 3.3.1 - Incidenca sifilisa","content":"\n","id":"3.3.1"},"/populationData-site/hr/1-2-5":{"type":"Stats","url":"/populationData-site/hr/1-2-5","title":"Stat 1.2.5 - Broj porođaja adolescentkinja prema dobnim skupinama","content":"\n","id":"1.2.5"},"/populationData-site/hr/2-1-5":{"type":"Stats","url":"/populationData-site/hr/2-1-5","title":"Stat 2.1.5 - Ženska populacija u dobi od 15 i više godina prema broju živorođene djece","content":"\n","id":"2.1.5"},"/populationData-site/hr/1-1-2":{"type":"Stats","url":"/populationData-site/hr/1-1-2","title":"Stat 1.1.2 - Stopa prirodnog rasta","content":"\n","id":"1.1.2"},"/populationData-site/hr/1-7-6":{"type":"Stats","url":"/populationData-site/hr/1-7-6","title":"Stat 1.7.6 - Projicirana stopa mortaliteta","content":"\n","id":"1.7.6"},"/populationData-site/hr/5-5-6":{"type":"Stats","url":"/populationData-site/hr/5-5-6","title":"Stat 5.5.6 - Magistri nauka, masteri i specijalisti prema spolu","content":"\n","id":"5.5.6"},"/populationData-site/hr/5-3-1":{"type":"Stats","url":"/populationData-site/hr/5-3-1","title":"Stat 5.3.1 - Broj učenika na početku školske godine prema spolu (srednja škola)","content":"\n","id":"5.3.1"},"/populationData-site/hr/5-3-4":{"type":"Stats","url":"/populationData-site/hr/5-3-4","title":"Stat 5.3.4 - Broj učenika koji su završili srednju školu prema vrsti škole","content":"\n","id":"5.3.4"},"/populationData-site/hr/4-1-1":{"type":"Stats","url":"/populationData-site/hr/4-1-1","title":"Stat 4.1.1 - Korisnici socijalne skrbi prema vrsti korisnika i spolu","content":"\n","id":"4.1.1"},"/populationData-site/hr/1-3-1":{"type":"Stats","url":"/populationData-site/hr/1-3-1","title":"Stat 1.3.1 - Stopa mortaliteta","content":"\n","id":"1.3.1"},"/populationData-site/hr/6-1-3":{"type":"Stats","url":"/populationData-site/hr/6-1-3","title":"Stat 6.1.3 - Stopa realnog rasta bruto društvenog proizvoda","content":"\n","id":"6.1.3"},"/populationData-site/hr/3-2-3":{"type":"Stats","url":"/populationData-site/hr/3-2-3","title":"Stat 3.2.3 - Incidenca karcinoma vrata maternice na 100.000 ženske populacije","content":"\n","id":"3.2.3"},"/populationData-site/hr/3-6-4":{"type":"Stats","url":"/populationData-site/hr/3-6-4","title":"Stat 3.6.4 - Prisustvo stručne osobe tokom porođaja","content":"\n","id":"3.6.4"},"/populationData-site/hr/5-3-3":{"type":"Stats","url":"/populationData-site/hr/5-3-3","title":"Stat 5.3.3 - Broj učenika koji su završili srednju školu prema spolu","content":"\n","id":"5.3.3"},"/populationData-site/hr/5-5-4":{"type":"Stats","url":"/populationData-site/hr/5-5-4","title":"Stat 5.5.4 - Upisani na magistarske, master i specijalističke studije prema spolu","content":"\n","id":"5.5.4"},"/populationData-site/hr/3-5-1":{"type":"Stats","url":"/populationData-site/hr/3-5-1","title":"Stat 3.5.1 - Broj kreveta u bolnicama","content":"\n","id":"3.5.1"},"/populationData-site/hr/5-1-1":{"type":"Stats","url":"/populationData-site/hr/5-1-1","title":"Stat 5.1.1 - Broj predškolskih ustanova prema svojini","content":"\n","id":"5.1.1"},"/populationData-site/hr/5-1-3":{"type":"Stats","url":"/populationData-site/hr/5-1-3","title":"Stat 5.1.3 - Broj djece u jaslicama prema spolu","content":"\n","id":"5.1.3"},"/populationData-site/hr/5-6-2":{"type":"Stats","url":"/populationData-site/hr/5-6-2","title":"Stat 5.6.2 - Upisani na doktorske studije prema oblasti obrazovanja","content":"\n","id":"5.6.2"},"/populationData-site/hr/3-5-6":{"type":"Stats","url":"/populationData-site/hr/3-5-6","title":"Stat 3.5.6 - Broj medicinskih tehničara zaposlenih u ustanovama za pružanje zdravstvene skrbi","content":"\n","id":"3.5.6"},"/populationData-site/hr/5-4-3":{"type":"Stats","url":"/populationData-site/hr/5-4-3","title":"Stat 5.4.3 - Diplomirani studenti prema oblasti obrazovanja","content":"\n","id":"5.4.3"},"/populationData-site/hr/3-4-2":{"type":"Stats","url":"/populationData-site/hr/3-4-2","title":"Stat 3.4.2 - Broj carskih rezova na 1,000 živorođene djece","content":"\n","id":"3.4.2"},"/populationData-site/hr/3-1-5":{"type":"Stats","url":"/populationData-site/hr/3-1-5","title":"Stat 3.1.5 - Stopa mrtvorođenih","content":"\n","id":"3.1.5"},"/populationData-site/hr/5-6-3":{"type":"Stats","url":"/populationData-site/hr/5-6-3","title":"Stat 5.6.3 - Doktori nauka prema spolu","content":"\n","id":"5.6.3"},"/populationData-site/hr/1":{"type":"general.goals","url":"/populationData-site/hr/1","title":"general.goal 1 - STANOVNIŠTVO","content":"","id":"1"},"/populationData-site/hr/2":{"type":"general.goals","url":"/populationData-site/hr/2","title":"general.goal 2 - POPIS STANOVNIŠTVA","content":"","id":"2"},"/populationData-site/hr/3":{"type":"general.goals","url":"/populationData-site/hr/3","title":"general.goal 3 - ZDRAVLJE","content":"","id":"3"},"/populationData-site/hr/4":{"type":"general.goals","url":"/populationData-site/hr/4","title":"general.goal 4 - SOCIJALNA SKRB","content":"","id":"4"},"/populationData-site/hr/5":{"type":"general.goals","url":"/populationData-site/hr/5","title":"general.goal 5 - OBRAZOVANJE","content":"","id":"5"},"/populationData-site/hr/6":{"type":"general.goals","url":"/populationData-site/hr/6","title":"general.goal 6 - GOSPODARSTVO","content":"","id":"6"},"/populationData-site/hr/7":{"type":"general.goals","url":"/populationData-site/hr/7","title":"general.goal 7 - RADNA SNAGA I ŽIVOTNI STANDARD","content":"","id":"7"},"/populationData-site/hr/8":{"type":"general.goals","url":"/populationData-site/hr/8","title":"general.goal 8 - NASILJE","content":"","id":"8"}};
+
+opensdg.searchIndexBoost = [{
+  field: 'title',
+  boost: 10,
+}];
+
+
+opensdg.searchIndexExtraFields = [];
+
+</script>
+
+<div id="main-content" class="container" role="main">
+  <h1>Rezultati pretrage za '<span id="search-term"></span>'</h1>
+  <div id="search-bar-on-page" >
+  <form action="/populationData-site/hr/search/">
+    <label class="sr-only" for="indicator_search-bar-on-page">Pretraživanje</label>
+    <input type="text" name="q" id="indicator_search-bar-on-page" title="Pretraživanje" /><!--
+    --><button aria-label="Pretraživanje" id="search-bar-on-page-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  </form>
+</div>
+
+  <div class="loader">
+  <img src="/populationData-site/assets/img/loading.gif" alt="" />
+</div>
+
+  <div id="search-results" class="results"></div>
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/lunr-languages@1.4.0/lunr.stemmer.support.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lunr-languages@1.4.0/lunr.hr.js"></script>
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="footerLinks">
+          <ul>
+            <li><a href="https://open-sdg.org"></a></li>
+            
+              <li>
+                
+                  <a href="mailto:bosnia-herzegovina.office@unfpa.org" target="_blank">Kontaktirajte nas</a>
+                
+                </li>
+              <li>
+                <a href="/populationData-site/hr/about/cookies-and-privacy/">Kolačići</a>
+                
+                </li>
+              
+            
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = '';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = 'Pretraživanje';</script>
+
+<script src='/populationData-site/assets/js/sdg.js?v=20220913025204'></script>
+
+
+    
+    
+    <script src="/populationData-site/assets/js/custom.js?v=20220913025204"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              showData: domData.showdata,
+              graphType: domData.graphtype,
+              startValues: domData.startvalues,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+              graphAnnotations: domData.graphannotations,
+              indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+              precision: domData.precision,
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              decimalSeparator: '',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+
+    var switcher = new accessibilitySwitcher();
+
+
+});
+</script>
+
+
+
+
+</body>
+</html>
+
