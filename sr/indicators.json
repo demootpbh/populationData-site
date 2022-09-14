@@ -10,7 +10,7 @@
           "title": "Витална статистика према полу (живорођени, умрли и природни прираштај)",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-1-1",
+          "href": "/sr/1-1-1",
           "status": "complete"
         },
         {
@@ -18,7 +18,7 @@
           "title": "Стопа природног раста",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-1-2",
+          "href": "/sr/1-1-2",
           "status": "complete"
         },
         {
@@ -26,7 +26,7 @@
           "title": "Стопа наталитета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-2-1",
+          "href": "/sr/1-2-1",
           "status": "complete"
         },
         {
@@ -34,7 +34,7 @@
           "title": "Стопа укупног фертилитета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-2-2",
+          "href": "/sr/1-2-2",
           "status": "complete"
         },
         {
@@ -42,7 +42,7 @@
           "title": "Стопа фертилитета према старосним групама",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-2-3",
+          "href": "/sr/1-2-3",
           "status": "complete"
         },
         {
@@ -50,7 +50,7 @@
           "title": "Омјер мушке и женске новорођенчади",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-2-4",
+          "href": "/sr/1-2-4",
           "status": "complete"
         },
         {
@@ -58,7 +58,7 @@
           "title": "Број порођаја адолесценткиња према старосним групама",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-2-5",
+          "href": "/sr/1-2-5",
           "status": "complete"
         },
         {
@@ -66,7 +66,7 @@
           "title": "Стопа морталитета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-3-1",
+          "href": "/sr/1-3-1",
           "status": "complete"
         },
         {
@@ -74,7 +74,7 @@
           "title": "Умрла одојчад према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-3-2",
+          "href": "/sr/1-3-2",
           "status": "complete"
         },
         {
@@ -82,7 +82,7 @@
           "title": "Стопа смртности одојчади",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-3-3",
+          "href": "/sr/1-3-3",
           "status": "complete"
         },
         {
@@ -90,7 +90,7 @@
           "title": "Умрли према узроку смрти и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-3-4",
+          "href": "/sr/1-3-4",
           "status": "complete"
         },
         {
@@ -98,7 +98,7 @@
           "title": "Мртворођени према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-3-5",
+          "href": "/sr/1-3-5",
           "status": "complete"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Стопа мртворођених",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-3-6",
+          "href": "/sr/1-3-6",
           "status": "complete"
         },
         {
@@ -114,7 +114,7 @@
           "title": "Просјечна старост мајке приликом рођења првог дјетета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-4-1",
+          "href": "/sr/1-4-1",
           "status": "complete"
         },
         {
@@ -122,7 +122,7 @@
           "title": "Просјечна старост становништва према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-4-2",
+          "href": "/sr/1-4-2",
           "status": "complete"
         },
         {
@@ -130,7 +130,7 @@
           "title": "Просјечна старост приликом умирања према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-4-3",
+          "href": "/sr/1-4-3",
           "status": "complete"
         },
         {
@@ -138,7 +138,7 @@
           "title": "Просјечна старост приликом склапања првог брака према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-4-4",
+          "href": "/sr/1-4-4",
           "status": "complete"
         },
         {
@@ -146,7 +146,7 @@
           "title": "Очекивано трајање живота при рођењу према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-5-1",
+          "href": "/sr/1-5-1",
           "status": "complete"
         },
         {
@@ -154,7 +154,7 @@
           "title": "Закључени бракови",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-6-1",
+          "href": "/sr/1-6-1",
           "status": "complete"
         },
         {
@@ -162,7 +162,7 @@
           "title": "Стопа нупцијалитета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-6-2",
+          "href": "/sr/1-6-2",
           "status": "complete"
         },
         {
@@ -170,7 +170,7 @@
           "title": "Разведени бракови",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-6-3",
+          "href": "/sr/1-6-3",
           "status": "complete"
         },
         {
@@ -178,7 +178,7 @@
           "title": "Стопа диворцијалитета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-6-4",
+          "href": "/sr/1-6-4",
           "status": "complete"
         },
         {
@@ -186,7 +186,7 @@
           "title": "Пројекције становништва према старости и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-1",
+          "href": "/sr/1-7-1",
           "status": "complete"
         },
         {
@@ -194,7 +194,7 @@
           "title": "Пројекције становништва према старосним групама и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-2",
+          "href": "/sr/1-7-2",
           "status": "complete"
         },
         {
@@ -202,7 +202,7 @@
           "title": "Пројектовани коефицијенти зависности према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-3",
+          "href": "/sr/1-7-3",
           "status": "complete"
         },
         {
@@ -210,7 +210,7 @@
           "title": "Пројекције виталне статистике према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-4",
+          "href": "/sr/1-7-4",
           "status": "complete"
         },
         {
@@ -218,7 +218,7 @@
           "title": "Пројектована стопа наталитета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-5",
+          "href": "/sr/1-7-5",
           "status": "complete"
         },
         {
@@ -226,7 +226,7 @@
           "title": "Пројектована стопа морталитета",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-6",
+          "href": "/sr/1-7-6",
           "status": "complete"
         },
         {
@@ -234,7 +234,7 @@
           "title": "Пројекције просјечне старости становништва",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-7",
+          "href": "/sr/1-7-7",
           "status": "complete"
         },
         {
@@ -242,7 +242,7 @@
           "title": "Пројектована популациона пирамида",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/1-7-8",
+          "href": "/sr/1-7-8",
           "status": "complete"
         }]
     }
@@ -258,7 +258,7 @@
           "title": "Становништво према старости и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-1-1",
+          "href": "/sr/2-1-1",
           "status": "complete"
         },
         {
@@ -266,7 +266,7 @@
           "title": "Становништво према старосним групама и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-1-2",
+          "href": "/sr/2-1-2",
           "status": "complete"
         },
         {
@@ -274,7 +274,7 @@
           "title": "Становништво према граду/општини, старосним групама и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-1-3",
+          "href": "/sr/2-1-3",
           "status": "complete"
         },
         {
@@ -282,7 +282,7 @@
           "title": "Популациона пирамида",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-1-4",
+          "href": "/sr/2-1-4",
           "status": "complete"
         },
         {
@@ -290,7 +290,7 @@
           "title": "Женска популација у доби од 15 и више година према броју живорођене дјеце",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-1-5",
+          "href": "/sr/2-1-5",
           "status": "complete"
         },
         {
@@ -298,7 +298,7 @@
           "title": "Коефицијенти зависности према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-1-6",
+          "href": "/sr/2-1-6",
           "status": "complete"
         },
         {
@@ -306,7 +306,7 @@
           "title": "Домаћинства према броју чланова",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-2-1",
+          "href": "/sr/2-2-1",
           "status": "complete"
         },
         {
@@ -314,7 +314,7 @@
           "title": "Домаћинства према пољопривредној активности",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-2-2",
+          "href": "/sr/2-2-2",
           "status": "complete"
         },
         {
@@ -322,7 +322,7 @@
           "title": "Становништво старо 10 и више година према писмености и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-3-1",
+          "href": "/sr/2-3-1",
           "status": "complete"
         },
         {
@@ -330,7 +330,7 @@
           "title": "Становништво старо 15 и више година према највишој завршеној школи и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-3-2",
+          "href": "/sr/2-3-2",
           "status": "complete"
         },
         {
@@ -338,7 +338,7 @@
           "title": "Становништво са потешкоћама према врсти потешкоће, старосним групама и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/2-4-1",
+          "href": "/sr/2-4-1",
           "status": "complete"
         }]
     }
@@ -354,7 +354,7 @@
           "title": "Умрла одојчад према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-1-1",
+          "href": "/sr/3-1-1",
           "status": "complete"
         },
         {
@@ -362,7 +362,7 @@
           "title": "Стопа смртности одојчади",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-1-2",
+          "href": "/sr/3-1-2",
           "status": "complete"
         },
         {
@@ -370,7 +370,7 @@
           "title": "Умрли према узроку смрти и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-1-3",
+          "href": "/sr/3-1-3",
           "status": "complete"
         },
         {
@@ -378,7 +378,7 @@
           "title": "Мртворођени према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-1-4",
+          "href": "/sr/3-1-4",
           "status": "complete"
         },
         {
@@ -386,7 +386,7 @@
           "title": "Стопа мртворођених",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-1-5",
+          "href": "/sr/3-1-5",
           "status": "complete"
         },
         {
@@ -394,7 +394,7 @@
           "title": "Инциденца карцинома цервикса",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-2-1",
+          "href": "/sr/3-2-1",
           "status": "complete"
         },
         {
@@ -402,7 +402,7 @@
           "title": "Инциденца карцинома дојке",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-2-2",
+          "href": "/sr/3-2-2",
           "status": "complete"
         },
         {
@@ -410,7 +410,7 @@
           "title": "Инциденца карцинома цервикса на 100.000 женске популације",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-2-3",
+          "href": "/sr/3-2-3",
           "status": "complete"
         },
         {
@@ -418,7 +418,7 @@
           "title": "Инциденца карцинома дојке на 100.000 женске популације",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-2-4",
+          "href": "/sr/3-2-4",
           "status": "complete"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Инциденца сифилиса",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-3-1",
+          "href": "/sr/3-3-1",
           "status": "complete"
         },
         {
@@ -434,7 +434,7 @@
           "title": "Инциденца гонореје",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-3-2",
+          "href": "/sr/3-3-2",
           "status": "complete"
         },
         {
@@ -442,7 +442,7 @@
           "title": "Инциденца АИДС-а",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-3-3",
+          "href": "/sr/3-3-3",
           "status": "complete"
         },
         {
@@ -450,7 +450,7 @@
           "title": "Инциденца ХИВ-а",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-3-4",
+          "href": "/sr/3-3-4",
           "status": "complete"
         },
         {
@@ -458,7 +458,7 @@
           "title": "Инциденца ХИВ-а на 100.000 становника",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-3-5",
+          "href": "/sr/3-3-5",
           "status": "complete"
         },
         {
@@ -466,7 +466,7 @@
           "title": "Број царских резова",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-4-1",
+          "href": "/sr/3-4-1",
           "status": "complete"
         },
         {
@@ -474,7 +474,7 @@
           "title": "Број царских резова на 1,000 живорођене дјеце",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-4-2",
+          "href": "/sr/3-4-2",
           "status": "complete"
         },
         {
@@ -482,7 +482,7 @@
           "title": "Број кревета у болницама",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-5-1",
+          "href": "/sr/3-5-1",
           "status": "complete"
         },
         {
@@ -490,7 +490,7 @@
           "title": "Број кревета у болницама на 100.000 становника",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-5-2",
+          "href": "/sr/3-5-2",
           "status": "complete"
         },
         {
@@ -498,7 +498,7 @@
           "title": "Број доктора медицине запослених у установама за пружање здравствене заштите према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-5-3",
+          "href": "/sr/3-5-3",
           "status": "complete"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Број опстетричара и гинеколога запослених у установама за пружање здравствене заштите",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-5-4",
+          "href": "/sr/3-5-4",
           "status": "complete"
         },
         {
@@ -514,7 +514,7 @@
           "title": "Број бабица запослених у установама за пружање здравствене заштите",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-5-5",
+          "href": "/sr/3-5-5",
           "status": "complete"
         },
         {
@@ -522,7 +522,7 @@
           "title": "Број медицинских техничара запослених у установама за пружање здравствене заштите",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-5-6",
+          "href": "/sr/3-5-6",
           "status": "complete"
         },
         {
@@ -530,7 +530,7 @@
           "title": "Стопа употребе контрацептива",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-6-1",
+          "href": "/sr/3-6-1",
           "status": "complete"
         },
         {
@@ -538,7 +538,7 @@
           "title": "Незадовољене потребе за планирањем породице",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-6-2",
+          "href": "/sr/3-6-2",
           "status": "complete"
         },
         {
@@ -546,7 +546,7 @@
           "title": "Задовољене потребе за планирањем породице",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-6-3",
+          "href": "/sr/3-6-3",
           "status": "complete"
         },
         {
@@ -554,7 +554,7 @@
           "title": "Присуство стручне особе током порођаја",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-6-4",
+          "href": "/sr/3-6-4",
           "status": "complete"
         },
         {
@@ -562,7 +562,7 @@
           "title": "Становништво са потешкоћама према врсти потешкоће и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/3-7-1",
+          "href": "/sr/3-7-1",
           "status": "complete"
         }]
     }
@@ -578,7 +578,7 @@
           "title": "Корисници социјалне заштите према врсти корисника и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/4-1-1",
+          "href": "/sr/4-1-1",
           "status": "complete"
         },
         {
@@ -586,7 +586,7 @@
           "title": "Корисници социјалне заштите према врсти установе и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/4-1-2",
+          "href": "/sr/4-1-2",
           "status": "complete"
         }]
     }
@@ -602,7 +602,7 @@
           "title": "Број предшколских установа према својини",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-1-1",
+          "href": "/sr/5-1-1",
           "status": "complete"
         },
         {
@@ -610,7 +610,7 @@
           "title": "Број дјеце у предшколским установама према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-1-2",
+          "href": "/sr/5-1-2",
           "status": "complete"
         },
         {
@@ -618,7 +618,7 @@
           "title": "Број дјеце у јаслицама према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-1-3",
+          "href": "/sr/5-1-3",
           "status": "complete"
         },
         {
@@ -626,7 +626,7 @@
           "title": "Број васпитача у предшколским установама према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-1-4",
+          "href": "/sr/5-1-4",
           "status": "complete"
         },
         {
@@ -634,7 +634,7 @@
           "title": "Број ученика на почетку школске године према полу (основна школа)",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-2-1",
+          "href": "/sr/5-2-1",
           "status": "complete"
         },
         {
@@ -642,7 +642,7 @@
           "title": "Број ученика који су завршили основну школу према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-2-2",
+          "href": "/sr/5-2-2",
           "status": "complete"
         },
         {
@@ -650,7 +650,7 @@
           "title": "Број наставника у основним школама према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-2-3",
+          "href": "/sr/5-2-3",
           "status": "complete"
         },
         {
@@ -658,7 +658,7 @@
           "title": "Број ученика на почетку школске године према полу (средња школа)",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-3-1",
+          "href": "/sr/5-3-1",
           "status": "complete"
         },
         {
@@ -666,7 +666,7 @@
           "title": "Број ученика на почетку школске године према врсти средње школе",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-3-2",
+          "href": "/sr/5-3-2",
           "status": "complete"
         },
         {
@@ -674,7 +674,7 @@
           "title": "Број ученика који су завршили средњу школу према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-3-3",
+          "href": "/sr/5-3-3",
           "status": "complete"
         },
         {
@@ -682,7 +682,7 @@
           "title": "Број ученика који су завршили средњу школу према врсти школе",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-3-4",
+          "href": "/sr/5-3-4",
           "status": "complete"
         },
         {
@@ -690,7 +690,7 @@
           "title": "Број наставника у средњим школама према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-3-5",
+          "href": "/sr/5-3-5",
           "status": "complete"
         },
         {
@@ -698,7 +698,7 @@
           "title": "Уписани у основне студијске програме према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-4-1",
+          "href": "/sr/5-4-1",
           "status": "complete"
         },
         {
@@ -706,7 +706,7 @@
           "title": "Дипломирани студенти према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-4-2",
+          "href": "/sr/5-4-2",
           "status": "complete"
         },
         {
@@ -714,7 +714,7 @@
           "title": "Дипломирани студенти према области образовања",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-4-3",
+          "href": "/sr/5-4-3",
           "status": "complete"
         },
         {
@@ -722,7 +722,7 @@
           "title": "Уписани на интегрисане студије према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-5-1",
+          "href": "/sr/5-5-1",
           "status": "complete"
         },
         {
@@ -730,7 +730,7 @@
           "title": "Дипломирани студенти интегрисаних студија према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-5-2",
+          "href": "/sr/5-5-2",
           "status": "complete"
         },
         {
@@ -738,7 +738,7 @@
           "title": "Дипломирани студенти интегрисаних студија према области образовања",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-5-3",
+          "href": "/sr/5-5-3",
           "status": "complete"
         },
         {
@@ -746,7 +746,7 @@
           "title": "Уписани на магистарске, мастер и специјалистичке студије према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-5-4",
+          "href": "/sr/5-5-4",
           "status": "complete"
         },
         {
@@ -754,7 +754,7 @@
           "title": "Уписани на магистарске, мастер и специјалистичке студије према области образовања",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-5-5",
+          "href": "/sr/5-5-5",
           "status": "complete"
         },
         {
@@ -762,7 +762,7 @@
           "title": "Магистри наука, мастери и специјалисти према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-5-6",
+          "href": "/sr/5-5-6",
           "status": "complete"
         },
         {
@@ -770,7 +770,7 @@
           "title": "Магистри наука, мастери и специјалисти према области образовања",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-5-7",
+          "href": "/sr/5-5-7",
           "status": "complete"
         },
         {
@@ -778,7 +778,7 @@
           "title": "Уписани на докторске студије према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-6-1",
+          "href": "/sr/5-6-1",
           "status": "complete"
         },
         {
@@ -786,7 +786,7 @@
           "title": "Уписани на докторске студије према области образовања",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-6-2",
+          "href": "/sr/5-6-2",
           "status": "complete"
         },
         {
@@ -794,7 +794,7 @@
           "title": "Доктори наука према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-6-3",
+          "href": "/sr/5-6-3",
           "status": "complete"
         },
         {
@@ -802,7 +802,7 @@
           "title": "Доктори наука према области образовања",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-6-4",
+          "href": "/sr/5-6-4",
           "status": "complete"
         },
         {
@@ -810,7 +810,7 @@
           "title": "Становништво у доби од 25-64 године уписано у неформално образовање одраслих, према старосној доби и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-7-1",
+          "href": "/sr/5-7-1",
           "status": "complete"
         },
         {
@@ -818,7 +818,7 @@
           "title": "Становништво у доби од 15-24 године које није запослено, не образује се нити се усавршава (НЕЕТ), према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-7-2",
+          "href": "/sr/5-7-2",
           "status": "complete"
         },
         {
@@ -826,7 +826,7 @@
           "title": "Становништво старо 10 и више година према писмености и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-7-3",
+          "href": "/sr/5-7-3",
           "status": "complete"
         },
         {
@@ -834,7 +834,7 @@
           "title": "Становништво старо 15 и више година према највишој завршеној школи и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/5-7-4",
+          "href": "/sr/5-7-4",
           "status": "complete"
         }]
     }
@@ -850,7 +850,7 @@
           "title": "Бруто друштвени производ (БДП) – укупни (у милионима)",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/6-1-1",
+          "href": "/sr/6-1-1",
           "status": "complete"
         },
         {
@@ -858,7 +858,7 @@
           "title": "Бруто друштвени производ (БДП) према глави становника",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/6-1-2",
+          "href": "/sr/6-1-2",
           "status": "complete"
         },
         {
@@ -866,7 +866,7 @@
           "title": "Стопа реалног раста бруто друштвеног производа",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/6-1-3",
+          "href": "/sr/6-1-3",
           "status": "complete"
         }]
     }
@@ -882,7 +882,7 @@
           "title": "Стопа учешћа радне снаге - постотак активног становништва (радне снаге) у радно способном становништву према старосној групи и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/7-1-1",
+          "href": "/sr/7-1-1",
           "status": "complete"
         },
         {
@@ -890,7 +890,7 @@
           "title": "Омјер запослености и броја становника - постотак запосленог становништва у радно способном становништву према старосној групи и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/7-1-2",
+          "href": "/sr/7-1-2",
           "status": "complete"
         },
         {
@@ -898,7 +898,7 @@
           "title": "Стопа незапослености - постотак незапосленог становништва у активном становништву (радној снази) према старосној групи и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/7-1-3",
+          "href": "/sr/7-1-3",
           "status": "complete"
         },
         {
@@ -906,7 +906,7 @@
           "title": "Стопа незапослености - постотак незапосленог становништва у активном становништву (радној снази) према старосној групи и полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/7-1-4",
+          "href": "/sr/7-1-4",
           "status": "complete"
         },
         {
@@ -914,7 +914,7 @@
           "title": "Становништво у доби од 15-24 године које није запослено, не образује се нити се усавршава (НЕЕТ), према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/7-1-5",
+          "href": "/sr/7-1-5",
           "status": "complete"
         },
         {
@@ -922,7 +922,7 @@
           "title": "Домаћинства која живе у релативном сиромаштву",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/7-2-1",
+          "href": "/sr/7-2-1",
           "status": "complete"
         },
         {
@@ -930,7 +930,7 @@
           "title": "Становништво које живи у релативном сиромаштву према полу",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/7-2-2",
+          "href": "/sr/7-2-2",
           "status": "complete"
         }]
     }
@@ -946,7 +946,7 @@
           "title": "Насиље над женама након напуњених 15 година живота (све врсте)",
           "description": "",
           "keywords": "",
-          "href": "/populationData-site/sr/8-1-1",
+          "href": "/sr/8-1-1",
           "status": "complete"
         }]
     }
