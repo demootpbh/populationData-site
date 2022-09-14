@@ -8,13 +8,13 @@ baseurl: "/populationData-site"
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
 # "Github Pages" section. Copy/paste the link in the green section.
-remote_data_prefix: "https://unfpacobih.github.io/populationData-data"
+remote_data_prefix: "https://demootpbh.github.io/populationData-data"
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 # URL for the "Edit Data" button on indicators.
-data_edit_url: http://prose.io/#UNFPACOBIH/populationData-data/edit/master/data/indicator_[id].csv
+data_edit_url: http://prose.io/#demootpbh/populationData-data/edit/master/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#UNFPACOBIH/populationData-data/edit/master/meta/[id].md
+metadata_edit_url: http://prose.io/#demootpbh/populationData-data/edit/master/meta/[id].md
 #
 # The list of languages that are translated. The first one is the default.
 languages:
@@ -135,7 +135,7 @@ non_global_metadata: indicator.national_metadata
 
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
-goal_image_base: https://unfpacobih.github.io/populationData-site/assets/img/goals
+goal_image_base: https://demootpbh.github.io/populationData-site/assets/img/goals
 
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
