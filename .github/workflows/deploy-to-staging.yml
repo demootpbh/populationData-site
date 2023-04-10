@@ -3,7 +3,7 @@ name: Deploy to staging
 on:
   push:
     branches:
-      - master
+      - develop
   schedule:
     - cron: '10 0 * * *'
   repository_dispatch:
@@ -17,9 +17,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: '2.6'
     - name: Build the site
       run: |
         gem install bundler
@@ -27,9 +27,9 @@ jobs:
         bundle install
         bundle exec jekyll build
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: _site
-        CLEAN: true
+        token: ${{ secrets.token }}
+        branch: gh-pages
+        folder: _site
+        clean: true
