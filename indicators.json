@@ -7,7 +7,7 @@
         
         {
           "id": "1-1-1",
-          "title": "Vital statistics by sex (live births, deaths, natural change)",
+          "title": "Vital statistics by sex",
           "description": "",
           "keywords": "",
           "href": "/1-1-1",
@@ -931,22 +931,6 @@
           "description": "",
           "keywords": "",
           "href": "/7-2-2",
-          "status": "complete"
-        },
-        {
-          "id": "7-2-3",
-          "title": "Unemployment rate by age group and sex (quarterly)",
-          "description": "",
-          "keywords": "",
-          "href": "/7-2-3",
-          "status": "complete"
-        },
-        {
-          "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
-          "description": "",
-          "keywords": "",
-          "href": "/7-3-1",
           "status": "complete"
         },
         {
