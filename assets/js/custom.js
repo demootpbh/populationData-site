@@ -6,6 +6,8 @@ $(document).ready(function () {
    $("#national tr:nth-child(4)").remove();
    $("#national tr:nth-child(4)").remove();
    $("#national tr:nth-child(4)").remove();
+   console.log('test');
+   console.log($("#national tr:nth-child(4)"));
 });
 
 //remove link from dates
