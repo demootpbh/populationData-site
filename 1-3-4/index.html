@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231002132533">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231002133617">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -508,7 +508,7 @@ data-event-label="high"
   data-country="BiH"
   data-charttitle="Deaths by cause of death and sex"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Broj"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,6 +571,8 @@ data-event-label="high"
     <p>Source: BHAS</p>
     
     
+    
+    <p>Unit of Measurement: Broj</p>
     
     
   </div>
@@ -876,6 +878,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Unit of Measurement:</dt>
+        <dd>Broj</dd>
+        
 
         
 
@@ -914,6 +919,9 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Broj</dd>
         
 
         
@@ -1004,7 +1012,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            
+            <p>Umrli je svaka živorođena osoba kod koje je nastupio trajni prestanak svih vitalnih funkcija koje započinju rođenjem bez mogućnosti ponovnog oživljavanja. Ovdje nisu uključeni mrtvorođeni. Uzroci smrti: Sve bolesti, morbidna stanja ili povrede koje su dovele do smrti ili su doprinijele smrti, kao i okolnosti nesreće ili nasilja koje su dovele do takvih povreda.</p>
 
           
         </td>
@@ -1032,7 +1040,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Broj</p>
 
           
         </td>
@@ -1150,7 +1158,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/b67ea813ba25f2e8dd8ff37d309c1c9d64c0fd5a" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/74264260c675c2fd21d2a2e8cc2857a8fb853b55" target="_blank">
                 2023-10-02: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1177,7 +1185,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/b67ea813ba25f2e8dd8ff37d309c1c9d64c0fd5a" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/74264260c675c2fd21d2a2e8cc2857a8fb853b55" target="_blank">
                 2023-10-02: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1864,12 +1872,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20231002132533'></script>
+<script src='/assets/js/sdg.js?v=20231002133617'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231002132533"></script><script>
+    <script src="/assets/js/custom.js?v=20231002133617"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
