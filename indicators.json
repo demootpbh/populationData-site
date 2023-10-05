@@ -32,7 +32,7 @@
         {
           "id": "1-2-2",
           "title": "Total fertility rate",
-          "description": "Stopa ukupnog fertiliteta je odnos broja živorođene djece i ukupnog broja žena (15-49)  i muškaraca (15-64) u fertilnom periodu u posmatranoj kalendarskoj godini, računata na 1000.",
+          "description": "The total fertility rate represents the ratio of the number of live births in the observed calendar year and the total population in the fertile period of the same observed year.",
           "keywords": "",
           "href": "/1-2-2",
           "status": "complete"
