@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231007181343">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231007182214">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -508,7 +508,7 @@ data-event-label="high"
   data-country="BiH"
   data-charttitle="Структура запослених према радном статусу и полу"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="%"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,6 +571,8 @@ data-event-label="high"
     <p>Извор: БХАС</p>
     
     
+    
+    <p>Мјерна јединица: %</p>
     
     
   </div>
@@ -876,6 +878,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Мјерна јединица:</dt>
+        <dd>%</dd>
+        
 
         
 
@@ -914,6 +919,9 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>%</dd>
         
 
         
@@ -1004,7 +1012,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Опис индикатора </th>
         <td>
           
-            
+            <p>Самозапослена лица су лица која раде самостално у властитом предузећу, установи, приватној радњи или на пољопривредном имању, као и лица која обављају самосталну професионалну дјелатност или неки други посао за свој рачун. Запосленици су лица која раде за послодавца у било којем облику својине (јавни или приватни), без обзира на то да ли имају формални уговор о запослењу или раде на основу усменог договора. Чланови домаћинства који помажу у обављању породичног посла и који су плаћени за свој рад сматрају се запосленицима.Помажући чланови домаћинства (неплаћени) су лица која помажу другом члану домаћинства у вођењу породичног посла или пољопривредног имања, а да при томе нису плаћена за тај рад. Ова лица сматрају се запосленима без обзира што нису плаћена за свој рад, јер од свог рада имају користи у виду одређених бенефиција (смјештај, храна и сл.).</p>
 
           
         </td>
@@ -1032,7 +1040,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Мјерна јединица </th>
         <td>
           
-            
+            <p>%</p>
 
           
         </td>
@@ -1150,7 +1158,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/8f59ae30eba353a6a6ffde88befda10afb0aee83" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/bdf3044db5870745df9aa0c147f1d63e6e42b740" target="_blank">
                 2023-10-07: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1177,7 +1185,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/8f59ae30eba353a6a6ffde88befda10afb0aee83" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/bdf3044db5870745df9aa0c147f1d63e6e42b740" target="_blank">
                 2023-10-07: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1860,12 +1868,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231007181343'></script>
+<script src='/assets/js/sdg.js?v=20231007182214'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231007181343"></script><script>
+    <script src="/assets/js/custom.js?v=20231007182214"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
