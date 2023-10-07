@@ -888,7 +888,7 @@
         {
           "id": "7-1-2",
           "title": "Stopa zaposlenosti prema dobnim skupinama i spolu",
-          "description": "",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/bs/7-1-2",
           "status": "complete"
