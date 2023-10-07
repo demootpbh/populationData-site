@@ -8,7 +8,7 @@
         {
           "id": "1-1-1",
           "title": "Vital statistics by sex",
-          "description": "Live birth is the complete expulsion or extraction from its mother of a product of conception, which, after such separation, breaths or shows any other evidence of life such as beating of the heart, pulsation of the umbilical cord, or definite movements of voluntary muscles. If a product of such a births dies, it is first registered as live- born and then as died. A dead person is every live-born person in which there is a permanent disappearance of all evidence of life at any time after live birth has taken place, without capability of resuscitation. Stillbirths are not included here.Natural increase is the difference between the number of live births and the number of deaths.",
+          "description": "metadata_fields.Vitalna",
           "keywords": "",
           "href": "/1-1-1",
           "status": "complete"
@@ -24,7 +24,7 @@
         {
           "id": "1-2-1",
           "title": "Crude birth rate",
-          "description": "General natality rate is the ratio between the number of live-born children and the estimated number of inhabitants per 1000 population.",
+          "description": "metadata_fields.Natalitet",
           "keywords": "",
           "href": "/1-2-1",
           "status": "complete"
@@ -32,7 +32,7 @@
         {
           "id": "1-2-2",
           "title": "Total fertility rate",
-          "description": "The total fertility rate represents the ratio of the number of live births in the observed calendar year and the total population in the fertile period of the same observed year.",
+          "description": "metadata_fields.Fertilitet",
           "keywords": "",
           "href": "/1-2-2",
           "status": "complete"
@@ -48,7 +48,7 @@
         {
           "id": "1-2-4",
           "title": "Sex ratio at birth",
-          "description": "The indicator shows the ratio of the number of boys to 100 girls in the total number of live births.",
+          "description": "metadata_fields.Omjer",
           "keywords": "",
           "href": "/1-2-4",
           "status": "complete"
@@ -56,7 +56,7 @@
         {
           "id": "1-2-5",
           "title": "Births by teenage mothers by age group",
-          "description": "Childbirth is the end of pregnancy, i.e. gestational period with the birth of one or more newborns from the womans uterus.",
+          "description": "metadata_fields.Porodjaj",
           "keywords": "",
           "href": "/1-2-5",
           "status": "complete"
@@ -64,7 +64,7 @@
         {
           "id": "1-3-1",
           "title": "Crude death rate",
-          "description": "General mortality rate is the ratio between a number of dead and an estimated number of inhabitants per 1000 population.",
+          "description": "metadata_fields.Mortalitet",
           "keywords": "",
           "href": "/1-3-1",
           "status": "complete"
@@ -72,7 +72,7 @@
         {
           "id": "1-3-2",
           "title": "Infant (up to 12 months of age) mortality by sex",
-          "description": "Dead infants are considered children who died under one year of age.",
+          "description": "metadata_fields.Umrladojencad",
           "keywords": "",
           "href": "/1-3-2",
           "status": "complete"
@@ -80,7 +80,7 @@
         {
           "id": "1-3-3",
           "title": "Infant (up to 12 months of age) mortality rate",
-          "description": "Infant mortality rate is the ratio between the number of dead infants and the number of live-born children in a given year per per 1000 live-born children.",
+          "description": "metadata_fields.Stopadojencad",
           "keywords": "",
           "href": "/1-3-3",
           "status": "complete"
@@ -88,7 +88,7 @@
         {
           "id": "1-3-4",
           "title": "Deaths by cause of death and sex",
-          "description": "A dead person is every live-born person in which there is a permanent disappearance of all evidence of life at any time after live birth has taken place, without capability of resuscitation. Stillbirths are not included here.",
+          "description": "metadata_fields.Umrli",
           "keywords": "",
           "href": "/1-3-4",
           "status": "complete"
@@ -96,7 +96,7 @@
         {
           "id": "1-3-5",
           "title": "Stillbirths by sex",
-          "description": "A stillborn child is considered a child born or taken out from mother’s body who exhibits no signs of life (not breathing, not moving, no heartbeat) where pregnancy has lasted more than 22 weeks (approximately 6 lunar months) and weight at childbirth has been 500 gr. or more. Expulsion of a dead fetus carried less than 22 weeks considered a miscarriage (abortion), irrespective of whether natural or artificial. These cases are not registered in population registers, nor shown in the tables on stillborn.",
+          "description": "metadata_fields.Mrtvorodjeni",
           "keywords": "",
           "href": "/1-3-5",
           "status": "complete"
@@ -104,7 +104,7 @@
         {
           "id": "1-3-6",
           "title": "Stillbirth rate",
-          "description": "The stillbirth rate represents the ratio between the number of stillbirths and the number of live births in the same year, calculated per 1000 live births.",
+          "description": "metadata_fields.Stopamrtvorodjeni",
           "keywords": "",
           "href": "/1-3-6",
           "status": "complete"
@@ -152,7 +152,7 @@
         {
           "id": "1-6-1",
           "title": "Marriages",
-          "description": "Marriage is a regulated community of life between a woman and a man.",
+          "description": "metadata_fields.Brak",
           "keywords": "",
           "href": "/1-6-1",
           "status": "complete"
@@ -160,7 +160,7 @@
         {
           "id": "1-6-2",
           "title": "Marriage rate",
-          "description": "Marriage rate is the relation between the number of marriage in one year period and the estimated number of inhabitants per 1000 population.",
+          "description": "metadata_fields.Stopanupcijaliteta",
           "keywords": "",
           "href": "/1-6-2",
           "status": "complete"
@@ -168,7 +168,7 @@
         {
           "id": "1-6-3",
           "title": "Divorces",
-          "description": "A marriage is considered divorced when the court decision on the divorce becomes final.",
+          "description": "metadata_fields.Razvedeni",
           "keywords": "",
           "href": "/1-6-3",
           "status": "complete"
@@ -176,7 +176,7 @@
         {
           "id": "1-6-4",
           "title": "Divorce rate",
-          "description": "Stopa divorcijaliteta predstavlja odnos između  broja razvedenih brakova u toku jednogodišnjeg  perioda i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Stopadiv",
           "keywords": "",
           "href": "/1-6-4",
           "status": "complete"
@@ -816,7 +816,7 @@
         {
           "id": "5-7-2",
           "title": "NEET_Population not in employment, education or training by age groups and sex",
-          "description": "The indicator presents the share of young people who are not in employment, education or training (NEET), as a percentage of the total number of people in the corresponding age group.",
+          "description": "metadata_fields.NEET",
           "keywords": "",
           "href": "/5-7-2",
           "status": "complete"
@@ -880,7 +880,7 @@
         {
           "id": "7-1-1",
           "title": "Activity rate by age group and sex",
-          "description": "The activity rate is the share of the active population (labour force) in the total working age population.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/7-1-1",
           "status": "complete"
@@ -888,7 +888,7 @@
         {
           "id": "7-1-2",
           "title": "Employment rate by age group and sex",
-          "description": "The employment rate is the share of employed persons in the total working age population.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/7-1-2",
           "status": "complete"
@@ -896,7 +896,7 @@
         {
           "id": "7-1-3",
           "title": "Unemployment rate by age group and sex",
-          "description": "Unemployment rate is the share of unemployed persons in the total active population.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/7-1-3",
           "status": "complete"
@@ -904,7 +904,7 @@
         {
           "id": "7-1-4",
           "title": "Status in employment by gender",
-          "description": "Self-employed persons are persons who work independently in their own company, institution, private shop or on an agricultural farm, as well as persons who perform independent professional activity or some other job for their own account.Employees are persons who work for an employer in any form of ownership (public or private), regardless of whether they have a formal employment contract or work on the basis of an oral agreement. Household members who help with family work and who are paid for their work are considered employees.Contributing family workers (unpaid) are persons who assist another household member in running a family business or farm without being paid for the work. These persons are considered employed regardless of the fact that they are not paid for their work, because they benefit from their work in the form of certain benefits (accommodation, food, etc.).",
+          "description": "metadata_fields.Zaposleni",
           "keywords": "",
           "href": "/7-1-4",
           "status": "complete"
@@ -920,7 +920,7 @@
         {
           "id": "7-2-1",
           "title": "Activity rate by age group and sex (quarterly)",
-          "description": "The activity rate is the share of the active population (labour force) in the total working age population.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/7-2-1",
           "status": "complete"
@@ -928,7 +928,7 @@
         {
           "id": "7-2-2",
           "title": "Employment rate by age group and sex (quarterly)",
-          "description": "The employment rate is the share of employed persons in the total working age population.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/7-2-2",
           "status": "complete"
@@ -936,7 +936,7 @@
         {
           "id": "7-2-3",
           "title": "Unemployment rate by age group and sex (quarterly)",
-          "description": "Unemployment rate is the share of unemployed persons in the total active population.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/7-2-3",
           "status": "complete"
