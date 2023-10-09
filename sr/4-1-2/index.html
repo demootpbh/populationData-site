@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231009144556">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231009180726">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -508,7 +508,7 @@ data-event-label="high"
   data-country="BiH"
   data-charttitle="Корисници социјалне заштите према врсти установе и полу"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Број"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -568,9 +568,9 @@ data-event-label="high"
 
   <div id="datatableFooter">
     
-    <p>Извор: </p>
     
     
+    <p>Мјерна јединица: Број</p>
     
     
   </div>
@@ -873,6 +873,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Мјерна јединица:</dt>
+        <dd>Број</dd>
+        
 
         
 
@@ -908,6 +911,9 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>Број</dd>
         
 
         
@@ -998,7 +1004,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Опис индикатора </th>
         <td>
           
-            
+            <p>Корисником социјалне заштите сматра се свако лице које је у току извјештајне године једном или више пута користило одређене облике и мјере социјалне заштите и услуге социјалног рада. Корисници су разврстани у двије основне добне групе - малољетни и пунољетни корисници. Установе социјалне заштите су домови за дјецу и омладину без родитељског старања, установе социјалне заштите за инвалидну дјецу, омладину и одрасле ометене у развоју, установе социјалне заштите за одрасле инвалиднa лица и  установе социјалне заштите за одрасла лица.</p>
 
           
         </td>
@@ -1026,7 +1032,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Мјерна јединица </th>
         <td>
           
-            
+            <p>Број</p>
 
           
         </td>
@@ -1144,7 +1150,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/73e4d72db060a7a22905ac51838ad5a560763b71" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/1da98fb41842950eff27bd9b7b6dd4eb06c2f009" target="_blank">
                 2023-10-09: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1171,7 +1177,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/73e4d72db060a7a22905ac51838ad5a560763b71" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/1da98fb41842950eff27bd9b7b6dd4eb06c2f009" target="_blank">
                 2023-10-09: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1854,12 +1860,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231009144556'></script>
+<script src='/assets/js/sdg.js?v=20231009180726'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231009144556"></script><script>
+    <script src="/assets/js/custom.js?v=20231009180726"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
