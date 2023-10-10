@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231010183707">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231010184449">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -508,7 +508,7 @@ data-event-label="high"
   data-country="BiH"
   data-charttitle="Enrolled in undergraduate studies by sex"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Number"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,6 +571,8 @@ data-event-label="high"
     <p>Source: BHAS</p>
     
     
+    
+    <p>Unit of Measurement: Number</p>
     
     
   </div>
@@ -876,6 +878,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Unit of Measurement:</dt>
+        <dd>Number</dd>
+        
 
         
 
@@ -914,6 +919,9 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Number</dd>
         
 
         
@@ -1004,7 +1012,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            
+            <p>Enrolled student is every person enrolled at higher education institution. Higher education institutions are higher education schools and universities.The name higher education school refers to a higher education institution that realises at least one study programme from one field of study.The name university refers to a higher education institution that realises at least five different study programmes from at least three fields of study and academic levels of all three cycles. University has organizational units such as faculties, academies or scientific institutes.</p>
 
           
         </td>
@@ -1032,7 +1040,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Number</p>
 
           
         </td>
@@ -1150,7 +1158,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/45242df3d1780012931188c66e8f17d3586bcf23" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/b776e46adb12608c1d0086104cdd9c20d3ae023a" target="_blank">
                 2023-10-10: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1177,7 +1185,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/45242df3d1780012931188c66e8f17d3586bcf23" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/b776e46adb12608c1d0086104cdd9c20d3ae023a" target="_blank">
                 2023-10-10: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1860,12 +1868,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20231010183707'></script>
+<script src='/assets/js/sdg.js?v=20231010184449'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231010183707"></script><script>
+    <script src="/assets/js/custom.js?v=20231010184449"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
