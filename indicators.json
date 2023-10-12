@@ -328,7 +328,7 @@
         {
           "id": "2-3-2",
           "title": "Population over 15 years of age by educational attainment and sex",
-          "description": "",
+          "description": "metadata_fields.Zavrsenaskola",
           "keywords": "",
           "href": "/2-3-2",
           "status": "complete"
