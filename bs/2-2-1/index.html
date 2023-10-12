@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231012185944">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231012190916">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -508,7 +508,7 @@ data-event-label="high"
   data-country="BiH"
   data-charttitle="Domaćinstva prema broju članova"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Broj"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -571,6 +571,8 @@ data-event-label="high"
     <p>Izvor: BHAS</p>
     
     
+    
+    <p>Mjerna jedinica: Broj</p>
     
     
   </div>
@@ -876,6 +878,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Mjerna jedinica:</dt>
+        <dd>Broj</dd>
+        
 
         
 
@@ -914,6 +919,9 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
 
+        
+        <dt>Mjerna jedinica:</dt>
+        <dd>Broj</dd>
         
 
         
@@ -990,7 +998,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Dostupni indikatori </th>
         <td>
           
-            
+            <p>Domaćinstvom se smatra svaka porodična ili druga zajednica osoba (višečlano domaćinstvo), tj. grupa od dvije ili više osoba koje zajedno zauzimaju cijelu stambenu jedinicu ili njen dio i osiguravaju sebi hranu, a moguće i ostale potrepštine za život. Domaćinstvom se smatra i svaka osoba koja živi sama („samačko domaćinstvo“), tj. osoba koja živi sama u posebnoj stambenoj jedinici ili koja zauzima, kao stanar, posebnu sobu (ili sobe) u nekoj stambenoj jedinici, ali ni s jednim stanarom te stambene jedinice zajednički ne čini dio višečlanog domaćinstva.</p>
 
           
         </td>
@@ -1032,7 +1040,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Mjerna jedinica </th>
         <td>
           
-            
+            <p>Broj</p>
 
           
         </td>
@@ -1150,7 +1158,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/5bd5ad6d8dbc7a0de919a6883c9c84c6a07e41f1" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/c9b71264e3e4773a1737f4c9fdb1e112f338491f" target="_blank">
                 2023-10-12: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1177,7 +1185,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/demootpbh/populationData-data/commit/5bd5ad6d8dbc7a0de919a6883c9c84c6a07e41f1" target="_blank">
+              <a href="https://github.com/demootpbh/populationData-data/commit/c9b71264e3e4773a1737f4c9fdb1e112f338491f" target="_blank">
                 2023-10-12: see changes on GitHub <span class="visuallyhidden"></span>
               </a>
             
@@ -1864,12 +1872,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20231012185944'></script>
+<script src='/assets/js/sdg.js?v=20231012190916'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231012185944"></script><script>
+    <script src="/assets/js/custom.js?v=20231012190916"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
