@@ -8,7 +8,7 @@
         {
           "id": "1-1-1",
           "title": "Vitalna statistika prema spolu",
-          "description": "Živorođenim se smatra svako dijete koje pri rođenju diše i pokazuje druge znakove života kao što su lupanje srca, pulsiranje pupkovine i nedvojbeno kretanje voljnih mišića. Ako dijete umre neposredno nakon rođenja, prvo se upisuje kao živorođeno, a zatim kao mrtvorođeno. Umrla je svaka živorođena osoba kod koje je počevši od rođenja došlo do trajnog prestanka svih vitalnih funkcija bez mogućnosti oživljavanja. Ovdje nisu uključena mrtvorođena djeca. Prirodni prirast je razlika između broja živorođenih i broja umrlih.",
+          "description": "metadata_fields.Vitalna",
           "keywords": "",
           "href": "/hr/1-1-1",
           "status": "complete"
@@ -24,7 +24,7 @@
         {
           "id": "1-2-1",
           "title": "Stopa nataliteta",
-          "description": "Opća stopa nataliteta predstavlja omjer između broja živorođenih i procijenjenog broja stanovnika, preračunato na 1000 stanovnika.",
+          "description": "metadata_fields.Natalitet",
           "keywords": "",
           "href": "/hr/1-2-1",
           "status": "complete"
@@ -32,7 +32,7 @@
         {
           "id": "1-2-2",
           "title": "Stopa ukupnog fertiliteta",
-          "description": "Stopa ukupnog fertiliteta je odnos broja živorođene djece i ukupnog broja žena određene dobne skupine u fertilnom periodu u promatranoj kalendarskoj godini, računato na 1000 žena.",
+          "description": "metadata_fields.Fertilitet",
           "keywords": "",
           "href": "/hr/1-2-2",
           "status": "complete"
@@ -48,7 +48,7 @@
         {
           "id": "1-2-4",
           "title": "Omjer muške i ženske novorođenčadi",
-          "description": "Indikator pokazuje odnos broja dječaka na 100 djevojčica u ukupnom broju živorođenih.",
+          "description": "metadata_fields.Omjer",
           "keywords": "",
           "href": "/hr/1-2-4",
           "status": "complete"
@@ -56,7 +56,7 @@
         {
           "id": "1-2-5",
           "title": "Broj porođaja adolescentkinja prema dobnim skupinama",
-          "description": "Porođaj  je završetak trudnoće, odnosno gestacijskog perioda rađanjem jednog ili više novorođenčadi iz maternice žene.",
+          "description": "metadata_fields.Porodjaj",
           "keywords": "",
           "href": "/hr/1-2-5",
           "status": "complete"
@@ -64,7 +64,7 @@
         {
           "id": "1-3-1",
           "title": "Stopa mortaliteta",
-          "description": "Opća stopa mortaliteta predstavlja odnos između broja umrlih i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Mortalitet",
           "keywords": "",
           "href": "/hr/1-3-1",
           "status": "complete"
@@ -72,7 +72,7 @@
         {
           "id": "1-3-2",
           "title": "Umrla novorođenčad prema spolu",
-          "description": "Umrlom dojenčadi smatraju se djeca koja su umrla prije navršene prve godine života.",
+          "description": "metadata_fields.Umrladojencad",
           "keywords": "",
           "href": "/hr/1-3-2",
           "status": "complete"
@@ -88,7 +88,7 @@
         {
           "id": "1-3-4",
           "title": "Umrli prema uzroku smrti i spolu",
-          "description": "Umrli je svaka živorođena osoba kod koje je nastupio trajni prestanak svih vitalnih funkcija koje započinju rođenjem bez mogućnosti ponovnog oživljavanja. Ovdje nisu uključeni mrtvorođeni.",
+          "description": "metadata_fields.Umrli",
           "keywords": "",
           "href": "/hr/1-3-4",
           "status": "complete"
@@ -96,7 +96,7 @@
         {
           "id": "1-3-5",
           "title": "Mrtvorođeni prema spolu",
-          "description": "Mrtvorođenim se smatra dijete rođeno, odnosno izvađeno iz tijela majke bez ikakvih znakova života, tj. ako nije disalo niti pokazivalo neki drugi znak života, a nošeno je duže od 22 tjedna (približno 6 mjeseci) i koje ima porođajnu težinu 500 gr i više. Izbacivanje mrtvog ploda koji je nošen manje od 22 tjedna, smatra se pobačajem (abortusom), bez obzira na to da li je riječ o prirodnom ili namjernom prekidu trudnoće, i ne registrira se u matičnim knjigama, niti su ti podaci iskazani u ukupnom broju mrtvorođenih.",
+          "description": "metadata_fields.Mrtvorodjeni",
           "keywords": "",
           "href": "/hr/1-3-5",
           "status": "complete"
@@ -104,7 +104,7 @@
         {
           "id": "1-3-6",
           "title": "Stopa mrtvorođenih",
-          "description": "Stopa mrtvorođenih predstavlja odnos između broja mrtvorođenih i broja živorođenih iste godine, računato na 1000 živorođenih.",
+          "description": "metadata_fields.Stopamrtvorodjeni",
           "keywords": "",
           "href": "/hr/1-3-6",
           "status": "complete"
@@ -152,7 +152,7 @@
         {
           "id": "1-6-1",
           "title": "Zaključeni brakovi",
-          "description": "Brak je zakonom uređena zajednica života žene i muškarca.",
+          "description": "metadata_fields.Brak",
           "keywords": "",
           "href": "/hr/1-6-1",
           "status": "complete"
@@ -160,7 +160,7 @@
         {
           "id": "1-6-2",
           "title": "Stopa nupcijaliteta",
-          "description": "Stopa nupcijaliteta predstavlja odnos između broja sklopljenih brakova u tijeku jednogodišnjeg razdoblja i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Stopanupcijaliteta",
           "keywords": "",
           "href": "/hr/1-6-2",
           "status": "complete"
@@ -168,7 +168,7 @@
         {
           "id": "1-6-3",
           "title": "Razvedeni brakovi",
-          "description": "Brak se smatra razvedenim kada sudska presuda o razvodu braka postane pravosnažna.",
+          "description": "metadata_fields.Razvedeni",
           "keywords": "",
           "href": "/hr/1-6-3",
           "status": "complete"
@@ -176,7 +176,7 @@
         {
           "id": "1-6-4",
           "title": "Stopa divorcijaliteta",
-          "description": "Stopa divorcijaliteta predstavlja odnos između broja razvedenih brakova u tijeku jednogodišnjeg razdoblja i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Stopadiv",
           "keywords": "",
           "href": "/hr/1-6-4",
           "status": "complete"
@@ -576,7 +576,7 @@
         {
           "id": "4-1-1",
           "title": "Korisnici socijalne skrbi prema vrsti korisnika i spolu",
-          "description": "Kоrisnikоm sоciјаlnе skrbi smаtrа sе svаka osoba kоja је tijekom izvјеštајnе gоdinе јеdnоm ili višе putа kоristila оdrеđеnе оblikе i mјеrе sоciјаlnе skrbi i uslugе sоciјаlnоg rаdа. Kоrisnici su rаzvrstаni u dviје оsnоvnе dоbnе skupine - mаlоlјеtni i punоlјеtni kоrisnici. Маlоlјеtnici ugrоžеni obiteljskom situаciјоm suBеz оbа rоditеlја, nеpоznаtih rоditеlја, napušteni od roditelja, djeca roditelja spriječenih da obavljaju roditeljsku duznost, djeca roditelja lišenih roditeljskih prava, iz materijalno ugroženih obitelji, iz porodica s poremećenim obiteljskim odnosima i ostali maloljetnici ugroženi obiteljskom situacijom, zatim maloljetnici ometeni u fizičkom i psihičkom razvoju, maloljetnici sa poremećajima u ponašanju i ličnosti i maloljetnici korisnici u stanju različitih socijalno-zaštitnih potreba. Punoljetni korisnici, odnosno korisnici subvencioniranja troškova su fizički i psihički оmеtеni sa оštеćеnim vidоm, оštеćеnim sluhоm, fizički invаlidni, mеntаlnо nеdоvоlјnо rаzviјеne osobe, ostаle invаlidne osobe, osobe sа kоmbinоvаnim smеtnjаmа, osobe društvеnо nеprihvаtlјivоg pоnаšаnjа, psihički bolesne osobe, osobe kоје nеmајu dоvоlјnо prihоdа zа izdržаvаnjе, mаtеriјаlnо nеоsigurаne, bez specifične kategorije.",
+          "description": "metadata_fields.Socijalnazastita",
           "keywords": "",
           "href": "/hr/4-1-1",
           "status": "complete"
@@ -584,7 +584,7 @@
         {
           "id": "4-1-2",
           "title": "Korisnici socijalne skrbi prema vrsti ustanove i spolu",
-          "description": "Kоrisnikоm sоciјаlnе skrbi smаtrа sе svаka osoba kоja је tijekom izvјеštајnе gоdinе јеdnоm ili višе putа kоristila оdrеđеnе оblikе i mјеrе sоciјаlnе skrbi i uslugе sоciјаlnоg rаdа. Kоrisnici su rаzvrstаni u dviје оsnоvnе dоbnе skupine - mаlоlјеtni i punоlјеtni kоrisnici. Ustanove socijalne skrbi su dоmоvi zа dјеcu i mladež bеz rоditеlјskоg stаrаnjа, ustаnоvе sоciјаlnе skrbi zа invаlidnu dјеcu, mladež i оdrаslе оmеtеnе u rаzvојu, ustаnоvе sоciјаlnе skrbi zа оdrаsle invаlidne osobe, ustаnоvе sоciјаlnе skrbi zа оdrаsle osobe.",
+          "description": "metadata_fields.Socijalnaustanove",
           "keywords": "",
           "href": "/hr/4-1-2",
           "status": "complete"
@@ -600,7 +600,7 @@
         {
           "id": "5-1-1",
           "title": "Broj predškolskih ustanova prema svojini",
-          "description": "Predškolski odgoj i obrazovanje je djelatnost koja obuhvaća vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizira se u odgojnim skupinama prema uzrastu djece. Odgojne skupine mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - skupine za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-1",
           "status": "complete"
@@ -608,7 +608,7 @@
         {
           "id": "5-1-2",
           "title": "Broj djece u predškolskim ustanovama prema spolu",
-          "description": "Predškolski odgoj i obrazovanje je djelatnost koja obuhvaća vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizira se u odgojnim skupinama prema uzrastu djece. Odgojne skupine mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - skupine za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-2",
           "status": "complete"
@@ -616,7 +616,7 @@
         {
           "id": "5-1-3",
           "title": "Broj djece u jaslicama prema spolu",
-          "description": "Predškolski odgoj i obrazovanje je djelatnost koja obuhvaća vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizira se u odgojnim skupinama prema uzrastu djece. Odgojne skupine mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - skupine za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-3",
           "status": "complete"
@@ -624,7 +624,7 @@
         {
           "id": "5-1-4",
           "title": "Broj vaspitača u predškolskim ustanovama prema spolu",
-          "description": "Predškolski odgoj i obrazovanje je djelatnost koja obuhvaća vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizira se u odgojnim skupinama prema uzrastu djece. Odgojne skupine mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - skupine za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-4",
           "status": "complete"
@@ -632,7 +632,7 @@
         {
           "id": "5-2-1",
           "title": "Broj učenika na početku školske godine prema spolu (osnovna škola)",
-          "description": "Školom se u statistici obrazovanja smatra skupina učenika organiziranih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovitim osnovnim školama.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/hr/5-2-1",
           "status": "complete"
@@ -640,7 +640,7 @@
         {
           "id": "5-2-2",
           "title": "Broj učenika koji su završili osnovnu školu prema spolu",
-          "description": "Školom se u statistici obrazovanja smatra skupina učenika organiziranih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovitim osnovnim školama.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/hr/5-2-2",
           "status": "complete"
@@ -648,7 +648,7 @@
         {
           "id": "5-2-3",
           "title": "Broj nastavnika u osnovnim školama prema spolu",
-          "description": "Školom se u statistici obrazovanja smatra skupina učenika organiziranih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovitim osnovnim školama.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/hr/5-2-3",
           "status": "complete"
@@ -656,7 +656,7 @@
         {
           "id": "5-3-1",
           "title": "Broj učenika na početku školske godine prema spolu (srednja škola)",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-1",
           "status": "complete"
@@ -664,7 +664,7 @@
         {
           "id": "5-3-2",
           "title": "Broj učenika na početku školske godine prema vrsti srednje škole",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-2",
           "status": "complete"
@@ -672,7 +672,7 @@
         {
           "id": "5-3-3",
           "title": "Broj učenika koji su završili srednju školu prema spolu",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-3",
           "status": "complete"
@@ -680,7 +680,7 @@
         {
           "id": "5-3-4",
           "title": "Broj učenika koji su završili srednju školu prema vrsti škole",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-4",
           "status": "complete"
@@ -688,7 +688,7 @@
         {
           "id": "5-3-5",
           "title": "Broj nastavnika u srednjim školama prema spolu",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-5",
           "status": "complete"
@@ -696,7 +696,7 @@
         {
           "id": "5-4-1",
           "title": "Upisani u osnovne studijske programe prema spolu",
-          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Visokoškolske ustanove su visoke škole i univerziteti. Naziv Visoka škola odnosi se na visokoškolsku ustanovu, koja realizira najmanje jedan studijski program iz jedne znanstvene oblasti.Naziv Sveučilište odnosi se na visokoškolsku ustanovu koja realizira najmanje pet različitih studijskih programa iz najmanje tri znanstvene oblasti i akademska stupnja sva tri ciklusa. Sveučilište ima organizacijske jedinice kao što su fakulteti, akademije ili znanstveni instituti.",
+          "description": "metadata_fields.Visokosk",
           "keywords": "",
           "href": "/hr/5-4-1",
           "status": "complete"
@@ -704,7 +704,7 @@
         {
           "id": "5-4-2",
           "title": "Diplomirani studenti prema spolu",
-          "description": "Diplomirani student je osoba koja dobiva diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
+          "description": "metadata_fields.Diplomiranistudent",
           "keywords": "",
           "href": "/hr/5-4-2",
           "status": "complete"
@@ -712,7 +712,7 @@
         {
           "id": "5-4-3",
           "title": "Diplomirani studenti prema oblasti obrazovanja",
-          "description": "Diplomirani student je osoba koja dobiva diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
+          "description": "metadata_fields.Diplomiranistudent",
           "keywords": "",
           "href": "/hr/5-4-3",
           "status": "complete"
@@ -720,7 +720,7 @@
         {
           "id": "5-5-1",
           "title": "Upisani na integrirane studije prema spolu",
-          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Integrisane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "metadata_fields.Upisanistudent",
           "keywords": "",
           "href": "/hr/5-5-1",
           "status": "complete"
@@ -728,7 +728,7 @@
         {
           "id": "5-5-2",
           "title": "Diplomirani studenti integriranih studija prema spolu",
-          "description": "Završetkom integrisanih  studija osoba stiče akademsko zvanje u određenoj oblasti, ovisno od vrste završenog studijskog programa. Integrisane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "metadata_fields.Studentizavrsili",
           "keywords": "",
           "href": "/hr/5-5-2",
           "status": "complete"
@@ -736,7 +736,7 @@
         {
           "id": "5-5-3",
           "title": "Diplomirani studenti integriranih studija oblasti obrazovanja",
-          "description": "Završetkom integrisanih  studija osoba stiče akademsko zvanje u određenoj oblasti, ovisno od vrste završenog studijskog programa. Integrisane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "metadata_fields.Studentizavrsili",
           "keywords": "",
           "href": "/hr/5-5-3",
           "status": "complete"
@@ -744,7 +744,7 @@
         {
           "id": "5-5-4",
           "title": "Upisani na magistarske, master i specijalističke studije prema spolu",
-          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije drugog ciklusa organiziraju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova.",
+          "description": "metadata_fields.Magistri",
           "keywords": "",
           "href": "/hr/5-5-4",
           "status": "complete"
@@ -752,7 +752,7 @@
         {
           "id": "5-5-5",
           "title": "Upisani na magistarske, master i specijalističke studije prema oblasti obrazovanja",
-          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije drugog ciklusa organiziraju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova.",
+          "description": "metadata_fields.Magistri",
           "keywords": "",
           "href": "/hr/5-5-5",
           "status": "complete"
@@ -760,7 +760,7 @@
         {
           "id": "5-5-6",
           "title": "Magistri nauka, masteri i specijalisti prema spolu",
-          "description": "Magistar znanosti je osoba koja je završila postdiplomske studije te odbranila magistarsku tezu.Master je osoba koja je završila studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je osoba koja je završila postdiplomske studije, te odbranila specijalistički rad.",
+          "description": "metadata_fields.Zvanjamag",
           "keywords": "",
           "href": "/hr/5-5-6",
           "status": "complete"
@@ -768,7 +768,7 @@
         {
           "id": "5-5-7",
           "title": "Magistri nauka, masteri i specijalisti prema oblasti obrazovanja",
-          "description": "Magistar znanosti je osoba koja je završila postdiplomske studije te odbranila magistarsku tezu.Master je osoba koja je završila studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je osoba koja je završila postdiplomske studije, te odbranila specijalistički rad.",
+          "description": "metadata_fields.Zvanjamag",
           "keywords": "",
           "href": "/hr/5-5-7",
           "status": "complete"
@@ -776,7 +776,7 @@
         {
           "id": "5-6-1",
           "title": "Upisani na doktorske studije prema spolu",
-          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija,odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
+          "description": "metadata_fields.Upisanidoktori",
           "keywords": "",
           "href": "/hr/5-6-1",
           "status": "complete"
@@ -784,7 +784,7 @@
         {
           "id": "5-6-2",
           "title": "Upisani na doktorske studije prema oblasti obrazovanja",
-          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija,odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
+          "description": "metadata_fields.Upisanidoktori",
           "keywords": "",
           "href": "/hr/5-6-2",
           "status": "complete"
@@ -792,7 +792,7 @@
         {
           "id": "5-6-3",
           "title": "Doktori nauka prema spolu",
-          "description": "Doktor znanosti je osoba koja je odbranila doktorsku disertaciju.",
+          "description": "metadata_fields.Doktornauka",
           "keywords": "",
           "href": "/hr/5-6-3",
           "status": "complete"
@@ -800,7 +800,7 @@
         {
           "id": "5-6-4",
           "title": "Doktori nauka prema oblasti obrazovanja",
-          "description": "Doktor znanosti je osoba koja je odbranila doktorsku disertaciju.",
+          "description": "metadata_fields.Doktornauka",
           "keywords": "",
           "href": "/hr/5-6-4",
           "status": "complete"
@@ -808,7 +808,7 @@
         {
           "id": "5-7-1",
           "title": "Stanovništvo u dobi od 25-64 godine upisano u neformalno obrazovanje odraslih, prema starosnoj dobi i spolu",
-          "description": "Neformalno obrazovanje je organizirani proces učenja i obrazovanja usmjeren na osposobljavanje odraslih za rad, za različite društvene aktivnosti, za osobni razvoj i nadopunjavanje znanja, vještina i sposobnosti prema posebnim programima koje provode organizatori obrazovanja (škole, centri za osposobljavanje, poslovni subjekti, agencije i sl.) i koji se odvija neovisno o službenom (formalnom) sustavu obrazovanja i ne dovodi do stjecanja javnih isprava (diploma i kvalifikacija).",
+          "description": "metadata_fields.Neformalnoobrazovanje",
           "keywords": "",
           "href": "/hr/5-7-1",
           "status": "complete"
@@ -816,7 +816,7 @@
         {
           "id": "5-7-2",
           "title": "NEET_Stanovništvo koje nije zaposleno, ne obrazuje se niti se usavršava, prema dobnoj skupini i spolu",
-          "description": "Indikator pokazuje udio stanovništava koje nije zaposleno, niti se obrazuje niti usavršava u ukupnom stanovništvu iste dobne skupine.",
+          "description": "metadata_fields.NEET",
           "keywords": "",
           "href": "/hr/5-7-2",
           "status": "complete"
@@ -880,7 +880,7 @@
         {
           "id": "7-1-1",
           "title": "Stopa aktivnosti prema dobnim skupinama i spolu",
-          "description": "Stopa aktivnosti je udio aktivnog stanovništva (radne snage) u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/hr/7-1-1",
           "status": "complete"
@@ -888,7 +888,7 @@
         {
           "id": "7-1-2",
           "title": "Stopa zaposlenosti prema dobnim skupinama i spolu",
-          "description": "Stopa zaposlenosti je udio zaposlenih osoba u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/hr/7-1-2",
           "status": "complete"
@@ -896,7 +896,7 @@
         {
           "id": "7-1-3",
           "title": "Stopa nezaposlenosti prema dobnim skupinama i spolu",
-          "description": "Stopa nezaposlenosti je udio nezaposlenih osoba u ukupnom aktivnom stanovništvu.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/hr/7-1-3",
           "status": "complete"
@@ -904,7 +904,7 @@
         {
           "id": "7-1-4",
           "title": "Struktura zaposlenih prema radnom statusu i spolu",
-          "description": "Samozaposlene osobe su osobe koje rade samostalno u vlastitom poduzeću, ustanovi, privatnoj radnji ili na poljoprivrednom imanju, kao i osobe koje obavljaju samostalnu profesionalnu djelatnost ili neki drugi posao za svoj račun.Zaposlenici su osobe koje rade za poslodavca u bilo kojem obliku svojine, bez obzira na to da li imaju formalni ugovor o zaposlenju ili rade na temelju usmenog dogovora. Pomažući članovi kućanstva (neplaćeni) su osobe koje pomažu drugom članu kućanstva u vođenju obiteljskog posla ili poljoprivrednog gospodarstva, a da pri tome nisu plaćene za taj rad.",
+          "description": "metadata_fields.Zaposleni",
           "keywords": "",
           "href": "/hr/7-1-4",
           "status": "complete"
@@ -920,7 +920,7 @@
         {
           "id": "7-2-1",
           "title": "Stopa aktivnosti prema dobnim skupinama i spolu (kvartalno)",
-          "description": "Stopa aktivnosti je udio aktivnog stanovništva (radne snage) u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/hr/7-2-1",
           "status": "complete"
@@ -928,7 +928,7 @@
         {
           "id": "7-2-2",
           "title": "Stopa zaposlenosti prema dobnim skupinama i spolu (kvartalno)",
-          "description": "Stopa zaposlenosti je udio zaposlenih osoba u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/hr/7-2-2",
           "status": "complete"
@@ -936,7 +936,7 @@
         {
           "id": "7-2-3",
           "title": "Stopa nezaposlenosti prema dobnim skupinama i spolu (kvartalno)",
-          "description": "Stopa nezaposlenosti je udio nezaposlenih osoba u ukupnom aktivnom stanovništvu.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/hr/7-2-3",
           "status": "complete"
@@ -944,7 +944,7 @@
         {
           "id": "7-3-1",
           "title": "Kućanstva koja žive u relativnom siromaštvu",
-          "description": "Liniја sirоmаštvа: prаg u оdnоsu nа izdаtkе zа pоtrоšnju pо kојеm sе kućanstva svrstаvајu u kаtеgоriјu sirоmаšnih kućanstava i оnih kоја nisu sirоmаšnа. Rеlаtivnа liniја sirоmаštvа је pоstаvlјеnа nа 60% mеdiјаnе izјеdnаčеnih mјеsеčnih izdаtаkа zа pоtrоšnju.Izјеdnаčеni izdаci zа pоtrоšnju kućanstava: mјеsеčni izdаci kućanstva pоdiјеlјеni sа еkvivаlеntnоm vеličinоm kućanstva, prеmа tzv. „mоdifikоvаnој skаli еkvivаlеntnоsti – ОЕCD“ (skаlа еkvivаlеntnоsti dаје pоndеr 1,0 nоsitelju kućanstva, 0,5 drugim člаnоvimа оd 14 gоdinа i višе i 0,3 svаkоm dјеtеtu ispоd 14 gоdinа).",
+          "description": "metadata_fields.Relativnosiromastvo",
           "keywords": "",
           "href": "/hr/7-3-1",
           "status": "complete"
@@ -952,7 +952,7 @@
         {
           "id": "7-3-2",
           "title": "Stanovništvo koje živi u relativnom siromaštvu prema spolu",
-          "description": "Liniја sirоmаštvа: prаg u оdnоsu nа izdаtkе zа pоtrоšnju pо kојеm sе kućanstva svrstаvајu u kаtеgоriјu sirоmаšnih kućanstava i оnih kоја nisu sirоmаšnа. Rеlаtivnа liniја sirоmаštvа је pоstаvlјеnа nа 60% mеdiјаnе izјеdnаčеnih mјеsеčnih izdаtаkа zа pоtrоšnju.Izјеdnаčеni izdаci zа pоtrоšnju kućanstava: mјеsеčni izdаci kućanstva pоdiјеlјеni sа еkvivаlеntnоm vеličinоm kućanstva, prеmа tzv. „mоdifikоvаnој skаli еkvivаlеntnоsti – ОЕCD“ (skаlа еkvivаlеntnоsti dаје pоndеr 1,0 nоsitelju kućanstva, 0,5 drugim člаnоvimа оd 14 gоdinа i višе i 0,3 svаkоm dјеtеtu ispоd 14 gоdinа).",
+          "description": "metadata_fields.Relativnosiromastvo",
           "keywords": "",
           "href": "/hr/7-3-2",
           "status": "complete"

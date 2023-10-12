@@ -8,7 +8,7 @@
         {
           "id": "1-1-1",
           "title": "Vital statistics by sex",
-          "description": "Live birth is the complete expulsion or extraction from its mother of a product of conception, which, after such separation, breaths or shows any other evidence of life such as beating of the heart, pulsation of the umbilical cord, or definite movements of voluntary muscles. If a product of such a births dies, it is first registered as live- born and then as died. A dead person is every live-born person in which there is a permanent disappearance of all evidence of life at any time after live birth has taken place, without capability of resuscitation. Stillbirths are not included here.Natural increase is the difference between the number of live births and the number of deaths.",
+          "description": "metadata_fields.Vitalna",
           "keywords": "",
           "href": "/1-1-1",
           "status": "complete"
@@ -24,7 +24,7 @@
         {
           "id": "1-2-1",
           "title": "Crude birth rate",
-          "description": "General natality rate is the ratio between the number of live-born children and the estimated number of inhabitants per 1000 population.",
+          "description": "metadata_fields.Natalitet",
           "keywords": "",
           "href": "/1-2-1",
           "status": "complete"
@@ -32,7 +32,7 @@
         {
           "id": "1-2-2",
           "title": "Total fertility rate",
-          "description": "The total fertility rate represents the ratio of the number of live births in the observed calendar year and the total population in the fertile period of the same observed year.",
+          "description": "metadata_fields.Fertilitet",
           "keywords": "",
           "href": "/1-2-2",
           "status": "complete"
@@ -48,7 +48,7 @@
         {
           "id": "1-2-4",
           "title": "Sex ratio at birth",
-          "description": "The indicator shows the ratio of the number of boys to 100 girls in the total number of live births.",
+          "description": "metadata_fields.Omjer",
           "keywords": "",
           "href": "/1-2-4",
           "status": "complete"
@@ -56,7 +56,7 @@
         {
           "id": "1-2-5",
           "title": "Births by teenage mothers by age group",
-          "description": "Childbirth is the end of pregnancy, i.e. gestational period with the birth of one or more newborns from the womans uterus.",
+          "description": "metadata_fields.Porodjaj",
           "keywords": "",
           "href": "/1-2-5",
           "status": "complete"
@@ -64,7 +64,7 @@
         {
           "id": "1-3-1",
           "title": "Crude death rate",
-          "description": "General mortality rate is the ratio between a number of dead and an estimated number of inhabitants per 1000 population.",
+          "description": "metadata_fields.Mortalitet",
           "keywords": "",
           "href": "/1-3-1",
           "status": "complete"
@@ -72,7 +72,7 @@
         {
           "id": "1-3-2",
           "title": "Infant (up to 12 months of age) mortality by sex",
-          "description": "Dead infants are considered children who died under one year of age.",
+          "description": "metadata_fields.Umrladojencad",
           "keywords": "",
           "href": "/1-3-2",
           "status": "complete"
@@ -80,7 +80,7 @@
         {
           "id": "1-3-3",
           "title": "Infant (up to 12 months of age) mortality rate",
-          "description": "Infant mortality rate is the ratio between the number of dead infants and the number of live-born children in a given year per per 1000 live-born children.",
+          "description": "metadata_fields.Stopadojencad",
           "keywords": "",
           "href": "/1-3-3",
           "status": "complete"
@@ -88,7 +88,7 @@
         {
           "id": "1-3-4",
           "title": "Deaths by cause of death and sex",
-          "description": "A dead person is every live-born person in which there is a permanent disappearance of all evidence of life at any time after live birth has taken place, without capability of resuscitation. Stillbirths are not included here.",
+          "description": "metadata_fields.Umrli",
           "keywords": "",
           "href": "/1-3-4",
           "status": "complete"
@@ -96,7 +96,7 @@
         {
           "id": "1-3-5",
           "title": "Stillbirths by sex",
-          "description": "A stillborn child is considered a child born or taken out from mother’s body who exhibits no signs of life (not breathing, not moving, no heartbeat) where pregnancy has lasted more than 22 weeks (approximately 6 lunar months) and weight at childbirth has been 500 gr. or more. Expulsion of a dead fetus carried less than 22 weeks considered a miscarriage (abortion), irrespective of whether natural or artificial. These cases are not registered in population registers, nor shown in the tables on stillborn.",
+          "description": "metadata_fields.Mrtvorodjeni",
           "keywords": "",
           "href": "/1-3-5",
           "status": "complete"
@@ -104,7 +104,7 @@
         {
           "id": "1-3-6",
           "title": "Stillbirth rate",
-          "description": "The stillbirth rate represents the ratio between the number of stillbirths and the number of live births in the same year, calculated per 1000 live births.",
+          "description": "metadata_fields.Stopamrtvorodjeni",
           "keywords": "",
           "href": "/1-3-6",
           "status": "complete"
@@ -152,7 +152,7 @@
         {
           "id": "1-6-1",
           "title": "Marriages",
-          "description": "Marriage is a regulated community of life between a woman and a man.",
+          "description": "metadata_fields.Brak",
           "keywords": "",
           "href": "/1-6-1",
           "status": "complete"
@@ -160,7 +160,7 @@
         {
           "id": "1-6-2",
           "title": "Marriage rate",
-          "description": "Marriage rate is the relation between the number of marriage in one year period and the estimated number of inhabitants per 1000 population.",
+          "description": "metadata_fields.Stopanupcijaliteta",
           "keywords": "",
           "href": "/1-6-2",
           "status": "complete"
@@ -168,7 +168,7 @@
         {
           "id": "1-6-3",
           "title": "Divorces",
-          "description": "A marriage is considered divorced when the court decision on the divorce becomes final.",
+          "description": "metadata_fields.Razvedeni",
           "keywords": "",
           "href": "/1-6-3",
           "status": "complete"
@@ -176,7 +176,7 @@
         {
           "id": "1-6-4",
           "title": "Divorce rate",
-          "description": "Stopa divorcijaliteta predstavlja odnos između  broja razvedenih brakova u toku jednogodišnjeg  perioda i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Stopadiv",
           "keywords": "",
           "href": "/1-6-4",
           "status": "complete"
@@ -576,7 +576,7 @@
         {
           "id": "4-1-1",
           "title": "Social protection beneficiaries by type of beneficiary and sex",
-          "description": "Social welfare beneficiary is every person who has used certain forms and measures of social welfare and social work services, once or several times during the reference year. Beneficiaries are classified into two basic age groups – minor and adult beneficiaries.Minor beneficiaries disadvantaged by family situation without both parents, of unknown parents, abandoned by parents, children of parents prevented from performing parental duty, children of parents deprived of parental rights, coming from economically disadvantaged families, coming from families with disturbed family relationships and other minors with disturbed family relationship, then physically and mentally handicapped minors, minors with behavioural and personality disorders and Minor beneficiaries in need of different social and protective services. Adult beneficiares, respectively beneficiaries of subventions are physically and mentally disabled with visual disorders, with hearing disorders, physically disabled, mentally disabled, other disabled persons, persons with combined disorders, persons with socially unacceptable behaviour, mentally ill persons, persons not having a sufficient income to support themselves, financially unprovided.",
+          "description": "metadata_fields.Socijalnazastita",
           "keywords": "",
           "href": "/4-1-1",
           "status": "complete"
@@ -584,7 +584,7 @@
         {
           "id": "4-1-2",
           "title": "Social protection beneficiaries by type of institution and sex",
-          "description": "Social welfare beneficiary is every person who has used certain forms and measures of social welfare and social work services, once or several times during the reference year. Beneficiaries are classified into two basic age groups – minor and adult beneficiaries. Social welfare institutions are institutions for children and adolescents without parental care, social welfare institutions for mentally and physically handicapped children, adolescents and adults, social welfare institutions for adult disabled persons and social welfare institutions for adult persons.",
+          "description": "metadata_fields.Socijalnaustanove",
           "keywords": "",
           "href": "/4-1-2",
           "status": "complete"
@@ -600,7 +600,7 @@
         {
           "id": "5-1-1",
           "title": "Preschool institutions by ownership",
-          "description": "Pre-school upbringing and education is an activity that includes upbringing and education, care and protection of children from six months of age to entering primary school. It is performed in public and private pre-school institutions.Work with children in preschool institutions is organised in educational groups by age of children. Educational groups can be nursery groups for children from six months until three years of age, kindergarten groups for children from three years of age until the beginning of their school education, and mixed groups for children of various age.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/5-1-1",
           "status": "complete"
@@ -608,7 +608,7 @@
         {
           "id": "5-1-2",
           "title": "Children in preschool institutions by sex",
-          "description": "Pre-school upbringing and education is an activity that includes upbringing and education, care and protection of children from six months of age to entering primary school. It is performed in public and private pre-school institutions.Work with children in preschool institutions is organised in educational groups by age of children. Educational groups can be nursery groups for children from six months until three years of age, kindergarten groups for children from three years of age until the beginning of their school education, and mixed groups for children of various age.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/5-1-2",
           "status": "complete"
@@ -616,7 +616,7 @@
         {
           "id": "5-1-3",
           "title": "Children in nurseries by sex",
-          "description": "Pre-school upbringing and education is an activity that includes upbringing and education, care and protection of children from six months of age to entering primary school. It is performed in public and private pre-school institutions.Work with children in preschool institutions is organised in educational groups by age of children. Educational groups can be nursery groups for children from six months until three years of age, kindergarten groups for children from three years of age until the beginning of their school education, and mixed groups for children of various age.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/5-1-3",
           "status": "complete"
@@ -624,7 +624,7 @@
         {
           "id": "5-1-4",
           "title": "Childcare workers in preschool institutions by sex",
-          "description": "Pre-school upbringing and education is an activity that includes upbringing and education, care and protection of children from six months of age to entering primary school. It is performed in public and private pre-school institutions.Work with children in preschool institutions is organised in educational groups by age of children. Educational groups can be nursery groups for children from six months until three years of age, kindergarten groups for children from three years of age until the beginning of their school education, and mixed groups for children of various age.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/5-1-4",
           "status": "complete"
@@ -632,7 +632,7 @@
         {
           "id": "5-2-1",
           "title": "Children at the beginning of school year by sex (primary school)",
-          "description": "School, in education statistics, is a group of pupils organized into one school unit with one or more teachers who perform certain kind of teaching by certain educational plan and programme, irrespective of a school being central or independent school, a regional unit or a unit within another type of school. Schools are also considered territorially separated units/regional units within basic schools as well as classes for children with special needs, within regular basic schools.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/5-2-1",
           "status": "complete"
@@ -640,7 +640,7 @@
         {
           "id": "5-2-2",
           "title": "Children who completed primary school by sex",
-          "description": "School, in education statistics, is a group of pupils organized into one school unit with one or more teachers who perform certain kind of teaching by certain educational plan and programme, irrespective of a school being central or independent school, a regional unit or a unit within another type of school. Schools are also considered territorially separated units/regional units within basic schools as well as classes for children with special needs, within regular basic schools.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/5-2-2",
           "status": "complete"
@@ -648,7 +648,7 @@
         {
           "id": "5-2-3",
           "title": "Teachers in primary schools by sex",
-          "description": "School, in education statistics, is a group of pupils organized into one school unit with one or more teachers who perform certain kind of teaching by certain educational plan and programme, irrespective of a school being central or independent school, a regional unit or a unit within another type of school. Schools are also considered territorially separated units/regional units within basic schools as well as classes for children with special needs, within regular basic schools.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/5-2-3",
           "status": "complete"
@@ -656,7 +656,7 @@
         {
           "id": "5-3-1",
           "title": "Children at the beginning of school year by sex (high school)",
-          "description": "Secondary school is an institution for performing an activity in the field of secondary education and upbringing. A school performs educational activity by realizing the educational plan and programme. That is an institution where general and vocational knowledge and skills, required for continuing education, are being acquired. School can be established as grammar schools, secondary technical or vocational schools, religious schools, art schools and school for children with disabilities.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/5-3-1",
           "status": "complete"
@@ -664,7 +664,7 @@
         {
           "id": "5-3-2",
           "title": "Children at the beginning of school year by type of high school",
-          "description": "Secondary school is an institution for performing an activity in the field of secondary education and upbringing. A school performs educational activity by realizing the educational plan and programme. That is an institution where general and vocational knowledge and skills, required for continuing education, are being acquired. School can be established as grammar schools, secondary technical or vocational schools, religious schools, art schools and school for children with disabilities.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/5-3-2",
           "status": "complete"
@@ -672,7 +672,7 @@
         {
           "id": "5-3-3",
           "title": "Children who completed high school by sex",
-          "description": "Secondary school is an institution for performing an activity in the field of secondary education and upbringing. A school performs educational activity by realizing the educational plan and programme. That is an institution where general and vocational knowledge and skills, required for continuing education, are being acquired. School can be established as grammar schools, secondary technical or vocational schools, religious schools, art schools and school for children with disabilities.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/5-3-3",
           "status": "complete"
@@ -680,7 +680,7 @@
         {
           "id": "5-3-4",
           "title": "Children who completed high school by type of school",
-          "description": "Secondary school is an institution for performing an activity in the field of secondary education and upbringing. A school performs educational activity by realizing the educational plan and programme. That is an institution where general and vocational knowledge and skills, required for continuing education, are being acquired. School can be established as grammar schools, secondary technical or vocational schools, religious schools, art schools and school for children with disabilities.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/5-3-4",
           "status": "complete"
@@ -688,7 +688,7 @@
         {
           "id": "5-3-5",
           "title": "Teachers in high schools by sex",
-          "description": "Secondary school is an institution for performing an activity in the field of secondary education and upbringing. A school performs educational activity by realizing the educational plan and programme. That is an institution where general and vocational knowledge and skills, required for continuing education, are being acquired. School can be established as grammar schools, secondary technical or vocational schools, religious schools, art schools and school for children with disabilities.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/5-3-5",
           "status": "complete"
@@ -696,7 +696,7 @@
         {
           "id": "5-4-1",
           "title": "Enrolled in undergraduate studies by sex",
-          "description": "Enrolled student is every person enrolled at higher education institution. Higher education institutions are higher education schools and universities.The name higher education school refers to a higher education institution that realises at least one study programme from one field of study.The name university refers to a higher education institution that realises at least five different study programmes from at least three fields of study and academic levels of all three cycles. University has organizational units such as faculties, academies or scientific institutes.",
+          "description": "metadata_fields.Visokosk",
           "keywords": "",
           "href": "/5-4-1",
           "status": "complete"
@@ -704,7 +704,7 @@
         {
           "id": "5-4-2",
           "title": "Graduated students by sex",
-          "description": "A graduate is a person who obtains a diploma on completed high or higher school, faculty or art academy.",
+          "description": "metadata_fields.Diplomiranistudent",
           "keywords": "",
           "href": "/5-4-2",
           "status": "complete"
@@ -712,7 +712,7 @@
         {
           "id": "5-4-3",
           "title": "Graduated students by type of education",
-          "description": "A graduate is a person who obtains a diploma on completed high or higher school, faculty or art academy.",
+          "description": "metadata_fields.Diplomiranistudent",
           "keywords": "",
           "href": "/5-4-3",
           "status": "complete"
@@ -720,7 +720,7 @@
         {
           "id": "5-5-1",
           "title": "Enrolled in integrated studies by sex",
-          "description": "Enrolled student is every person enrolled at higher education institution. Integrated studies are organised as a single study programme that includes the first and second cycles of studies and is valued with at least 300, that is, 360 ECTS credits.",
+          "description": "metadata_fields.Upisanistudent",
           "keywords": "",
           "href": "/5-5-1",
           "status": "complete"
@@ -728,7 +728,7 @@
         {
           "id": "5-5-2",
           "title": "Students graduated in integrated studies by sex",
-          "description": "Upon completition of the integrated studies, person acquires an academic title in a specific field, depending on the type of the completed study programme.Integrated studies are organised as a single study programme that includes the first and second cycles of studies and is valued with at least 300, that is, 360 ECTS credits.",
+          "description": "metadata_fields.Studentizavrsili",
           "keywords": "",
           "href": "/5-5-2",
           "status": "complete"
@@ -736,7 +736,7 @@
         {
           "id": "5-5-3",
           "title": "Students graduated in integrated studies by type of education",
-          "description": "Upon completition of the integrated studies, person acquires an academic title in a specific field, depending on the type of the completed study programme.Integrated studies are organised as a single study programme that includes the first and second cycles of studies and is valued with at least 300, that is, 360 ECTS credits.",
+          "description": "metadata_fields.Studentizavrsili",
           "keywords": "",
           "href": "/5-5-3",
           "status": "complete"
@@ -744,7 +744,7 @@
         {
           "id": "5-5-4",
           "title": "Enrolled in master and specialist studies by sex",
-          "description": "Enrolled student is every person enrolled at higher education institution. Second cycle studies are organized upon completion of the first cycle of studies, these last one or two years, and they are valued with 60 or 120 ECTS credits, thus reaching 300 ECTS credits together with the first cycle. The second cycle leads to the academic title of Master or equivalent.",
+          "description": "metadata_fields.Magistri",
           "keywords": "",
           "href": "/5-5-4",
           "status": "complete"
@@ -752,7 +752,7 @@
         {
           "id": "5-5-5",
           "title": "Enrolled in master and specialist studies by type of education",
-          "description": "Enrolled student is every person enrolled at higher education institution. Second cycle studies are organized upon completion of the first cycle of studies, these last one or two years, and they are valued with 60 or 120 ECTS credits, thus reaching 300 ECTS credits together with the first cycle. The second cycle leads to the academic title of Master or equivalent.",
+          "description": "metadata_fields.Magistri",
           "keywords": "",
           "href": "/5-5-5",
           "status": "complete"
@@ -760,7 +760,7 @@
         {
           "id": "5-5-6",
           "title": "Students graduated in master and special studies by sex",
-          "description": "Master of science is a person who has completed postgraduate studies and defended the master’s thesis. Master is a person who has completed an study of the second cycle, lasting a year or two, valued at 60 ECTS credits or 120 ECTS credits, the total of points of the first and of the second cycle of studies equals 300 ECTS credits.Specialist is a person who has completed specialist studies and defended the specialist’s thesis.",
+          "description": "metadata_fields.Zvanjamag",
           "keywords": "",
           "href": "/5-5-6",
           "status": "complete"
@@ -768,7 +768,7 @@
         {
           "id": "5-5-7",
           "title": "Students graduated in master and special studies by type of education",
-          "description": "Master of science is a person who has completed postgraduate studies and defended the master’s thesis. Master is a person who has completed an study of the second cycle, lasting a year or two, valued at 60 ECTS credits or 120 ECTS credits, the total of points of the first and of the second cycle of studies equals 300 ECTS credits.Specialist is a person who has completed specialist studies and defended the specialist’s thesis.",
+          "description": "metadata_fields.Zvanjamag",
           "keywords": "",
           "href": "/5-5-7",
           "status": "complete"
@@ -776,7 +776,7 @@
         {
           "id": "5-6-1",
           "title": "Enrolled in doctoral studies by sex",
-          "description": "Enrolled student is every person enrolled at higher education institution. Third cycle studies are organized upon completion of the second cycle of academic studies, or upon completion of integrated studies,these last three years, and they are valued with 180 ECTS credits. The third cycle leads to the academic title of doctor or equivalent.",
+          "description": "metadata_fields.Upisanidoktori",
           "keywords": "",
           "href": "/5-6-1",
           "status": "complete"
@@ -784,7 +784,7 @@
         {
           "id": "5-6-2",
           "title": "Enrolled in doctoral studies by type of education",
-          "description": "Enrolled student is every person enrolled at higher education institution. Third cycle studies are organized upon completion of the second cycle of academic studies, or upon completion of integrated studies,these last three years, and they are valued with 180 ECTS credits. The third cycle leads to the academic title of doctor or equivalent.",
+          "description": "metadata_fields.Upisanidoktori",
           "keywords": "",
           "href": "/5-6-2",
           "status": "complete"
@@ -792,7 +792,7 @@
         {
           "id": "5-6-3",
           "title": "Students graduated in doctoral studies by sex",
-          "description": "Doctor of science is a person who has defended doctoral dissertation.",
+          "description": "metadata_fields.Doktornauka",
           "keywords": "",
           "href": "/5-6-3",
           "status": "complete"
@@ -800,7 +800,7 @@
         {
           "id": "5-6-4",
           "title": "Students graduated in doctoral studies by type of education",
-          "description": "Doctor of science is a person who has defended doctoral dissertation.",
+          "description": "metadata_fields.Doktornauka",
           "keywords": "",
           "href": "/5-6-4",
           "status": "complete"
@@ -808,7 +808,7 @@
         {
           "id": "5-7-1",
           "title": "Population 25-64 years of age enrolled in non-formal, adult education by age groups and sex",
-          "description": "Non-formal education is an organized process of learning and education aimed at training adults for work, for various social activities, for personal development and supplementing knowledge, skills and abilities according to special programs carried out by education organizers (schools, training centers, business entities, agencies and similar) and which takes place independently of the official (formal) education system and does not lead to the acquisition of public documents (diplomas and qualifications).",
+          "description": "metadata_fields.Neformalnoobrazovanje",
           "keywords": "",
           "href": "/5-7-1",
           "status": "complete"
@@ -816,7 +816,7 @@
         {
           "id": "5-7-2",
           "title": "NEET_Population not in employment, education or training by age groups and sex",
-          "description": "The indicator presents the share of young people who are not in employment, education or training (NEET), as a percentage of the total number of people in the corresponding age group.",
+          "description": "metadata_fields.NEET",
           "keywords": "",
           "href": "/5-7-2",
           "status": "complete"
@@ -880,7 +880,7 @@
         {
           "id": "7-1-1",
           "title": "Activity rate by age group and sex",
-          "description": "The activity rate is the share of the active population (labour force) in the total working age population.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/7-1-1",
           "status": "complete"
@@ -888,7 +888,7 @@
         {
           "id": "7-1-2",
           "title": "Employment rate by age group and sex",
-          "description": "The employment rate is the share of employed persons in the total working age population.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/7-1-2",
           "status": "complete"
@@ -896,7 +896,7 @@
         {
           "id": "7-1-3",
           "title": "Unemployment rate by age group and sex",
-          "description": "Unemployment rate is the share of unemployed persons in the total active population.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/7-1-3",
           "status": "complete"
@@ -904,7 +904,7 @@
         {
           "id": "7-1-4",
           "title": "Status in employment by gender",
-          "description": "Self-employed persons are persons who work independently in their own company, institution, private shop or on an agricultural farm, as well as persons who perform independent professional activity or some other job for their own account.Employees are persons who work for an employer in any form of ownership, regardless of whether they have a formal employment contract or work on the basis of an oral agreement. Contributing family workers (unpaid) are persons who assist another household member in running a family business or farm without being paid for the work.",
+          "description": "metadata_fields.Zaposleni",
           "keywords": "",
           "href": "/7-1-4",
           "status": "complete"
@@ -920,7 +920,7 @@
         {
           "id": "7-2-1",
           "title": "Activity rate by age group and sex (quarterly)",
-          "description": "The activity rate is the share of the active population (labour force) in the total working age population.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/7-2-1",
           "status": "complete"
@@ -928,7 +928,7 @@
         {
           "id": "7-2-2",
           "title": "Employment rate by age group and sex (quarterly)",
-          "description": "The employment rate is the share of employed persons in the total working age population.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/7-2-2",
           "status": "complete"
@@ -936,7 +936,7 @@
         {
           "id": "7-2-3",
           "title": "Unemployment rate by age group and sex (quarterly)",
-          "description": "Unemployment rate is the share of unemployed persons in the total active population.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/7-2-3",
           "status": "complete"
@@ -944,7 +944,7 @@
         {
           "id": "7-3-1",
           "title": "Households living in relative poverty",
-          "description": "The line of poverty: threshold in contrast with the consumption expenditure by which the households are classified in category of poor households and the ones that are not poor. Relative line of poverty is set at 60% of median of equalized monthly consumption expenditure.The equivalent consumption expenditure of the household: monthly expenditure divided by equivalent size of the household according to so called ‘’modified equivalence scale – OECD’’ (the scale of equivalence gives a weight 1,0 to the head of the household, 0,5 to other members aged 14 and over and 0,3 t every child under the age of 14).",
+          "description": "metadata_fields.Relativnosiromastvo",
           "keywords": "",
           "href": "/7-3-1",
           "status": "complete"
@@ -952,7 +952,7 @@
         {
           "id": "7-3-2",
           "title": "Population living in relative poverty by sex",
-          "description": "The line of poverty: threshold in contrast with the consumption expenditure by which the households are classified in category of poor households and the ones that are not poor. Relative line of poverty is set at 60% of median of equalized monthly consumption expenditure.The equivalent consumption expenditure of the household: monthly expenditure divided by equivalent size of the household according to so called ‘’modified equivalence scale – OECD’’ (the scale of equivalence gives a weight 1,0 to the head of the household, 0,5 to other members aged 14 and over and 0,3 t every child under the age of 14).",
+          "description": "metadata_fields.Relativnosiromastvo",
           "keywords": "",
           "href": "/7-3-2",
           "status": "complete"
