@@ -320,7 +320,7 @@
         {
           "id": "2-3-1",
           "title": "Population over 10 years of age by literacy and sex",
-          "description": "",
+          "description": "metadata_fields.Pismenost",
           "keywords": "",
           "href": "/2-3-1",
           "status": "complete"
