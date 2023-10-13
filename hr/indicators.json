@@ -224,7 +224,7 @@
         {
           "id": "1-7-6",
           "title": "Projicirana stopa mortaliteta",
-          "description": "",
+          "description": "metadata_fields.Mortalitet",
           "keywords": "",
           "href": "/hr/1-7-6",
           "status": "complete"

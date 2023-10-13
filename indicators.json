@@ -224,7 +224,7 @@
         {
           "id": "1-7-6",
           "title": "Projected crude death rate",
-          "description": "",
+          "description": "metadata_fields.Mortalitet",
           "keywords": "",
           "href": "/1-7-6",
           "status": "complete"
