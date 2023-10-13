@@ -200,7 +200,7 @@
         {
           "id": "1-7-3",
           "title": "Projected dependency ratios by sex",
-          "description": "",
+          "description": "metadata_fields.Koeficijentizavisnosti",
           "keywords": "",
           "href": "/1-7-3",
           "status": "complete"
@@ -208,7 +208,7 @@
         {
           "id": "1-7-4",
           "title": "Projected vital statistics by sex",
-          "description": "",
+          "description": "metadata_fields.Vitalna",
           "keywords": "",
           "href": "/1-7-4",
           "status": "complete"

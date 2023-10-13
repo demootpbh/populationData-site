@@ -200,7 +200,7 @@
         {
           "id": "1-7-3",
           "title": "Projektovani koeficijenti zavisnosti prema spolu",
-          "description": "",
+          "description": "Koeficijent zavisnosti se definiše kao odnos broja starih lica (sa napunjenih 65 godina života i više) u poređenju sa brojem lica radne dobi (od 15 do 64 godine).",
           "keywords": "",
           "href": "/bs/1-7-3",
           "status": "complete"
@@ -208,7 +208,7 @@
         {
           "id": "1-7-4",
           "title": "Projekcije vitalne statistike prema spolu",
-          "description": "",
+          "description": "Živorođenim se djetetom smatra svako dijete koje prilikom rođenja diše i pokazuje druge znakove života kao što su kucanje srca, pulsiranje pupčane vrpce i nesumnjivo kretanje voljnih mišića. Ako dijete ubrzo nakon poroda umre, najprije se registruje kao živorođeno, a zatim kao umrlo dojenče.Umrli je svaka živorođena osoba kod koje je nastupio trajni prestanak svih vitalnih funkcija koje započinju rođenjem bez mogućnosti ponovnog oživljavanja. Ovdje nisu uključeni mrtvorođeni.Prirodni priraštaj je razlika između broja živorođene djece i broja umrlih lica.",
           "keywords": "",
           "href": "/bs/1-7-4",
           "status": "complete"

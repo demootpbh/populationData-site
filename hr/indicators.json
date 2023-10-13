@@ -200,7 +200,7 @@
         {
           "id": "1-7-3",
           "title": "Projicirani koeficijenti ovisnosti prema spolu",
-          "description": "",
+          "description": "metadata_fields.Koeficijentizavisnosti",
           "keywords": "",
           "href": "/hr/1-7-3",
           "status": "complete"
@@ -208,7 +208,7 @@
         {
           "id": "1-7-4",
           "title": "Projicirana vitalna statistika prema spolu",
-          "description": "",
+          "description": "metadata_fields.Vitalna",
           "keywords": "",
           "href": "/hr/1-7-4",
           "status": "complete"
