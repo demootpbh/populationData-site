@@ -464,7 +464,7 @@
         {
           "id": "3-4-1",
           "title": "Broj carskih rezova",
-          "description": "",
+          "description": "metadata_fields.Carskirez",
           "keywords": "",
           "href": "/hr/3-4-1",
           "status": "complete"
