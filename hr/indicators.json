@@ -488,7 +488,7 @@
         {
           "id": "3-5-2",
           "title": "Broj kreveta u bolnicama na 100.000 stanovnika",
-          "description": "",
+          "description": "metadata_fields.Brojkreveta",
           "keywords": "",
           "href": "/hr/3-5-2",
           "status": "complete"

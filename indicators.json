@@ -488,7 +488,7 @@
         {
           "id": "3-5-2",
           "title": "Beds in hospitals per 100,000 population",
-          "description": "",
+          "description": "metadata_fields.Brojkreveta",
           "keywords": "",
           "href": "/3-5-2",
           "status": "complete"
