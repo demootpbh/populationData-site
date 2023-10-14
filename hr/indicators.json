@@ -496,7 +496,7 @@
         {
           "id": "3-5-3",
           "title": "Broj doktora medicine zaposlenih u ustanovama za pružanje zdravstvene skrbi prema spolu",
-          "description": "",
+          "description": "metadata_fields.Doktori",
           "keywords": "",
           "href": "/hr/3-5-3",
           "status": "complete"
