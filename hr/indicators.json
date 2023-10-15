@@ -848,7 +848,7 @@
         {
           "id": "6-1-1",
           "title": "Bruto društveni proizvod (BDP) u milionima",
-          "description": "",
+          "description": "metadata_fields.BDP",
           "keywords": "",
           "href": "/hr/6-1-1",
           "status": "complete"

@@ -848,7 +848,7 @@
         {
           "id": "6-1-1",
           "title": "Gross Domestic Product (GDP) in millions",
-          "description": "",
+          "description": "metadata_fields.BDP",
           "keywords": "",
           "href": "/6-1-1",
           "status": "complete"
