@@ -856,7 +856,7 @@
         {
           "id": "6-1-2",
           "title": "Gross Domestic Product (GDP) - Per capita",
-          "description": "",
+          "description": "metadata_fileds.BDP",
           "keywords": "",
           "href": "/6-1-2",
           "status": "complete"
