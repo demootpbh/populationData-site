@@ -432,7 +432,7 @@
         {
           "id": "3-3-2",
           "title": "Инциденца гонореје",
-          "description": "Индикатор показује укупан број новообољелих лица од сифилиса.",
+          "description": "metadata_fields.Gonoreje",
           "keywords": "",
           "href": "/sr/3-3-2",
           "status": "complete"

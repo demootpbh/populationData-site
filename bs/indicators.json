@@ -432,7 +432,7 @@
         {
           "id": "3-3-2",
           "title": "Incidenca gonoreje",
-          "description": "Indikator pokazuje ukupan broj novooboljelih lica od sifilisa.",
+          "description": "metadata_fields.Gonoreje",
           "keywords": "",
           "href": "/bs/3-3-2",
           "status": "complete"
