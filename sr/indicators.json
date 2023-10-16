@@ -440,7 +440,7 @@
         {
           "id": "3-3-3",
           "title": "Инциденца АИДС-а",
-          "description": "metadata_fields.AIDS-a",
+          "description": "Индикатор показује укупан број новообољелих лица од АИДС-а.",
           "keywords": "",
           "href": "/sr/3-3-3",
           "status": "complete"
