@@ -304,7 +304,7 @@
         {
           "id": "2-2-1",
           "title": "Households by number of members",
-          "description": "",
+          "description": "metadata_fields.Domacinstva",
           "keywords": "",
           "href": "/2-2-1",
           "status": "complete"
