@@ -40,7 +40,7 @@
         {
           "id": "1-2-3",
           "title": "Age-specific fertility rate",
-          "description": "Stopa ukupnog fertiliteta je odnos broja živorođene djece i ukupnog broja žena određene dobne skupine u fertilnom periodu u posmatranoj kalendarskoj godini, računata na 1000 žena.",
+          "description": "metadata_fields.Fertilitet",
           "keywords": "",
           "href": "/1-2-3",
           "status": "complete"
