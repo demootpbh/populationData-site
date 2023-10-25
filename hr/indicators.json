@@ -632,7 +632,7 @@
         {
           "id": "5-2-1",
           "title": "Broj učenika na početku školske godine prema spolu (osnovna škola)",
-          "description": "Školom se u statistici obrazovanja smatra grupa učenika organizovanih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovnim osnovnim školama.",
+          "description": "Školom se u statistici obrazovanja smatra skupina učenika organiziranih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice/područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovitim osnovnim školama.",
           "keywords": "",
           "href": "/hr/5-2-1",
           "status": "complete"
@@ -640,7 +640,7 @@
         {
           "id": "5-2-2",
           "title": "Broj učenika koji su završili osnovnu školu prema spolu",
-          "description": "Školom se u statistici obrazovanja smatra grupa učenika organizovanih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovnim osnovnim školama.",
+          "description": "Školom se u statistici obrazovanja smatra skupina učenika organiziranih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice/područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovitim osnovnim školama.",
           "keywords": "",
           "href": "/hr/5-2-2",
           "status": "complete"
@@ -648,7 +648,7 @@
         {
           "id": "5-2-3",
           "title": "Broj nastavnika u osnovnim školama prema spolu",
-          "description": "Školom se u statistici obrazovanja smatra grupa učenika organizovanih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovnim osnovnim školama.",
+          "description": "Školom se u statistici obrazovanja smatra skupina učenika organiziranih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice/područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovitim osnovnim školama.",
           "keywords": "",
           "href": "/hr/5-2-3",
           "status": "complete"
@@ -656,7 +656,7 @@
         {
           "id": "5-3-1",
           "title": "Broj učenika na početku školske godine prema spolu (srednja škola)",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
           "keywords": "",
           "href": "/hr/5-3-1",
           "status": "complete"
@@ -664,7 +664,7 @@
         {
           "id": "5-3-2",
           "title": "Broj učenika na početku školske godine prema vrsti srednje škole",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
           "keywords": "",
           "href": "/hr/5-3-2",
           "status": "complete"
@@ -672,7 +672,7 @@
         {
           "id": "5-3-3",
           "title": "Broj učenika koji su završili srednju školu prema spolu",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
           "keywords": "",
           "href": "/hr/5-3-3",
           "status": "complete"
@@ -680,7 +680,7 @@
         {
           "id": "5-3-4",
           "title": "Broj učenika koji su završili srednju školu prema vrsti škole",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
           "keywords": "",
           "href": "/hr/5-3-4",
           "status": "complete"
@@ -688,7 +688,7 @@
         {
           "id": "5-3-5",
           "title": "Broj nastavnika u srednjim školama prema spolu",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i odgoja. Škola obavlja obrazovno-odgojnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za daljnje školovanje. Škola može biti osnovana kao gimnazija, srednja tehnička škola, srednja stručna škola, vjerska, srednja umjetnička i škola za djecu sa poteškoćama u razvoju.",
           "keywords": "",
           "href": "/hr/5-3-5",
           "status": "complete"
@@ -696,7 +696,7 @@
         {
           "id": "5-4-1",
           "title": "Upisani u osnovne studijske programe prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu.Visokoškolske ustanove su visoke škole i univerziteti. Naziv Visoka škola odnosi se na visokoškolsku ustanovu, koja realizuje najmanje jedan studijski program iz jedne naučne oblasti. Naziv Univerzitet odnosi se na visokoškolsku ustanovu koja realizuje najmanje pet različitih studijskih programa iz najmanje tri naučne oblasti i akademske stepene sva tri ciklusa. Univerzitet ima organizacione jedinice kao što su fakulteti, akademije ili naučni instituti.",
+          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Visokoškolske ustanove su visoke škole i univerziteti. Naziv Visoka škola odnosi se na visokoškolsku ustanovu, koja realizira najmanje jedan studijski program iz jedne znanstvene oblasti. Naziv Sveučilište odnosi se na visokoškolsku ustanovu koja realizira najmanje pet različitih studijskih programa iz najmanje tri znanstvene oblasti i akademska stupnja sva tri ciklusa. Sveučilište ima organizacijske jedinice kao što su fakulteti, akademije ili znanstveni instituti.",
           "keywords": "",
           "href": "/hr/5-4-1",
           "status": "complete"
@@ -704,7 +704,7 @@
         {
           "id": "5-4-2",
           "title": "Diplomirani studenti prema spolu",
-          "description": "Diplomirani student je lice koje dobija diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
+          "description": "Diplomirani student je osoba koja dobiva diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
           "keywords": "",
           "href": "/hr/5-4-2",
           "status": "complete"
@@ -712,7 +712,7 @@
         {
           "id": "5-4-3",
           "title": "Diplomirani studenti prema oblasti obrazovanja",
-          "description": "Diplomirani student je lice koje dobija diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
+          "description": "Diplomirani student je osoba koja dobiva diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
           "keywords": "",
           "href": "/hr/5-4-3",
           "status": "complete"
@@ -720,7 +720,7 @@
         {
           "id": "5-5-1",
           "title": "Upisani na integrirane studije prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Integrirane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Integrisane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
           "keywords": "",
           "href": "/hr/5-5-1",
           "status": "complete"
@@ -728,7 +728,7 @@
         {
           "id": "5-5-2",
           "title": "Diplomirani studenti integriranih studija prema spolu",
-          "description": "Završetkom integriranih  studija lice stiče akademsko zvanje u određenoj oblasti, zavisno od vrste završenog studijskog programa. Integrirane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "Završetkom integrisanih studija osoba stiče akademsko zvanje u određenoj oblasti, ovisno od vrste završenog studijskog programa. Integrisane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
           "keywords": "",
           "href": "/hr/5-5-2",
           "status": "complete"
@@ -736,7 +736,7 @@
         {
           "id": "5-5-3",
           "title": "Diplomirani studenti integriranih studija oblasti obrazovanja",
-          "description": "Završetkom integriranih  studija lice stiče akademsko zvanje u određenoj oblasti, zavisno od vrste završenog studijskog programa. Integrirane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "Završetkom integrisanih studija osoba stiče akademsko zvanje u određenoj oblasti, ovisno od vrste završenog studijskog programa. Integrisane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
           "keywords": "",
           "href": "/hr/5-5-3",
           "status": "complete"
@@ -744,7 +744,7 @@
         {
           "id": "5-5-4",
           "title": "Upisani na magistarske, master i specijalističke studije prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije drugog ciklusa organizuju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova. Drugi ciklus vodi do akademskog zvanja magistra ili ekvivalenta.",
+          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije drugog ciklusa organiziraju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova.",
           "keywords": "",
           "href": "/hr/5-5-4",
           "status": "complete"
@@ -752,7 +752,7 @@
         {
           "id": "5-5-5",
           "title": "Upisani na magistarske, master i specijalističke studije prema oblasti obrazovanja",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije drugog ciklusa organizuju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova. Drugi ciklus vodi do akademskog zvanja magistra ili ekvivalenta.",
+          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije drugog ciklusa organiziraju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova.",
           "keywords": "",
           "href": "/hr/5-5-5",
           "status": "complete"
@@ -760,7 +760,7 @@
         {
           "id": "5-5-6",
           "title": "Magistri nauka, masteri i specijalisti prema spolu",
-          "description": "Magistar nauka je lice koje je završilo postdiplomske studije te odbranila magistarsku tezu. Master je lice koje je završilo studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je lice  koje je završilo specijalističke studije, te odbranilo specijalistički rad.",
+          "description": "Magistar znanosti je osoba koja je završila postdiplomske studije te odbranila magistarsku tezu. Master je osoba koja je završila studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je osoba koja je završila postdiplomske studije, te odbranila specijalistički rad.",
           "keywords": "",
           "href": "/hr/5-5-6",
           "status": "complete"
@@ -768,7 +768,7 @@
         {
           "id": "5-5-7",
           "title": "Magistri nauka, masteri i specijalisti prema oblasti obrazovanja",
-          "description": "Magistar nauka je lice koje je završilo postdiplomske studije te odbranila magistarsku tezu. Master je lice koje je završilo studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je lice  koje je završilo specijalističke studije, te odbranilo specijalistički rad.",
+          "description": "Magistar znanosti je osoba koja je završila postdiplomske studije te odbranila magistarsku tezu. Master je osoba koja je završila studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je osoba koja je završila postdiplomske studije, te odbranila specijalistički rad.",
           "keywords": "",
           "href": "/hr/5-5-7",
           "status": "complete"
@@ -776,7 +776,7 @@
         {
           "id": "5-6-1",
           "title": "Upisani na doktorske studije prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija,odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
+          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija, odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
           "keywords": "",
           "href": "/hr/5-6-1",
           "status": "complete"
@@ -784,7 +784,7 @@
         {
           "id": "5-6-2",
           "title": "Upisani na doktorske studije prema oblasti obrazovanja",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija,odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
+          "description": "Upisani student je svaka osoba upisana na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija, odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
           "keywords": "",
           "href": "/hr/5-6-2",
           "status": "complete"
@@ -792,7 +792,7 @@
         {
           "id": "5-6-3",
           "title": "Doktori nauka prema spolu",
-          "description": "Doktor nauka je lice koje je odbranilo doktorsku disertaciju.",
+          "description": "Doktor znanosti je osoba koja je odbranila doktorsku disertaciju.",
           "keywords": "",
           "href": "/hr/5-6-3",
           "status": "complete"
@@ -800,7 +800,7 @@
         {
           "id": "5-6-4",
           "title": "Doktori nauka prema oblasti obrazovanja",
-          "description": "Doktor nauka je lice koje je odbranilo doktorsku disertaciju.",
+          "description": "Doktor znanosti je osoba koja je odbranila doktorsku disertaciju.",
           "keywords": "",
           "href": "/hr/5-6-4",
           "status": "complete"
