@@ -8,7 +8,7 @@
         {
           "id": "1-1-1",
           "title": "Vitalna statistika prema spolu",
-          "description": "Živorođenim se djetetom smatra svako dijete koje prilikom rođenja diše i pokazuje druge znakove života kao što su kucanje srca, pulsiranje pupčane vrpce i nesumnjivo kretanje voljnih mišića. Ako dijete ubrzo nakon poroda umre, najprije se registruje kao živorođeno, a zatim kao umrlo dojenče.Umrli je svaka živorođena osoba kod koje je nastupio trajni prestanak svih vitalnih funkcija koje započinju rođenjem bez mogućnosti ponovnog oživljavanja. Ovdje nisu uključeni mrtvorođeni.Prirodni priraštaj je razlika između broja živorođene djece i broja umrlih lica.",
+          "description": "metadata_fields.Vitalna",
           "keywords": "",
           "href": "/hr/1-1-1",
           "status": "complete"
@@ -16,7 +16,7 @@
         {
           "id": "1-1-2",
           "title": "Stopa prirodnog rasta",
-          "description": "Stopa prirodnog rasta predstavlja odnos prosječnog godišnjeg prirodnog priraštaja i prosječnog broja stanovnika u posmatranom periodu, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Prirodnirast",
           "keywords": "",
           "href": "/hr/1-1-2",
           "status": "complete"
@@ -24,7 +24,7 @@
         {
           "id": "1-2-1",
           "title": "Stopa nataliteta",
-          "description": "Opća stopa nataliteta predstavlja odnos između broja živorođenih i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Natalitet",
           "keywords": "",
           "href": "/hr/1-2-1",
           "status": "complete"
@@ -32,7 +32,7 @@
         {
           "id": "1-2-2",
           "title": "Stopa ukupnog fertiliteta",
-          "description": "Stopa ukupnog fertiliteta je odnos broja živorođene djece i ukupnog broja žena određene starosne grupe u fertilnom periodu u posmatranoj kalendarskoj godini, računata na 1000 žena.",
+          "description": "metadata_fields.Fertilitet",
           "keywords": "",
           "href": "/hr/1-2-2",
           "status": "complete"
@@ -40,7 +40,7 @@
         {
           "id": "1-2-3",
           "title": "Stopa fertiliteta prema dobnim skupinama",
-          "description": "Stopa ukupnog fertiliteta je odnos broja živorođene djece i ukupnog broja žena određene starosne grupe u fertilnom periodu u posmatranoj kalendarskoj godini, računata na 1000 žena.",
+          "description": "metadata_fields.Fertilitet",
           "keywords": "",
           "href": "/hr/1-2-3",
           "status": "complete"
@@ -48,7 +48,7 @@
         {
           "id": "1-2-4",
           "title": "Omjer muške i ženske novorođenčadi",
-          "description": "Indikator pokazuje odnos broja dječaka na 100 djevojčica u ukupnom broju živorođenih.",
+          "description": "metadata_fields.Omjer",
           "keywords": "",
           "href": "/hr/1-2-4",
           "status": "complete"
@@ -56,7 +56,7 @@
         {
           "id": "1-2-5",
           "title": "Broj porođaja adolescentkinja prema dobnim skupinama",
-          "description": "Porođaj  je završetak trudnoće, odnosno gestacijskog perioda rađanjem jednog ili više novorođenčadi iz ženinog uterusa.",
+          "description": "metadata_fields.Porodjaj",
           "keywords": "",
           "href": "/hr/1-2-5",
           "status": "complete"
@@ -64,7 +64,7 @@
         {
           "id": "1-3-1",
           "title": "Stopa mortaliteta",
-          "description": "Opća stopa mortaliteta predstavlja odnos između broja umrlih i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Mortalitet",
           "keywords": "",
           "href": "/hr/1-3-1",
           "status": "complete"
@@ -72,7 +72,7 @@
         {
           "id": "1-3-2",
           "title": "Umrla dojenčad prema spolu",
-          "description": "Umrlom dojenčadi smatraju se djeca koja su umrla prije navršene prve godine života.",
+          "description": "metadata_fields.Umrladojencad",
           "keywords": "",
           "href": "/hr/1-3-2",
           "status": "complete"
@@ -80,7 +80,7 @@
         {
           "id": "1-3-3",
           "title": "Stopa smrtnosti dojenčadi",
-          "description": "Stopa smrtnosti dojenčadi predstavlja odnos između broja umrle dojenčadi i broja živorođenih iste godine, računato na 1000 živorođenih.",
+          "description": "metadata_fields.Stopadojencad",
           "keywords": "",
           "href": "/hr/1-3-3",
           "status": "complete"
@@ -88,7 +88,7 @@
         {
           "id": "1-3-4",
           "title": "Umrli prema uzroku smrti i spolu",
-          "description": "Umrli je svaka živorođena osoba kod koje je nastupio trajni prestanak svih vitalnih funkcija koje započinju rođenjem bez mogućnosti ponovnog oživljavanja. Ovdje nisu uključeni mrtvorođeni.",
+          "description": "metadata_fields.Umrli",
           "keywords": "",
           "href": "/hr/1-3-4",
           "status": "complete"
@@ -96,7 +96,7 @@
         {
           "id": "1-3-5",
           "title": "Mrtvorođeni prema spolu",
-          "description": "Mrtvorođenim se smatra dijete rođeno, odnosno izvađeno iz tijela majke bez ikakvih znakova života, tj. ako nije disalo niti pokazivalo neki drugi znak života, a nošeno je duže od 22 sedmice (približno 6 mjeseci) i koje ima porođajnu težinu 500 gr i više. Izbacivanje mrtvog ploda koji je nošen manje od 22 sedmice, smatra se pobačajem (abortusom), bez obzira na to da li je riječ o prirodnom ili namjernom prekidu trudnoće, i ne registruje se u matičnim knjigama, niti su ti podaci iskazani u ukupnom broju mrtvorođenih.",
+          "description": "metadata_fields.Mrtvorodjeni",
           "keywords": "",
           "href": "/hr/1-3-5",
           "status": "complete"
@@ -104,7 +104,7 @@
         {
           "id": "1-3-6",
           "title": "Stopa mrtvorođenih",
-          "description": "Stopa mrtvorođenih predstavlja odnos između broja mrtvorođenih i broja živorođenih iste godine, računato na 1000 živorođenih.",
+          "description": "metadata_fields.Stopamrtvorodjeni",
           "keywords": "",
           "href": "/hr/1-3-6",
           "status": "complete"
@@ -112,7 +112,7 @@
         {
           "id": "1-4-1",
           "title": "Prosječna dob majke prilikom rođenja prvog djeteta",
-          "description": "Prosječna dob majke pri prvom porodu (živorođeno dijete) smatra se prosječnom dobi majke pri rođenju svog prvog djeteta. Za posmatranu kalendarsku godinu prosječna dob pri prvom porođaju računa se iz specifičnih stopa fertiliteta prilikom prvog porodjaja.",
+          "description": "metadata_fields.Prosjecnamajka",
           "keywords": "",
           "href": "/hr/1-4-1",
           "status": "complete"
@@ -120,7 +120,7 @@
         {
           "id": "1-4-2",
           "title": "Prosječna dob stanovništva prema spolu",
-          "description": "Prosječna starost stanovništva prema spolu označava srednje godine starosti njegovih članova.",
+          "description": "metadata_fields.Prosjecnastan",
           "keywords": "",
           "href": "/hr/1-4-2",
           "status": "complete"
@@ -128,7 +128,7 @@
         {
           "id": "1-4-3",
           "title": "Prosječna dob prilikom umiranja prema spolu",
-          "description": "Prosječna dob umrlih prema spolu označava srednje godine dobi umrlih lica.",
+          "description": "metadata_fields.Prosjecnaumiranje",
           "keywords": "",
           "href": "/hr/1-4-3",
           "status": "complete"
@@ -136,7 +136,7 @@
         {
           "id": "1-4-4",
           "title": "Prosječna dob prilikom sklapanja prvog braka prema spolu",
-          "description": "Prosječna dob pri sklapanju prvog braka smatra se prosječnom dobi žene (ili muškarca) prilikom stupanja u prvi brak. Za posmatranu godinu, prosječna dob žene (ili muškarca) prilikom sklapanja prvog braka računa se iz stopa sklapanja prvog braka prema dobnim grupama nevjeste ili mladoženje.",
+          "description": "metadata_fields.Sklapanje",
           "keywords": "",
           "href": "/hr/1-4-4",
           "status": "complete"
@@ -152,7 +152,7 @@
         {
           "id": "1-6-1",
           "title": "Zaključeni brakovi",
-          "description": "Brak je zakonom uređena zajednica života žene i muškarca.",
+          "description": "metadata_fields.Brak",
           "keywords": "",
           "href": "/hr/1-6-1",
           "status": "complete"
@@ -160,7 +160,7 @@
         {
           "id": "1-6-2",
           "title": "Stopa nupcijaliteta",
-          "description": "Stopa nupcijaliteta predstavlja odnos između broja sklopljenih brakova u toku jednogodišnjeg perioda i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Stopanupcijaliteta",
           "keywords": "",
           "href": "/hr/1-6-2",
           "status": "complete"
@@ -168,7 +168,7 @@
         {
           "id": "1-6-3",
           "title": "Razvedeni brakovi",
-          "description": "Brak se smatra razvedenim kada sudska presuda o razvodu braka postane pravosnažna.",
+          "description": "metadata_fields.Razvedeni",
           "keywords": "",
           "href": "/hr/1-6-3",
           "status": "complete"
@@ -176,7 +176,7 @@
         {
           "id": "1-6-4",
           "title": "Stopa divorcijaliteta",
-          "description": "Stopa divorcijaliteta predstavlja odnos između  broja razvedenih brakova u toku jednogodišnjeg  perioda i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Stopadiv",
           "keywords": "",
           "href": "/hr/1-6-4",
           "status": "complete"
@@ -184,7 +184,7 @@
         {
           "id": "1-7-1",
           "title": "Projicirano stanovništvo prema dobi i spolu",
-          "description": "Model projekcija stanovništva opisuje hipotetički budući razvoj veličine stanovništva i dobno-spolne strukture.",
+          "description": "metadata_fields.Projekcije",
           "keywords": "",
           "href": "/hr/1-7-1",
           "status": "complete"
@@ -192,7 +192,7 @@
         {
           "id": "1-7-2",
           "title": "Projicirano stanovništvo prema dobnim skupinama i spolu",
-          "description": "Model projekcija stanovništva opisuje hipotetički budući razvoj veličine stanovništva i dobno-spolne strukture.",
+          "description": "metadata_fields.Projekcije",
           "keywords": "",
           "href": "/hr/1-7-2",
           "status": "complete"
@@ -200,7 +200,7 @@
         {
           "id": "1-7-3",
           "title": "Projicirani koeficijenti ovisnosti prema spolu",
-          "description": "Koeficijent zavisnosti se definiše kao odnos broja starih lica (sa napunjenih 65 godina života i više) u poređenju sa brojem lica radne dobi (od 15 do 64 godine).",
+          "description": "metadata_fields.Koeficijentizavisnosti",
           "keywords": "",
           "href": "/hr/1-7-3",
           "status": "complete"
@@ -208,7 +208,7 @@
         {
           "id": "1-7-4",
           "title": "Projicirana vitalna statistika prema spolu",
-          "description": "Živorođenim se djetetom smatra svako dijete koje prilikom rođenja diše i pokazuje druge znakove života kao što su kucanje srca, pulsiranje pupčane vrpce i nesumnjivo kretanje voljnih mišića. Ako dijete ubrzo nakon poroda umre, najprije se registruje kao živorođeno, a zatim kao umrlo dojenče.Umrli je svaka živorođena osoba kod koje je nastupio trajni prestanak svih vitalnih funkcija koje započinju rođenjem bez mogućnosti ponovnog oživljavanja. Ovdje nisu uključeni mrtvorođeni.Prirodni priraštaj je razlika između broja živorođene djece i broja umrlih lica.",
+          "description": "metadata_fields.Vitalna",
           "keywords": "",
           "href": "/hr/1-7-4",
           "status": "complete"
@@ -216,7 +216,7 @@
         {
           "id": "1-7-5",
           "title": "Projicirana stopa nataliteta",
-          "description": "Opća stopa nataliteta predstavlja odnos između broja živorođenih i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Natalitet",
           "keywords": "",
           "href": "/hr/1-7-5",
           "status": "complete"
@@ -224,7 +224,7 @@
         {
           "id": "1-7-6",
           "title": "Projicirana stopa mortaliteta",
-          "description": "Opća stopa mortaliteta predstavlja odnos između broja umrlih i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "metadata_fields.Mortalitet",
           "keywords": "",
           "href": "/hr/1-7-6",
           "status": "complete"
@@ -232,7 +232,7 @@
         {
           "id": "1-7-7",
           "title": "Projicirana prosječna dob stanovništva",
-          "description": "Model projekcija stanovništva opisuje hipotetički budući razvoj veličine stanovništva i dobno-spolne strukture.",
+          "description": "metadata_fields.Projekcije",
           "keywords": "",
           "href": "/hr/1-7-7",
           "status": "complete"
@@ -240,7 +240,7 @@
         {
           "id": "1-7-8",
           "title": "Projicirana populacijska piramida",
-          "description": "Populacijska piramida je grafički prikaz distribucije stanovništva prema starosnim grupama i spolu. Obično poprima oblik piramide kada stanovništvo raste.",
+          "description": "metadata_fields.Populacionapiramida",
           "keywords": "",
           "href": "/hr/1-7-8",
           "status": "complete"
@@ -256,7 +256,7 @@
         {
           "id": "2-1-1",
           "title": "Stanovništvo prema dobi i spolu",
-          "description": "U Popisima 1971, 1981 i 1991.godine za utvrđivanje ukupnog broja stanovništva primijenjen koncept „stalnog stanovanja“. Stalno stanovništvo jednog mjesta čine sva lica koja u tom mjestu stalno stanuju, tj. imaju prebivalište, bez obzira da li su se u kritičnom momentu popisa  nalazili u tom mjestu ili su bila odsutna iz bilo kog drugog razloga, bilo u zemlji ili u inostranstvu. Lica na privremenom radu u inostranstvu kod inostranih poslodavaca ili na samostalnom radu, kao članovi porodice koji s njima borave u inostranstvu popisani su kao stalni stanovnici odgovarajućih naselja u zemlji u kojima je njihovo prebivalište. Prilikom poređenja podataka Popisa stanovništva 1981. i 1991. godine sa podacima ranijih popisa treba imati u vidu izvjesne metodološke razlike u definisanju stalnog stanovništva. U popisima 1961. i 1971. godine radnici koji su bili stalno zaposleni ili su imali radnju u jednom mjestu i u tom mjestu su stanovali, a porodice su im živjele u drugom mjestu, ukoliko se iz mjesta rada u mjesto stalnog stanovanja svoje porodice nisu vraćali svakodnevno, smatrani su stalnim stanovnicima mjesta u kojem su radili. U popisima 1981. i 1991. godina mjesto stalnog stanovanja je određivano na osnovu izjave lica koje se popisuje ili nekog člana domaćinstva, pa je pomenuta kategorija lica popisana kao stalni stanovnici naselja u kojima su nastanjene njihove porodice, a ne mjesta u kojima su radili.U Popisu 2013. godine po prvi put je za utvrđivanje ukupnog broja stanovništva primijenjen koncept „uobičajenog stanovništva“. Po ovom konceptu osoba se smatra stanovnikom onog mjesta u kojem sama (u slučaju samačkog domaćinstva) ili s članovima svog domaćinstva provodi najveći dio svog vremena, odnosno dnevni odmor, nezavisno od toga gdje ima prijavljeno prebivalište. Time su u ukupno stanovništvo određenog mjesta uključene osobe koje su u tom mjestu živjele neprekidno najmanje godinu dana prije kritičnog momenta Popisa, kao i osobe koje su u tom momentu živjele kraće od 12 mjeseci s namjerom da u tom mjestu ostanu najmanje godinu dana.",
+          "description": "metadata_fields.Popis",
           "keywords": "",
           "href": "/hr/2-1-1",
           "status": "complete"
@@ -264,7 +264,7 @@
         {
           "id": "2-1-2",
           "title": "Stanovništvo prema dobnim skupinama i spolu",
-          "description": "U Popisima 1971, 1981 i 1991.godine za utvrđivanje ukupnog broja stanovništva primijenjen koncept „stalnog stanovanja“. Stalno stanovništvo jednog mjesta čine sva lica koja u tom mjestu stalno stanuju, tj. imaju prebivalište, bez obzira da li su se u kritičnom momentu popisa  nalazili u tom mjestu ili su bila odsutna iz bilo kog drugog razloga, bilo u zemlji ili u inostranstvu. Lica na privremenom radu u inostranstvu kod inostranih poslodavaca ili na samostalnom radu, kao članovi porodice koji s njima borave u inostranstvu popisani su kao stalni stanovnici odgovarajućih naselja u zemlji u kojima je njihovo prebivalište. Prilikom poređenja podataka Popisa stanovništva 1981. i 1991. godine sa podacima ranijih popisa treba imati u vidu izvjesne metodološke razlike u definisanju stalnog stanovništva. U popisima 1961. i 1971. godine radnici koji su bili stalno zaposleni ili su imali radnju u jednom mjestu i u tom mjestu su stanovali, a porodice su im živjele u drugom mjestu, ukoliko se iz mjesta rada u mjesto stalnog stanovanja svoje porodice nisu vraćali svakodnevno, smatrani su stalnim stanovnicima mjesta u kojem su radili. U popisima 1981. i 1991. godina mjesto stalnog stanovanja je određivano na osnovu izjave lica koje se popisuje ili nekog člana domaćinstva, pa je pomenuta kategorija lica popisana kao stalni stanovnici naselja u kojima su nastanjene njihove porodice, a ne mjesta u kojima su radili.U Popisu 2013. godine po prvi put je za utvrđivanje ukupnog broja stanovništva primijenjen koncept „uobičajenog stanovništva“. Po ovom konceptu osoba se smatra stanovnikom onog mjesta u kojem sama (u slučaju samačkog domaćinstva) ili s članovima svog domaćinstva provodi najveći dio svog vremena, odnosno dnevni odmor, nezavisno od toga gdje ima prijavljeno prebivalište. Time su u ukupno stanovništvo određenog mjesta uključene osobe koje su u tom mjestu živjele neprekidno najmanje godinu dana prije kritičnog momenta Popisa, kao i osobe koje su u tom momentu živjele kraće od 12 mjeseci s namjerom da u tom mjestu ostanu najmanje godinu dana.",
+          "description": "metadata_fields.Popis",
           "keywords": "",
           "href": "/hr/2-1-2",
           "status": "complete"
@@ -272,7 +272,7 @@
         {
           "id": "2-1-3",
           "title": "Stanovništvo prema gradu/općini, dobnim skupinama i spolu",
-          "description": "U Popisu 2013. godine po prvi put je za utvrđivanje ukupnog broja stanovništva primijenjen koncept „uobičajenog stanovništva“. Po ovom konceptu osoba se smatra stanovnikom onog mjesta u kojem sama (u slučaju samačkog domaćinstva) ili s članovima svog domaćinstva provodi najveći dio svog vremena, odnosno dnevni odmor, nezavisno od toga gdje ima prijavljeno prebivalište. Time su u ukupno stanovništvo određenog mjesta uključene osobe koje su u tom mjestu živjele neprekidno najmanje godinu dana prije kritičnog momenta Popisa, kao i osobe koje su u tom momentu živjele kraće od 12 mjeseci s namjerom da u tom mjestu ostanu najmanje godinu dana.",
+          "description": "metadata_fields.Stanpopis",
           "keywords": "",
           "href": "/hr/2-1-3",
           "status": "complete"
@@ -280,7 +280,7 @@
         {
           "id": "2-1-4",
           "title": "Populacijska piramida",
-          "description": "Populacijska piramida je grafički prikaz distribucije stanovništva prema starosnim grupama i spolu. Obično poprima oblik piramide kada stanovništvo raste.",
+          "description": "metadata_fields.Populacionapiramida",
           "keywords": "",
           "href": "/hr/2-1-4",
           "status": "complete"
@@ -288,7 +288,7 @@
         {
           "id": "2-1-5",
           "title": "Ženska populacija u dobi od 15 i više godina prema broju živorođene djece",
-          "description": "Živorođenim se djetetom smatra svako dijete koje prilikom rođenja diše i pokazuje druge znakove života kao što su kucanje srca, pulsiranje pupčane vrpce i nesumnjivo kretanje voljnih mišića. Ako dijete ubrzo nakon poroda umre, najprije se registruje kao živorođeno, a zatim kao umrlo dojenče.",
+          "description": "metadata_fields.Zenskapopulacija",
           "keywords": "",
           "href": "/hr/2-1-5",
           "status": "complete"
@@ -296,7 +296,7 @@
         {
           "id": "2-1-6",
           "title": "Koeficijenti ovisnosti prema spolu",
-          "description": "Koeficijent zavisnosti se definiše kao odnos broja starih lica (sa napunjenih 65 godina života i više) u poređenju sa brojem lica radne dobi (od 15 do 64 godine).",
+          "description": "metadata_fields.Koeficijentizavisnosti",
           "keywords": "",
           "href": "/hr/2-1-6",
           "status": "complete"
@@ -304,7 +304,7 @@
         {
           "id": "2-2-1",
           "title": "Kućanstva prema broju članova",
-          "description": "Domaćinstvom se smatra svaka porodična ili druga zajednica osoba (višečlano domaćinstvo), tj. grupa od dvije ili više osoba koje zajedno zauzimaju cijelu stambenu jedinicu ili njen dio i osiguravaju sebi hranu, a moguće i ostale potrepštine za život. Domaćinstvom se smatra i svaka osoba koja živi sama („samačko domaćinstvo“), tj. osoba koja živi sama u posebnoj stambenoj jedinici ili koja zauzima, kao stanar, posebnu sobu (ili sobe) u nekoj stambenoj jedinici, ali ni s jednim stanarom te stambene jedinice zajednički ne čini dio višečlanog domaćinstva.",
+          "description": "metadata_fields.Domacinstva",
           "keywords": "",
           "href": "/hr/2-2-1",
           "status": "complete"
@@ -312,7 +312,7 @@
         {
           "id": "2-2-2",
           "title": "Kućanstva prema poljoprivrednoj aktivnosti",
-          "description": "Domaćinstvo koje obavlja poljoprivrednu aktivnost predstavlja domaćinstvo koje je dalo odgovor u Popisu stanovništva, domaćinstava i stanova  da je: - u posljednjih 12 mjeseci koristilo/obrađivalo poljoprivredno zemljište za poljoprivrednu proizvodnju na teritoriji Bosne i Hercegovine: oranice i bašte/vrtove, voćnjake, vinograde, rasadnike i ostale stalne zasade livade i pašnjake; - ili na dan Popisa uzgajalo stoku, perad ili pčele, uključujući uzgoj ribe i gljiva.",
+          "description": "metadata_fields.Domacinstvapolj",
           "keywords": "",
           "href": "/hr/2-2-2",
           "status": "complete"
@@ -320,7 +320,7 @@
         {
           "id": "2-3-1",
           "title": "Stanovništvo staro 10 i više godina prema pismenosti i spolu",
-          "description": "Podaci o pismenosti se odnose na lica starosti 10 i više godina koja su bez ikakvog obrazovanja ili sa nepotpunim osnovnim obrazovanjem. Pismenom se smatra osoba koja može s razumijevanjem pročitati i napisati izjavu o svom svakidašnjem životu, u suprotnom osoba je nepismena.",
+          "description": "metadata_fields.Pismenost",
           "keywords": "",
           "href": "/hr/2-3-1",
           "status": "complete"
@@ -328,7 +328,7 @@
         {
           "id": "2-3-2",
           "title": "Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu",
-          "description": "Podaci o najvišoj završenoj školi se odnose na lica starosti 15 i više godina. Pod najvišom završenom školom se podrazumijeva vrsta škole čijim je završavanjem lice steklo najviši nivo obrazovanja i diplomu ili svjedočanstvo o završenoj školi.",
+          "description": "metadata_fields.Zavrsenaskola",
           "keywords": "",
           "href": "/hr/2-3-2",
           "status": "complete"
@@ -336,7 +336,7 @@
         {
           "id": "2-4-1",
           "title": "Stanovništvo sa poteškoćama prema vrsti poteškoće, dobnim skupinama i spolu",
-          "description": "Vid je sposobnost osobe da korištenjem čula vida i optičke sposobnosti primijeti (opazi) šta se dešava oko nje, bez obzira na to koristi li naočale ili leće. Sluh je sposobnost osobe da koristi čulo sluha kako bi čula šta joj se govori ili čula zvukove oko sebe, uključujući i zvukove koji je upućuju na neposrednu opasnost, bez obzira na to koristi li slušni aparat. Hod je sposobnost osobe da koristi noge kako bi se pokrenula od tačke A do tačke B. Ova sposobnost hoda mora biti bez pomoći druge osobe ili ortopedskog pomagala (štake, hodalice, invalidskih kolica). Ukoliko je ovakva pomoć potrebna, osoba ima poteškoće s hodom.Pamćenje je sposobnost osobe da koristi svoju memoriju kako bi se sjetila dešavanja iz okruženja. To znači da se osoba može prisjetiti ili razmišljati ponovo o nečemu što se dogodilo u bližoj ili daljoj prošlosti. Koncentracija je sposobnost osobe da koristi svoje mentalne sposobnosti u svrhu obavljanja neke zadaće kao što je: čitanje, računanje, učenje o nečemu. To je sposobnost osobe da posveti punu pažnju nekom predmetu ili se fokusira bez gubitka pažnje na jednu stvar. Oblačenje i održavanje lične higijene − ova vrsta poteškoća se odnosi na postojanje prepreka kada osoba ne može samostalno brinuti o sebi, tj. Osoba se ne može samostalno oblačiti, održavati ličnu higijenu, hraniti se, rukama uhvatiti neki predmet (odjeću, obuću) ili otvoriti posudu, šerpu i sl. Komunikacija je sposobnost čovjeka za razmjenjivanje informacija ili ideja s drugim ljudima.To je sposobnost korištenja glasa, razmjenjivanja znakova ili pisanja informacije koju želimo razmijeniti. Poteškoća u komunikaciji može nastati zbog fizičkih ograničenja, kao što su oštećenje sluha ili problem s govorom, ili se može odnositi na nesposobnost mozga da protumači zvukove koje je slušni sistem prikupio iz okruženja i da prepozna riječi koje su izgovorene.",
+          "description": "metadata_fields.Teskoce",
           "keywords": "",
           "href": "/hr/2-4-1",
           "status": "complete"
@@ -392,7 +392,7 @@
         {
           "id": "3-2-1",
           "title": "Incidenca karcinoma vrata maternice",
-          "description": "Indikator pokazuje ukupan broj novooboljelih od karcinoma cerviksa.",
+          "description": "metadata_fields.Karcinomcerviksa",
           "keywords": "",
           "href": "/hr/3-2-1",
           "status": "complete"
@@ -408,7 +408,7 @@
         {
           "id": "3-2-3",
           "title": "Incidenca karcinoma vrata maternice na 100.000 ženske populacije",
-          "description": "Indikator pokazuje ukupan broj novooboljelih od karcinoma cerviksa na 100.000 ženske populacije.",
+          "description": "metadata_fields.Karcerviksa",
           "keywords": "",
           "href": "/hr/3-2-3",
           "status": "complete"
@@ -416,7 +416,7 @@
         {
           "id": "3-2-4",
           "title": "Incidenca karcinoma dojke na 100.000 ženske populacije",
-          "description": "Indikator pokazuje ukupan broj novooboljelih od karcinoma dojke na 100.000 ženske populacije.",
+          "description": "metadata_fields.Kardojke",
           "keywords": "",
           "href": "/hr/3-2-4",
           "status": "complete"
@@ -424,7 +424,7 @@
         {
           "id": "3-3-1",
           "title": "Incidenca sifilisa",
-          "description": "Indikator pokazuje ukupan broj novooboljelih lica od sifilisa.",
+          "description": "metadata_fields.Sifilis",
           "keywords": "",
           "href": "/hr/3-3-1",
           "status": "complete"
@@ -432,7 +432,7 @@
         {
           "id": "3-3-2",
           "title": "Incidenca gonoreje",
-          "description": "Indikator pokazuje ukupan broj novooboljelih lica od gonoreje.",
+          "description": "metadata_fields.Gonoreja",
           "keywords": "",
           "href": "/hr/3-3-2",
           "status": "complete"
@@ -440,7 +440,7 @@
         {
           "id": "3-3-3",
           "title": "Incidenca AIDS-a",
-          "description": "Indikator pokazuje ukupan broj novooboljelih lica od AIDS-a.",
+          "description": "metadata_fields.AIDS",
           "keywords": "",
           "href": "/hr/3-3-3",
           "status": "complete"
@@ -448,7 +448,7 @@
         {
           "id": "3-3-4",
           "title": "Incidenca HIV-a",
-          "description": "Indikator pokazuje ukupan broj novooboljelih lica od HIV-a.",
+          "description": "metadata_fields.HIV",
           "keywords": "",
           "href": "/hr/3-3-4",
           "status": "complete"
@@ -456,7 +456,7 @@
         {
           "id": "3-3-5",
           "title": "Incidenca HIV-a na 100.000 stanovnika",
-          "description": "Indikator pokazuje ukupan broj novooboljelih lica od HIV-a na 100.000 stanovnika.",
+          "description": "metadata_fields.HIVV",
           "keywords": "",
           "href": "/hr/3-3-5",
           "status": "complete"
@@ -464,7 +464,7 @@
         {
           "id": "3-4-1",
           "title": "Broj carskih rezova",
-          "description": "Indikator pokazuje ukupan broj carskih rezova.",
+          "description": "metadata_fields.Carskirez",
           "keywords": "",
           "href": "/hr/3-4-1",
           "status": "complete"
@@ -472,7 +472,7 @@
         {
           "id": "3-4-2",
           "title": "Broj carskih rezova na 1,000 živorođene djece",
-          "description": "Indikator pokazuje ukupan broj carskih rezova na 1.000 živorođene djece.",
+          "description": "metadata_fields.Brojcarski",
           "keywords": "",
           "href": "/hr/3-4-2",
           "status": "complete"
@@ -480,7 +480,7 @@
         {
           "id": "3-5-1",
           "title": "Broj kreveta u bolnicama",
-          "description": "Indikator pokazuje ukupan broj kreveta u bolnicama.",
+          "description": "metadata_fields.Kreveti",
           "keywords": "",
           "href": "/hr/3-5-1",
           "status": "complete"
@@ -488,7 +488,7 @@
         {
           "id": "3-5-2",
           "title": "Broj kreveta u bolnicama na 100.000 stanovnika",
-          "description": "Indikator pokazuje ukupan broj kreveta u bolnicama na 100.000 stanovnika.",
+          "description": "metadata_fields.Brojkreveta",
           "keywords": "",
           "href": "/hr/3-5-2",
           "status": "complete"
@@ -496,7 +496,7 @@
         {
           "id": "3-5-3",
           "title": "Broj doktora medicine zaposlenih u ustanovama za pružanje zdravstvene skrbi prema spolu",
-          "description": "Indikator pokazuje ukupan broj doktora medicine zaposlenih u ustanovama za pružanje zdravstvene zaštite.",
+          "description": "metadata_fields.Doktori",
           "keywords": "",
           "href": "/hr/3-5-3",
           "status": "complete"
@@ -504,7 +504,7 @@
         {
           "id": "3-5-4",
           "title": "Broj opstetričara i ginekologa zaposlenih u ustanovama za pružanje zdravstvene skrbi",
-          "description": "Indikator pokazuje ukupan broj opstetričara i ginekologa  zaposlenih u ustanovama za pružanje zdravstvene zaštite.",
+          "description": "metadata_fields.Ginekolog",
           "keywords": "",
           "href": "/hr/3-5-4",
           "status": "complete"
@@ -512,7 +512,7 @@
         {
           "id": "3-5-5",
           "title": "Broj primalja zaposlenih u ustanovama za pružanje zdravstvene skrbi",
-          "description": "Indikator pokazuje ukupan broj babica zaposlenih u ustanovama za pružanje zdravstvene zaštite.",
+          "description": "metadata_fields.Babice",
           "keywords": "",
           "href": "/hr/3-5-5",
           "status": "complete"
@@ -520,7 +520,7 @@
         {
           "id": "3-5-6",
           "title": "Broj medicinskih tehničara zaposlenih u ustanovama za pružanje zdravstvene skrbi",
-          "description": "Indikator pokazuje ukupan broj medicinskih tehničara zaposlenih u ustanovama za pružanje zdravstvene zaštite.",
+          "description": "metadata_fields.Tehnicari",
           "keywords": "",
           "href": "/hr/3-5-6",
           "status": "complete"
@@ -528,7 +528,7 @@
         {
           "id": "3-6-1",
           "title": "Stopa prevalencije kontracepcije",
-          "description": "Indikator pokazuje procenat žena starosti 15-49 godina koje su koristile kontraceptivna sredstva.",
+          "description": "metadata_fields.Planiranjeporodice",
           "keywords": "",
           "href": "/hr/3-6-1",
           "status": "complete"
@@ -536,7 +536,7 @@
         {
           "id": "3-6-2",
           "title": "Neostvarena potreba za planiranjem obitelji",
-          "description": "Indikator pokazuje procenat žena starosti 15-49 godina čija je potreba za planiranjem porodice nije zadovoljena.",
+          "description": "metadata_fields.Nezpotrebe",
           "keywords": "",
           "href": "/hr/3-6-2",
           "status": "complete"
@@ -544,7 +544,7 @@
         {
           "id": "3-6-3",
           "title": "Zadovoljena potreba za planiranjem obitelji",
-          "description": "Indikator pokazuje procenat žena starosti 15-49 godina čija je potreba za planiranjem porodice zadovoljena.",
+          "description": "metadata_fields.Zadpotrebe",
           "keywords": "",
           "href": "/hr/3-6-3",
           "status": "complete"
@@ -552,7 +552,7 @@
         {
           "id": "3-6-4",
           "title": "Prisustvo stručne osobe tokom porođaja",
-          "description": "Indikator pokazuje ukupan broj prisutnih stručnih osoba u odnosu na ukupan broj porođaja.",
+          "description": "metadata_fields.Strucneosobe",
           "keywords": "",
           "href": "/hr/3-6-4",
           "status": "complete"
@@ -576,7 +576,7 @@
         {
           "id": "4-1-1",
           "title": "Korisnici socijalne skrbi prema vrsti korisnika i spolu",
-          "description": "Kоrisnikоm sоciјаlnе zаštitе smаtrа sе svаka osoba kоja је u tоku izvјеštајnе gоdinе јеdnоm ili višе putа kоristila оdrеđеnе оblikе i mјеrе sоciјаlnе zаštitе i uslugе sоciјаlnоg rаdа.Kоrisnici su rаzvrstаni u dviје оsnоvnе starosne grupе - mаlоlјеtni i punоlјеtni kоrisnici. Маlоlјеtnici ugrоžеni pоrоdičnоm situаciјоm su bеz оbа rоditеlја, nеpоznаtih rоditеlја, napušteni od roditelja, djeca roditelja spriječenih da obavljaju roditeljsku duznost, djeca roditelja lišenih roditeljskih prava, iz materijalno ugroženih porodica, iz porodica s poremećenim porodičnim odnosima i ostali maloljetnici ugroženi porodičnom situacijom, zatim maloljetnici ometeni u fizičkom i psihičkom razvoju, maloljetnici sa poremećajima u ponašanju i ličnosti i maloljetnici korisnici u stanju različitih socijalno-zaštitnih potreba. Punoljetni korisnici, odnosno korisnici sumbencioniranja troskova su fizički i psihički оmеtеni sa оštеćеnim vidоm, оštеćеnim sluhоm, fizički invаlidni, mеntаlnо nеdоvоlјnо rаzviјеne osobe, ostаle invаlidne osobe, osobe sа kоmbinоvаnim smеtnjаmа, osobe društvеnо nеprihvаtlјivоg pоnаšаnjа, psihički bolesne osobe, osobe kоје nеmајu dоvоlјnо prihоdа zа izdržаvаnjе, mаtеriјаlnо nеоsigurаne, bez specifične kategorije.",
+          "description": "metadata_fields.Socijalnazastita",
           "keywords": "",
           "href": "/hr/4-1-1",
           "status": "complete"
@@ -584,7 +584,7 @@
         {
           "id": "4-1-2",
           "title": "Korisnici socijalne skrbi prema vrsti ustanove i spolu",
-          "description": "Kоrisnikоm sоciјаlnе zаštitе smаtrа sе svаka osoba kоja је u tоku izvјеštајnе gоdinе јеdnоm ili višе putа kоristila оdrеđеnе оblikе i mјеrе sоciјаlnе zаštitе i uslugе sоciјаlnоg rаdа.Kоrisnici su rаzvrstаni u dviје оsnоvnе starosne grupе - mаlоlјеtni i punоlјеtni kоrisnici. Ustanove socijalne zastite su dоmоvi zа dјеcu i оmlаdinu bеz rоditеlјskоg stаrаnjа, ustаnоvе sоciјаlnе zаštitе zа invаlidnu dјеcu, оmlаdinu i оdrаslе оmеtеnе u rаzvојu, ustаnоvе sоciјаlnе zаštitе zа оdrаsle invаlidne osobe i  ustаnоvе sоciјаlnе zаštitе zа оdrаsle osobe.",
+          "description": "metadata_fields.Socijalnaustanove",
           "keywords": "",
           "href": "/hr/4-1-2",
           "status": "complete"
@@ -600,7 +600,7 @@
         {
           "id": "5-1-1",
           "title": "Broj predškolskih ustanova prema svojini",
-          "description": "Predškolsko vaspitanje i obrazovanje je djelatnost koja obuhvata vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizuje se u vaspitnim grupama prema uzrastu djece. Vaspitne grupe mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - grupe za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-1",
           "status": "complete"
@@ -608,7 +608,7 @@
         {
           "id": "5-1-2",
           "title": "Broj djece u predškolskim ustanovama prema spolu",
-          "description": "Predškolsko vaspitanje i obrazovanje je djelatnost koja obuhvata vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizuje se u vaspitnim grupama prema uzrastu djece. Vaspitne grupe mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - grupe za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-2",
           "status": "complete"
@@ -616,7 +616,7 @@
         {
           "id": "5-1-3",
           "title": "Broj djece u jaslicama prema spolu",
-          "description": "Predškolsko vaspitanje i obrazovanje je djelatnost koja obuhvata vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizuje se u vaspitnim grupama prema uzrastu djece. Vaspitne grupe mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - grupe za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-3",
           "status": "complete"
@@ -624,7 +624,7 @@
         {
           "id": "5-1-4",
           "title": "Broj vaspitača u predškolskim ustanovama prema spolu",
-          "description": "Predškolsko vaspitanje i obrazovanje je djelatnost koja obuhvata vaspitanje i obrazovanje, njegu i zaštitu djece starosti od šest mjeseci do polaska u osnovnu školu i obavlja se u javnim i privatnim predškolskim ustanovama.Rad sa djecom u predškolskim ustanovama organizuje se u vaspitnim grupama prema uzrastu djece. Vaspitne grupe mogu biti jasličke - za djecu starosti od šest mjeseci do tri godine, vrtićke - za djecu starosti od tri godine do polaska u školu i mješovite - grupe za djecu različitog uzrasta.",
+          "description": "metadata_fields.Predustanove",
           "keywords": "",
           "href": "/hr/5-1-4",
           "status": "complete"
@@ -632,7 +632,7 @@
         {
           "id": "5-2-1",
           "title": "Broj učenika na početku školske godine prema spolu (osnovna škola)",
-          "description": "Školom se u statistici obrazovanja smatra grupa učenika organizovanih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovnim osnovnim školama.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/hr/5-2-1",
           "status": "complete"
@@ -640,7 +640,7 @@
         {
           "id": "5-2-2",
           "title": "Broj učenika koji su završili osnovnu školu prema spolu",
-          "description": "Školom se u statistici obrazovanja smatra grupa učenika organizovanih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovnim osnovnim školama.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/hr/5-2-2",
           "status": "complete"
@@ -648,7 +648,7 @@
         {
           "id": "5-2-3",
           "title": "Broj nastavnika u osnovnim školama prema spolu",
-          "description": "Školom se u statistici obrazovanja smatra grupa učenika organizovanih u jednu školsku jedinicu, sa jednim ili više nastavnika koji izvode nastavu određene vrste, po određenom nastavnom planu i programu, bez obzira da li je škola centralna/matična, samostalna, područno odjeljenje ili odjeljenje pri drugoj vrsti škole. Školom se smatraju i teritorijalno izdvojene jedinice / područna odjeljenja u sastavu osnovne škole, kao i odjeljenja za djecu sa poteškoćama u razvoju pri redovnim osnovnim školama.",
+          "description": "metadata_fields.Uceniciosnovna",
           "keywords": "",
           "href": "/hr/5-2-3",
           "status": "complete"
@@ -656,7 +656,7 @@
         {
           "id": "5-3-1",
           "title": "Broj učenika na početku školske godine prema spolu (srednja škola)",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-1",
           "status": "complete"
@@ -664,7 +664,7 @@
         {
           "id": "5-3-2",
           "title": "Broj učenika na početku školske godine prema vrsti srednje škole",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-2",
           "status": "complete"
@@ -672,7 +672,7 @@
         {
           "id": "5-3-3",
           "title": "Broj učenika koji su završili srednju školu prema spolu",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-3",
           "status": "complete"
@@ -680,7 +680,7 @@
         {
           "id": "5-3-4",
           "title": "Broj učenika koji su završili srednju školu prema vrsti škole",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-4",
           "status": "complete"
@@ -688,7 +688,7 @@
         {
           "id": "5-3-5",
           "title": "Broj nastavnika u srednjim školama prema spolu",
-          "description": "Srednja škola je ustanova za obavljanje djelatnosti u oblasti srednjeg obrazovanja i vaspitanja. Škola obavlja obrazovno-vaspitnu djelatnost ostvarivanjem nastavnog plana i programa. U školi se stiču opća i stručna znanja i sposobnosti za dalje školovanje.",
+          "description": "metadata_fields.Srednjaskola",
           "keywords": "",
           "href": "/hr/5-3-5",
           "status": "complete"
@@ -696,7 +696,7 @@
         {
           "id": "5-4-1",
           "title": "Upisani u osnovne studijske programe prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu.Visokoškolske ustanove su visoke škole i univerziteti. Naziv Visoka škola odnosi se na visokoškolsku ustanovu, koja realizuje najmanje jedan studijski program iz jedne naučne oblasti. Naziv Univerzitet odnosi se na visokoškolsku ustanovu koja realizuje najmanje pet različitih studijskih programa iz najmanje tri naučne oblasti i akademske stepene sva tri ciklusa. Univerzitet ima organizacione jedinice kao što su fakulteti, akademije ili naučni instituti.",
+          "description": "metadata_fields.Visokosk",
           "keywords": "",
           "href": "/hr/5-4-1",
           "status": "complete"
@@ -704,7 +704,7 @@
         {
           "id": "5-4-2",
           "title": "Diplomirani studenti prema spolu",
-          "description": "Diplomirani student je lice koje dobija diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
+          "description": "metadata_fields.Diplomiranistudent",
           "keywords": "",
           "href": "/hr/5-4-2",
           "status": "complete"
@@ -712,7 +712,7 @@
         {
           "id": "5-4-3",
           "title": "Diplomirani studenti prema oblasti obrazovanja",
-          "description": "Diplomirani student je lice koje dobija diplomu o završenoj višoj ili visokoj školi, fakultetu ili akademiji umjetnosti.",
+          "description": "metadata_fields.Diplomiranistudent",
           "keywords": "",
           "href": "/hr/5-4-3",
           "status": "complete"
@@ -720,7 +720,7 @@
         {
           "id": "5-5-1",
           "title": "Upisani na integrirane studije prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Integrirane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "metadata_fields.Upisanistudent",
           "keywords": "",
           "href": "/hr/5-5-1",
           "status": "complete"
@@ -728,7 +728,7 @@
         {
           "id": "5-5-2",
           "title": "Diplomirani studenti integriranih studija prema spolu",
-          "description": "Završetkom integriranih  studija lice stiče akademsko zvanje u određenoj oblasti, zavisno od vrste završenog studijskog programa. Integrirane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "metadata_fields.Studentizavrsili",
           "keywords": "",
           "href": "/hr/5-5-2",
           "status": "complete"
@@ -736,7 +736,7 @@
         {
           "id": "5-5-3",
           "title": "Diplomirani studenti integriranih studija oblasti obrazovanja",
-          "description": "Završetkom integriranih  studija lice stiče akademsko zvanje u određenoj oblasti, zavisno od vrste završenog studijskog programa. Integrirane studije se izvode kao jedinstveni studijski program koji obuhvata prvi i drugi ciklus studija i vrednuje se sa najmanje 300 odnosno 360 ECTS bodova.",
+          "description": "metadata_fields.Studentizavrsili",
           "keywords": "",
           "href": "/hr/5-5-3",
           "status": "complete"
@@ -744,7 +744,7 @@
         {
           "id": "5-5-4",
           "title": "Upisani na magistarske, master i specijalističke studije prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije drugog ciklusa organizuju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova. Drugi ciklus vodi do akademskog zvanja magistra ili ekvivalenta.",
+          "description": "metadata_fields.Magistri",
           "keywords": "",
           "href": "/hr/5-5-4",
           "status": "complete"
@@ -752,7 +752,7 @@
         {
           "id": "5-5-5",
           "title": "Upisani na magistarske, master i specijalističke studije prema oblasti obrazovanja",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije drugog ciklusa organizuju se nakon prvog ciklusa studija, traju jednu ili dvije godine i vrednuju se sa 60, odnosno 120 ECTS bodova i to na način da u zbiru sa prvim ciklusom iznose 300 ECTS bodova. Drugi ciklus vodi do akademskog zvanja magistra ili ekvivalenta.",
+          "description": "metadata_fields.Magistri",
           "keywords": "",
           "href": "/hr/5-5-5",
           "status": "complete"
@@ -760,7 +760,7 @@
         {
           "id": "5-5-6",
           "title": "Magistri nauka, masteri i specijalisti prema spolu",
-          "description": "Magistar nauka je lice koje je završilo postdiplomske studije te odbranila magistarsku tezu. Master je lice koje je završilo studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je lice  koje je završilo specijalističke studije, te odbranilo specijalistički rad.",
+          "description": "metadata_fields.Zvanjamag",
           "keywords": "",
           "href": "/hr/5-5-6",
           "status": "complete"
@@ -768,7 +768,7 @@
         {
           "id": "5-5-7",
           "title": "Magistri nauka, masteri i specijalisti prema oblasti obrazovanja",
-          "description": "Magistar nauka je lice koje je završilo postdiplomske studije te odbranila magistarsku tezu. Master je lice koje je završilo studije drugog ciklusa u trajanju od godinu dana, odnosno dvije godine, koji se vrednuje sa 60 ECTS bodova, odnosno 120 ECTS bodova i to tako da zbir bodova prvog i drugog ciklusa studija iznosi ukupno 300 ECTS bodova. Specijalista je lice  koje je završilo specijalističke studije, te odbranilo specijalistički rad.",
+          "description": "metadata_fields.Zvanjamag",
           "keywords": "",
           "href": "/hr/5-5-7",
           "status": "complete"
@@ -776,7 +776,7 @@
         {
           "id": "5-6-1",
           "title": "Upisani na doktorske studije prema spolu",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija,odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
+          "description": "metadata_fields.Upisanidoktori",
           "keywords": "",
           "href": "/hr/5-6-1",
           "status": "complete"
@@ -784,7 +784,7 @@
         {
           "id": "5-6-2",
           "title": "Upisani na doktorske studije prema oblasti obrazovanja",
-          "description": "Upisani student je svako lice upisano na visokoškolsku ustanovu. Studije trećeg ciklusa organizuju se nakon drugog ciklusa akademskih studija,odnosno integrisanih studija, traju tri godine i vrednuju se sa 180 ECTS bodova. Treći ciklus vodi do akademskog zvanja doktora ili ekvivalenta.",
+          "description": "metadata_fields.Upisanidoktori",
           "keywords": "",
           "href": "/hr/5-6-2",
           "status": "complete"
@@ -792,7 +792,7 @@
         {
           "id": "5-6-3",
           "title": "Doktori nauka prema spolu",
-          "description": "Doktor nauka je lice koje je odbranilo doktorsku disertaciju.",
+          "description": "metadata_fields.Doktornauka",
           "keywords": "",
           "href": "/hr/5-6-3",
           "status": "complete"
@@ -800,7 +800,7 @@
         {
           "id": "5-6-4",
           "title": "Doktori nauka prema oblasti obrazovanja",
-          "description": "Doktor nauka je lice koje je odbranilo doktorsku disertaciju.",
+          "description": "metadata_fields.Doktornauka",
           "keywords": "",
           "href": "/hr/5-6-4",
           "status": "complete"
@@ -808,7 +808,7 @@
         {
           "id": "5-7-1",
           "title": "Stanovništvo u dobi od 25-64 godine upisano u neformalno obrazovanje odraslih, prema starosnoj dobi i spolu",
-          "description": "Neformalno obrazovanje je organizovan proces učenja i obrazovanja usmjeren ka osposobljavanju odraslih osoba za rad, za različite socijalne aktivnosti, za lični razvoj i dopunjavanje znanja, vještina i sposobnosti prema posebnim programima koje izvode organizatori obrazovanja (škole, centri za obuku, poslovni subjekti, agencije i slično) i koje se odvija nezavisno od službenog (formalnog) sistema obrazovanja i ne vodi sticanju javnih isprava (diploma i kvalifikacija).",
+          "description": "metadata_fields.Neformalnoobrazovanje",
           "keywords": "",
           "href": "/hr/5-7-1",
           "status": "complete"
@@ -816,7 +816,7 @@
         {
           "id": "5-7-2",
           "title": "NEET_Stanovništvo koje nije zaposleno, ne obrazuje se niti se usavršava, prema dobnoj skupini i spolu",
-          "description": "Indikator pokazuje udio stanovništava koje nije zaposleno, niti se obrazuje niti usavršava u ukupnom stanovništvu iste starosne grupe.",
+          "description": "metadata_fields.NEET",
           "keywords": "",
           "href": "/hr/5-7-2",
           "status": "complete"
@@ -848,7 +848,7 @@
         {
           "id": "6-1-1",
           "title": "Bruto društveni proizvod (BDP) u milionima",
-          "description": "Bruto domaći proizvod u tržišnim cijenama iskazuje vrijednost svih proizvedenih dobara i usluga rezidentnih jedinica. BDP prema proizvodnoj metodi jednak je zbiru bruto dodanih vrijednosti po djelatnostima uz uključivanje u obračun na nivou ukupne ekonomije stavki koje nisu raspoređene po djelatnostima, a to su porezi na proizvode i usluge minus subvencije na proizvode i usluge.",
+          "description": "metadata_fields.BDP",
           "keywords": "",
           "href": "/hr/6-1-1",
           "status": "complete"
@@ -864,7 +864,7 @@
         {
           "id": "6-1-3",
           "title": "Stopa realnog rasta bruto društvenog proizvoda",
-          "description": "Godišnja stopa realnog rasta bruto domaćeg proizvoda predstavlja procentualnu promjenu realnog BDP između dvije uzastopne godine.",
+          "description": "metadata_fields.StopaBDP",
           "keywords": "",
           "href": "/hr/6-1-3",
           "status": "complete"
@@ -880,7 +880,7 @@
         {
           "id": "7-1-1",
           "title": "Stopa aktivnosti prema dobnim skupinama i spolu",
-          "description": "Stopa aktivnosti je udio aktivnog stanovništva (radne snage) u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/hr/7-1-1",
           "status": "complete"
@@ -888,7 +888,7 @@
         {
           "id": "7-1-2",
           "title": "Stopa zaposlenosti prema dobnim skupinama i spolu",
-          "description": "Stopa zaposlenosti je udio zaposlenih osoba u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/hr/7-1-2",
           "status": "complete"
@@ -896,7 +896,7 @@
         {
           "id": "7-1-3",
           "title": "Stopa nezaposlenosti prema dobnim skupinama i spolu",
-          "description": "Stopa nezaposlenosti je udio nezaposlenih lica u ukupnom aktivnom stanovništvu.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/hr/7-1-3",
           "status": "complete"
@@ -904,7 +904,7 @@
         {
           "id": "7-1-4",
           "title": "Struktura zaposlenih prema radnom statusu i spolu",
-          "description": "Samozaposlena lica su lica koje rade samostalno u vlastitom preduzeću, ustanovi, privatnoj radnji ili na poljoprivrednom imanju, kao i lica koja obavljaju samostalnu profesionalnu djelatnost ili neki drugi posao za svoj račun. Zaposlenici su lica koje rade za poslodavca u bilo kojem obliku svojine, bez obzira na to da li imaju formalni ugovor o zaposlenju ili rade na osnovu usmenog dogovora. Pomažući članovi domaćinstva (neplaćeni) su lica koja pomažu drugom članu domaćinstva u vođenju porodičnog posla ili poljoprivrednog imanja, a da pri tome nisu plaćene za taj rad.",
+          "description": "metadata_fields.Zaposleni",
           "keywords": "",
           "href": "/hr/7-1-4",
           "status": "complete"
@@ -920,7 +920,7 @@
         {
           "id": "7-2-1",
           "title": "Stopa aktivnosti prema dobnim skupinama i spolu (kvartalno)",
-          "description": "Stopa aktivnosti je udio aktivnog stanovništva (radne snage) u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopaaktivnosti",
           "keywords": "",
           "href": "/hr/7-2-1",
           "status": "complete"
@@ -928,7 +928,7 @@
         {
           "id": "7-2-2",
           "title": "Stopa zaposlenosti prema dobnim skupinama i spolu (kvartalno)",
-          "description": "Stopa zaposlenosti je udio zaposlenih osoba u ukupnom radno sposobnom stanovništvu.",
+          "description": "metadata_fields.Stopazaposlenosti",
           "keywords": "",
           "href": "/hr/7-2-2",
           "status": "complete"
@@ -936,7 +936,7 @@
         {
           "id": "7-2-3",
           "title": "Stopa nezaposlenosti prema dobnim skupinama i spolu (kvartalno)",
-          "description": "Stopa nezaposlenosti je udio nezaposlenih lica u ukupnom aktivnom stanovništvu.",
+          "description": "metadata_fields.Stopanezaposlenosti",
           "keywords": "",
           "href": "/hr/7-2-3",
           "status": "complete"
@@ -944,7 +944,7 @@
         {
           "id": "7-3-1",
           "title": "Kućanstva koja žive u relativnom siromaštvu",
-          "description": "Liniја sirоmаštvа: prаg u оdnоsu nа izdаtkе zа pоtrоšnju pо kојеm sе dоmаćinstvа svrstаvајu u kаtеgоriјu sirоmаšnih dоmаćinstаvа i оnih kоја nisu sirоmаšnа. Rеlаtivnа liniја sirоmаštvа је pоstаvlјеnа nа 60% mеdiјаnе izјеdnаčеnih mјеsеčnih izdаtаkа zа pоtrоšnju.Izјеdnаčеni izdаci zа pоtrоšnju dоmаćinstаvа: mјеsеčni izdаci dоmаćinstvа pоdiјеlјеni sа еkvivаlеntnоm vеličinоm dоmаćinstvа, prеmа tzv. „mоdifikоvаnој skаli еkvivаlеntnоsti – ОЕCD“ (skаlа еkvivаlеntnоsti dаје pоndеr 1,0 nоsiоcu dоmаćinstvа, 0,5 drugim člаnоvimа оd 14 gоdinа i višе i 0,3 svаkоm dјеtеtu ispоd 14 gоdinа).",
+          "description": "metadata_fields.Relativnosiromastvo",
           "keywords": "",
           "href": "/hr/7-3-1",
           "status": "complete"
@@ -952,7 +952,7 @@
         {
           "id": "7-3-2",
           "title": "Stanovništvo koje živi u relativnom siromaštvu prema spolu",
-          "description": "Liniја sirоmаštvа: prаg u оdnоsu nа izdаtkе zа pоtrоšnju pо kојеm sе dоmаćinstvа svrstаvајu u kаtеgоriјu sirоmаšnih dоmаćinstаvа i оnih kоја nisu sirоmаšnа. Rеlаtivnа liniја sirоmаštvа је pоstаvlјеnа nа 60% mеdiјаnе izјеdnаčеnih mјеsеčnih izdаtаkа zа pоtrоšnju.Izјеdnаčеni izdаci zа pоtrоšnju dоmаćinstаvа: mјеsеčni izdаci dоmаćinstvа pоdiјеlјеni sа еkvivаlеntnоm vеličinоm dоmаćinstvа, prеmа tzv. „mоdifikоvаnој skаli еkvivаlеntnоsti – ОЕCD“ (skаlа еkvivаlеntnоsti dаје pоndеr 1,0 nоsiоcu dоmаćinstvа, 0,5 drugim člаnоvimа оd 14 gоdinа i višе i 0,3 svаkоm dјеtеtu ispоd 14 gоdinа).",
+          "description": "metadata_fields.Relativnosiromastvo",
           "keywords": "",
           "href": "/hr/7-3-2",
           "status": "complete"
@@ -968,7 +968,7 @@
         {
           "id": "8-1-1",
           "title": "Nasilje nad ženama nakon napunjenih 15 godina života (sve vrste)",
-          "description": "Indikator pokazuje ukupan broj zena koje su iskusile psihičko, fizičko ili seksualno nasilje od petnaeste godine života od strane partnera ili nepartnera.",
+          "description": "metadata_fields.Nasilje",
           "keywords": "",
           "href": "/hr/8-1-1",
           "status": "complete"
