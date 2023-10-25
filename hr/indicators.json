@@ -56,7 +56,7 @@
         {
           "id": "1-2-5",
           "title": "Broj porođaja adolescentkinja prema dobnim skupinama",
-          "description": "Porođaj  je završetak trudnoće, odnosno gestacijskog perioda rađanjem jednog ili više novorođenčadi iz ženinog uterusa.",
+          "description": "Porođaj  je završetak trudnoće, odnosno gestacijskog perioda rađanjem jednog ili više novorođenčadi iz maternice žene.",
           "keywords": "",
           "href": "/hr/1-2-5",
           "status": "complete"
@@ -96,7 +96,7 @@
         {
           "id": "1-3-5",
           "title": "Mrtvorođeni prema spolu",
-          "description": "Mrtvorođenim se smatra dijete rođeno, odnosno izvađeno iz tijela majke bez ikakvih znakova života, tj. ako nije disalo niti pokazivalo neki drugi znak života, a nošeno je duže od 22 sedmice (približno 6 mjeseci) i koje ima porođajnu težinu 500 gr i više. Izbacivanje mrtvog ploda koji je nošen manje od 22 sedmice, smatra se pobačajem (abortusom), bez obzira na to da li je riječ o prirodnom ili namjernom prekidu trudnoće, i ne registruje se u matičnim knjigama, niti su ti podaci iskazani u ukupnom broju mrtvorođenih.",
+          "description": "Mrtvorođenim se smatra dijete rođeno, odnosno izvađeno iz tijela majke bez ikakvih znakova života, tj. ako nije disalo niti pokazivalo neki drugi znak života, a nošeno je duže od 22 tjedna (približno 6 mjeseci) i koje ima porođajnu težinu 500 gr i više. Izbacivanje mrtvog ploda koji je nošen manje od 22 tjedna, smatra se pobačajem (abortusom), bez obzira na to da li je riječ o prirodnom ili namjernom prekidu trudnoće, i ne registrira se u matičnim knjigama, niti su ti podaci iskazani u ukupnom broju mrtvorođenih.",
           "keywords": "",
           "href": "/hr/1-3-5",
           "status": "complete"
@@ -160,7 +160,7 @@
         {
           "id": "1-6-2",
           "title": "Stopa nupcijaliteta",
-          "description": "Stopa nupcijaliteta predstavlja odnos između broja sklopljenih brakova u toku jednogodišnjeg perioda i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "Stopa nupcijaliteta predstavlja odnos između broja sklopljenih brakova u tijeku jednogodišnjeg razdoblja i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
           "keywords": "",
           "href": "/hr/1-6-2",
           "status": "complete"
@@ -176,7 +176,7 @@
         {
           "id": "1-6-4",
           "title": "Stopa divorcijaliteta",
-          "description": "Stopa divorcijaliteta predstavlja odnos između  broja razvedenih brakova u toku jednogodišnjeg  perioda i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
+          "description": "Stopa divorcijaliteta predstavlja odnos između broja razvedenih brakova u tijeku jednogodišnjeg razdoblja i procijenjenog broja stanovnika, računato na 1000 stanovnika.",
           "keywords": "",
           "href": "/hr/1-6-4",
           "status": "complete"
