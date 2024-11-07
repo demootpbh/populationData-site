@@ -2,7 +2,7 @@
   {
     "goal": {
       "id": "1",
-      "title": "global_goals.1-title",
+      "title": "STANOVNIŠTVO",
       "indicators": [
         
         {
@@ -250,7 +250,7 @@
   {
     "goal": {
       "id": "2",
-      "title": "global_goals.2-title",
+      "title": "POPIS STANOVNIŠTVA",
       "indicators": [
         
         {
@@ -346,7 +346,7 @@
   {
     "goal": {
       "id": "3",
-      "title": "global_goals.3-title",
+      "title": "ZDRAVLJE",
       "indicators": [
         
         {
@@ -570,7 +570,7 @@
   {
     "goal": {
       "id": "4",
-      "title": "global_goals.4-title",
+      "title": "SOCIJALNA SKRB",
       "indicators": [
         
         {
@@ -594,7 +594,7 @@
   {
     "goal": {
       "id": "5",
-      "title": "global_goals.5-title",
+      "title": "OBRAZOVANJE",
       "indicators": [
         
         {
@@ -842,7 +842,7 @@
   {
     "goal": {
       "id": "6",
-      "title": "global_goals.6-title",
+      "title": "GOSPODARSTVO",
       "indicators": [
         
         {
@@ -874,7 +874,7 @@
   {
     "goal": {
       "id": "7",
-      "title": "global_goals.7-title",
+      "title": "RADNA SNAGA I ŽIVOTNI STANDARD",
       "indicators": [
         
         {
@@ -962,7 +962,7 @@
   {
     "goal": {
       "id": "8",
-      "title": "global_goals.8-title",
+      "title": "NASILJE",
       "indicators": [
         
         {
